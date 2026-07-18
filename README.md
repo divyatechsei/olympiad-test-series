@@ -270,3 +270,5 @@ live site.
   students the exact password you typed in the admin panel.
 - **Build fails on Vercel but works locally** — almost always a missing
   environment variable in the Vercel project settings. Re-check Step 5.3.
+#   o l y m p i a d - t e s t - s e r i e s  
+ 
