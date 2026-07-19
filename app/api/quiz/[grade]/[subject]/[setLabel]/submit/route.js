@@ -17,7 +17,7 @@ export async function POST(request, { params }) {
 
   // Re-check on submit too, not just on fetch — an admin could lock a
   // test mid-attempt, or a student could have an old tab open.
-  const unlocked = await isSetUnlocked(grade, subject, setLabel);
+  const unlocked = await isSetUnlocked(grade, subject, setLabel, session.user.id);
   if (!unlocked) {
     return NextResponse.json({ error: 'This test is no longer available.' }, { status: 403 });
   }

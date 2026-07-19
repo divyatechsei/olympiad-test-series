@@ -24,7 +24,7 @@ export default async function QuizPage({ params }) {
 
   let unlocked;
   try {
-    unlocked = await isSetUnlocked(grade, subject, setLabel);
+    unlocked = await isSetUnlocked(grade, subject, setLabel, session.user.id);
   } catch (e) {
     // A thrown error here usually means the unlock tables don't exist yet
     // (migration_003 not run) or the Supabase connection itself is broken —

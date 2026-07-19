@@ -1,11 +1,12 @@
 'use client';
 import { useState, useEffect, useCallback } from 'react';
 import { signOut } from 'next-auth/react';
-import { LogOut, Users, BarChart3, Plus, Trash2, FileQuestion, Lock } from 'lucide-react';
+import { LogOut, Users, BarChart3, Plus, Trash2, FileQuestion, Lock, UserCog } from 'lucide-react';
 import { Button, Card } from '../../components/ui';
 import { QuestionsTab } from './QuestionsTab';
 import { ResultsTab } from './ResultsTab';
 import { UnlocksTab } from './UnlocksTab';
+import { StudentUnlocksTab } from './StudentUnlocksTab';
 
 const NAVY = '#1a2b4c';
 const GOLD = '#d4af37';
@@ -96,6 +97,7 @@ export default function AdminDashboardClient({ adminName }) {
   const TABS = [
     { id: 'roster', label: 'Students', icon: Users },
     { id: 'unlocks', label: 'Unlocks', icon: Lock },
+    { id: 'student-unlocks', label: 'Student Access', icon: UserCog },
     { id: 'questions', label: 'Questions', icon: FileQuestion },
     { id: 'results', label: 'Results', icon: BarChart3 },
   ];
@@ -126,6 +128,7 @@ export default function AdminDashboardClient({ adminName }) {
 
         {tab === 'roster' && <RosterTab />}
         {tab === 'unlocks' && <UnlocksTab />}
+        {tab === 'student-unlocks' && <StudentUnlocksTab />}
         {tab === 'questions' && <QuestionsTab />}
         {tab === 'results' && <ResultsTab />}
       </main>
