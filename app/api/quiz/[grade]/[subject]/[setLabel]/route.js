@@ -14,7 +14,7 @@ export async function GET(request, { params }) {
   const subject = params.subject?.toUpperCase();
   const setLabel = params.setLabel?.toUpperCase();
 
-  const unlocked = await isSetUnlocked(grade, subject, setLabel, session.user.id);
+  const unlocked = await isSetUnlocked(grade, subject, setLabel, session.user.id, session.user.selfRegistered);
   if (!unlocked) {
     return NextResponse.json({ error: 'This test is not available yet. Ask your admin to unlock it.' }, { status: 403 });
   }

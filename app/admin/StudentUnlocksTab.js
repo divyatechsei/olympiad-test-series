@@ -92,7 +92,7 @@ export function StudentUnlocksTab() {
           >
             <option value="">Select a student…</option>
             {students.map((s) => (
-              <option key={s.id} value={s.id}>{s.name} (@{s.username})</option>
+              <option key={s.id} value={s.id}>{s.name} (@{s.username}){s.self_registered ? ' — self-registered' : ''}</option>
             ))}
           </select>
         )}

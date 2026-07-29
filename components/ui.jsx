@@ -187,8 +187,9 @@ function drawBarGraphDiagram(ctx, { data }) {
   });
 }
 
-function drawPictographDiagram(ctx, { rows, unit }) {
+function drawPictographDiagram(ctx, { rows, unit, unitLabel }) {
   const startX = 140, startY = 40, rowH = 55;
+  const label = unitLabel || 'items';
   function drawBook(x, y, fraction) {
     ctx.save(); ctx.beginPath(); ctx.rect(x, y, 26 * fraction, 20); ctx.clip();
     ctx.fillStyle = '#2e6da4'; ctx.fillRect(x, y, 26, 20);
@@ -210,13 +211,69 @@ function drawPictographDiagram(ctx, { rows, unit }) {
   ctx.textAlign = 'left'; ctx.font = '14px sans-serif'; ctx.fillStyle = NAVY;
   const keyY = startY + rows.length * rowH + 15;
   drawBook(startX, keyY, 1);
-  ctx.fillText(`= ${unit} books`, startX + 34, keyY + 15);
+  ctx.fillText(`= ${unit} ${label}`, startX + 34, keyY + 15);
+}
+
+function drawClock(ctx, { hour, minute = 0 }) {
+  const cx = 150, cy = 150, r = 120;
+  ctx.strokeStyle = NAVY; ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+  ctx.fillStyle = NAVY;
+  ctx.beginPath(); ctx.arc(cx, cy, 5, 0, Math.PI * 2); ctx.fill();
+
+  // Hour ticks + numbers
+  ctx.font = 'bold 18px sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  for (let n = 1; n <= 12; n++) {
+    const ang = (n / 12) * 2 * Math.PI - Math.PI / 2;
+    const tx = cx + Math.cos(ang) * (r - 22);
+    const ty = cy + Math.sin(ang) * (r - 22);
+    ctx.fillText(String(n), tx, ty);
+    const tickOuter = { x: cx + Math.cos(ang) * r, y: cy + Math.sin(ang) * r };
+    const tickInner = { x: cx + Math.cos(ang) * (r - 10), y: cy + Math.sin(ang) * (r - 10) };
+    ctx.strokeStyle = NAVY; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(tickOuter.x, tickOuter.y); ctx.lineTo(tickInner.x, tickInner.y); ctx.stroke();
+  }
+
+  // Hour hand
+  const hourAngle = ((hour % 12) + minute / 60) / 12 * 2 * Math.PI - Math.PI / 2;
+  ctx.strokeStyle = NAVY; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(hourAngle) * (r * 0.5), cy + Math.sin(hourAngle) * (r * 0.5)); ctx.stroke();
+
+  // Minute hand
+  const minAngle = (minute / 60) * 2 * Math.PI - Math.PI / 2;
+  ctx.strokeStyle = '#c0392b'; ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(minAngle) * (r * 0.8), cy + Math.sin(minAngle) * (r * 0.8)); ctx.stroke();
+}
+
+function drawThermometer(ctx, { value, min = 0, max = 50 }) {
+  const bulbCx = 150, bulbCy = 330, bulbR = 28;
+  const tubeX = bulbCx - 12, tubeY = 40, tubeW = 24, tubeH = 300;
+  ctx.strokeStyle = NAVY; ctx.lineWidth = 3; ctx.fillStyle = '#f1f5f9';
+  ctx.beginPath();
+  ctx.roundRect ? ctx.roundRect(tubeX, tubeY, tubeW, tubeH, 12) : ctx.rect(tubeX, tubeY, tubeW, tubeH);
+  ctx.fill(); ctx.stroke();
+  ctx.beginPath(); ctx.arc(bulbCx, bulbCy, bulbR, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+
+  const pct = Math.max(0, Math.min(1, (value - min) / (max - min)));
+  const fillTop = tubeY + tubeH - pct * tubeH;
+  ctx.fillStyle = '#c0392b';
+  ctx.beginPath(); ctx.arc(bulbCx, bulbCy, bulbR - 5, 0, Math.PI * 2); ctx.fill();
+  ctx.fillRect(tubeX + 5, fillTop, tubeW - 10, (tubeY + tubeH) - fillTop);
+
+  ctx.strokeStyle = NAVY; ctx.lineWidth = 1.5;
+  ctx.font = '13px sans-serif'; ctx.textAlign = 'right'; ctx.fillStyle = NAVY;
+  const step = (max - min) / 5;
+  for (let v = min; v <= max; v += step) {
+    const y = tubeY + tubeH - ((v - min) / (max - min)) * tubeH;
+    ctx.beginPath(); ctx.moveTo(tubeX - 6, y); ctx.lineTo(tubeX, y); ctx.stroke();
+    ctx.fillText(`${Math.round(v)}°`, tubeX - 10, y + 4);
+  }
 }
 
 const CANVAS_DIMS = {
   pattern: [640, 200], classification: [640, 220], shapecount: [420, 420],
   mirror: [500, 460], angle: [400, 320], rectangle: [420, 260],
-  bargraph: [480, 340], pictograph: null,
+  bargraph: [480, 340], pictograph: null, clock: [300, 300], thermometer: [220, 380],
 };
 
 export function DiagramCanvas({ params }) {
@@ -238,6 +295,8 @@ export function DiagramCanvas({ params }) {
       else if (params.type === 'rectangle') drawRectangleDiagram(ctx, params);
       else if (params.type === 'bargraph') drawBarGraphDiagram(ctx, params);
       else if (params.type === 'pictograph') drawPictographDiagram(ctx, params);
+      else if (params.type === 'clock') drawClock(ctx, params);
+      else if (params.type === 'thermometer') drawThermometer(ctx, params);
     } catch (e) { /* fail silently */ }
   }, [params]);
 

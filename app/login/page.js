@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { User, Shield, Eye, EyeOff, Loader2 } from 'lucide-react';
+import Link from 'next/link';
 import { Button, Card } from '../../components/ui';
 
 const NAVY = '#1a2b4c';
@@ -94,7 +95,13 @@ export default function LoginPage() {
             </Button>
           </form>
         </Card>
-        <p className="text-center text-xs text-slate-400 mt-6">Ask your teacher or admin if you don't have login details yet.</p>
+        {mode === 'student' ? (
+          <p className="text-center text-xs text-slate-400 mt-6">
+            New here? <Link href="/register" className="font-semibold" style={{ color: NAVY }}>Create your own account</Link>
+          </p>
+        ) : (
+          <p className="text-center text-xs text-slate-400 mt-6">Ask your teacher or admin if you don't have login details yet.</p>
+        )}
       </div>
     </div>
   );

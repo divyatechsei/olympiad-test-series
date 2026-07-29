@@ -1,0 +1,6460 @@
+{
+  "grade": 4,
+  "subject": "IMO",
+  "sets": {
+    "A": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number will replace '?' in the following number series?\n2, 6, 12, 20, 30, ?",
+        "opts": [
+          "40",
+          "42",
+          "44",
+          "46"
+        ],
+        "ans": "B",
+        "steps": [
+          "The differences between consecutive terms increase by 2 each time: 4, 6, 8, 10, 12.",
+          "30 + 12 = 42."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, CAT is written as FDW. How is DOG written in the same code?",
+        "opts": [
+          "GRJ",
+          "GRK",
+          "HRJ",
+          "FQI"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each letter of CAT is shifted forward by 3 places to get FDW (C→F, A→D, T→W).",
+          "Apply the same +3 shift to DOG: D→G, O→R, G→J, giving GRJ."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a queue of 25 children, Neha is 10th from the front. What is her position from the back of the queue?",
+        "opts": [
+          "14th",
+          "15th",
+          "16th",
+          "17th"
+        ],
+        "ans": "C",
+        "steps": [
+          "Position from back = Total - Position from front + 1.",
+          "25 - 10 + 1 = 16th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 7 : 20. What time will its mirror image show?",
+        "opts": [
+          "4 : 20",
+          "4 : 40",
+          "5 : 40",
+          "5 : 20"
+        ],
+        "ans": "B",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 7:20 = 4:40."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 20
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many faces does a cuboid have?",
+        "opts": [
+          "4",
+          "8",
+          "10",
+          "6"
+        ],
+        "ans": "D",
+        "steps": [
+          "A cuboid is a 3D box shape bounded by 6 rectangular faces."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Deepak walks 6 km North, then turns East and walks 8 km, then turns South and walks 6 km. How far is Deepak from his starting point?",
+        "opts": [
+          "8 km",
+          "6 km",
+          "10 km",
+          "14 km"
+        ],
+        "ans": "A",
+        "steps": [
+          "The 6 km North and 6 km South movements cancel each other out.",
+          "Only the 8 km East movement remains, so Deepak is 8 km from the start."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Book : Library :: Painting : ?",
+        "opts": [
+          "Studio",
+          "Theatre",
+          "Gallery",
+          "Museum"
+        ],
+        "ans": "C",
+        "steps": [
+          "A Library is the place where Books are kept and displayed.",
+          "In the same way, a Gallery is the place where Paintings are displayed."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "Today is Wednesday, 5th July. What day of the week will it be on 19th July?",
+        "opts": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Wednesday"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 5th to 19th July is 14 days.",
+          "14 days = exactly 2 weeks, so the day of the week repeats: Wednesday."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which letter is 5th to the right of the 9th letter from the left in the English alphabet?",
+        "opts": [
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "ans": "C",
+        "steps": [
+          "The 9th letter from the left is I.",
+          "Counting 5 letters to the right of I: J, K, L, M, N → N."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Square",
+          "Sphere",
+          "Rhombus",
+          "Kite"
+        ],
+        "ans": "B",
+        "steps": [
+          "Square, Rhombus, and Kite are all flat (2D) quadrilateral shapes.",
+          "Sphere is a solid (3D) shape, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the difference between the place value and the face value of the digit 6 in the number 4,63,218?",
+        "opts": [
+          "59,994",
+          "5,994",
+          "5,99,994",
+          "60,000"
+        ],
+        "ans": "A",
+        "steps": [
+          "The digit 6 is in the ten-thousands place, so its place value = 60,000.",
+          "Its face value = 6.",
+          "Difference = 60,000 - 6 = 59,994."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following correctly represents 49 in Roman numerals?",
+        "opts": [
+          "XXXXIX",
+          "XLXI",
+          "LIXI",
+          "XLIX"
+        ],
+        "ans": "D",
+        "steps": [
+          "49 = 50 - 1, written using the subtractive rule as XLIX."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following fractions is equivalent to 3/5?",
+        "opts": [
+          "6/8",
+          "9/15",
+          "12/25",
+          "15/20"
+        ],
+        "ans": "B",
+        "steps": [
+          "Multiply numerator and denominator of 3/5 by 3: 3×3/5×3 = 9/15."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "How many right angles are there in a rectangle?",
+        "opts": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ],
+        "ans": "C",
+        "steps": [
+          "All four interior angles of a rectangle measure 90°, so there are 4 right angles."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "The perimeter of a square is 64 cm. What is the area of the square?",
+        "opts": [
+          "256 cm²",
+          "128 cm²",
+          "192 cm²",
+          "512 cm²"
+        ],
+        "ans": "A",
+        "steps": [
+          "Side = Perimeter ÷ 4 = 64 ÷ 4 = 16 cm.",
+          "Area = side × side = 16 × 16 = 256 cm²."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "How many lines of symmetry does a regular hexagon have?",
+        "opts": [
+          "4",
+          "5",
+          "8",
+          "6"
+        ],
+        "ans": "D",
+        "steps": [
+          "A regular hexagon has one line of symmetry through each pair of opposite vertices/sides, giving 6 in total."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "7,823 + 4,596 = ?",
+        "opts": [
+          "12,319",
+          "12,419",
+          "12,409",
+          "12,529"
+        ],
+        "ans": "B",
+        "steps": [
+          "7,823 + 4,596 = 12,419."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "367 × 5 = ?",
+        "opts": [
+          "1,825",
+          "1,845",
+          "1,835",
+          "1,855"
+        ],
+        "ans": "C",
+        "steps": [
+          "367 × 5 = 1,835."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "4 kg 350 g + 2 kg 780 g = ?",
+        "opts": [
+          "7 kg 130 g",
+          "6 kg 130 g",
+          "7 kg 13 g",
+          "7 kg 1030 g"
+        ],
+        "ans": "A",
+        "steps": [
+          "4 kg 350 g + 2 kg 780 g = 6 kg 1130 g.",
+          "1130 g = 1 kg 130 g, so total = 7 kg 130 g."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "A triangle has sides measuring 8 cm, 12 cm, and 15 cm. What is its perimeter?",
+        "opts": [
+          "30 cm",
+          "33 cm",
+          "37 cm",
+          "35 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "Perimeter = sum of all sides = 8 + 12 + 15 = 35 cm."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A stadium has 1,28,450 seats. For a cricket match, 96,783 tickets were sold. How many seats are still empty?",
+        "opts": [
+          "31,567",
+          "32,667",
+          "31,667",
+          "31,767"
+        ],
+        "ans": "C",
+        "steps": [
+          "Empty seats = 1,28,450 - 96,783 = 31,667."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Kavya completed 3/8 of her homework before lunch and 2/8 of it after lunch. What fraction of her homework is still remaining?",
+        "opts": [
+          "1/8",
+          "3/8",
+          "2/8",
+          "4/8"
+        ],
+        "ans": "B",
+        "steps": [
+          "Homework completed = 3/8 + 2/8 = 5/8.",
+          "Homework remaining = 1 - 5/8 = 3/8."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A water tank holds 15 litres and 400 ml of water. How many millilitres of water does the tank hold in all?",
+        "opts": [
+          "15,400 ml",
+          "1,540 ml",
+          "15,040 ml",
+          "1,54,000 ml"
+        ],
+        "ans": "A",
+        "steps": [
+          "15 litres = 15,000 ml.",
+          "15,000 ml + 400 ml = 15,400 ml."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A train departs at 11 : 45 a.m. and arrives at its destination at 4 : 20 p.m. How long is the journey?",
+        "opts": [
+          "4 hr 25 min",
+          "5 hr 35 min",
+          "5 hr 25 min",
+          "4 hr 35 min"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 11:45 a.m. to 4:45 p.m. is exactly 5 hours.",
+          "4:20 p.m. is 25 minutes before 4:45 p.m., so the journey is 5 hr - 25 min = 4 hr 35 min."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 11,
+          "minute": 45
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A rectangular park is 75 m long and 48 m wide. Mira jogs around the park 3 times. How many metres does she cover in all?",
+        "opts": [
+          "984 m",
+          "738 m",
+          "492 m",
+          "614 m"
+        ],
+        "ans": "B",
+        "steps": [
+          "Perimeter = 2 × (75 + 48) = 2 × 123 = 246 m.",
+          "Distance covered in 3 rounds = 246 × 3 = 738 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 75,
+          "b": 48
+        }
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Books borrowed from a library over five days — Monday: 32, Tuesday: 45, Wednesday: 28, Thursday: 51, Friday: 39. What is the total number of books borrowed from Tuesday to Thursday?",
+        "opts": [
+          "118",
+          "120",
+          "124",
+          "122"
+        ],
+        "ans": "C",
+        "steps": [
+          "Tuesday + Wednesday + Thursday = 45 + 28 + 51 = 124."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Mon",
+              "value": 32,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Tue",
+              "value": 45,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Wed",
+              "value": 28,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Thu",
+              "value": 51,
+              "color": "#27ae60"
+            },
+            {
+              "label": "Fri",
+              "value": 39,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A baker baked 240 muffins and packed them equally into boxes of 8. How many boxes did the baker need?",
+        "opts": [
+          "25",
+          "28",
+          "32",
+          "30"
+        ],
+        "ans": "D",
+        "steps": [
+          "Number of boxes = 240 ÷ 8 = 30."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Sunita has a ₹100 note. She buys mangoes for ₹37 and a juice packet for ₹24. How much money does she have left?",
+        "opts": [
+          "₹39",
+          "₹35",
+          "₹37",
+          "₹41"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total spent = 37 + 24 = ₹61.",
+          "Money left = 100 - 61 = ₹39."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A rope of length 5 m 20 cm is joined end to end with another rope of length 2 m 85 cm. What is the total length of the combined rope?",
+        "opts": [
+          "7 m 95 cm",
+          "7 m 105 cm",
+          "8 m 5 cm",
+          "8 m 15 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "5 m 20 cm + 2 m 85 cm = 7 m 105 cm.",
+          "105 cm = 1 m 5 cm, so total = 8 m 5 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "A movie starts at 3 : 30 p.m. and lasts for 2 hours 15 minutes. At what time does the movie end?",
+        "opts": [
+          "5 : 30 p.m.",
+          "5 : 45 p.m.",
+          "6 : 00 p.m.",
+          "6 : 15 p.m."
+        ],
+        "ans": "B",
+        "steps": [
+          "3:30 p.m. + 2 hr 15 min = 5:45 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 3,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "In a school, the number of girls is 3 times the number of boys. If the total number of students is 480, by how many are girls more than boys?",
+        "opts": [
+          "160",
+          "200",
+          "280",
+          "240"
+        ],
+        "ans": "D",
+        "steps": [
+          "Let boys = x, girls = 3x. Total parts = x + 3x = 4x = 480, so x = 120.",
+          "Boys = 120, girls = 360.",
+          "Difference = 360 - 120 = 240."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "A 5-digit number is greater than 50,000 and less than 60,000. Its hundreds digit is 4, its tens digit is 8, and its units digit is 2. The sum of all its digits is 23. What is the number?",
+        "opts": [
+          "54,482",
+          "53,482",
+          "55,482",
+          "56,482"
+        ],
+        "ans": "A",
+        "steps": [
+          "Ten-thousands digit is 5 (since 50,000 < number < 60,000).",
+          "Digits so far: 5, ?, 4, 8, 2. Sum = 23, so 5 + thousands + 4 + 8 + 2 = 23 → thousands digit = 4.",
+          "Number = 54,482."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A farmer planted 3/4 of his field with wheat and 1/6 of his field with rice. What fraction of the field is NOT yet planted?",
+        "opts": [
+          "1/8",
+          "5/12",
+          "1/12",
+          "1/6"
+        ],
+        "ans": "C",
+        "steps": [
+          "Planted fraction = 3/4 + 1/6 = 9/12 + 2/12 = 11/12.",
+          "Not yet planted = 1 - 11/12 = 1/12."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangular plot has a length of 24 m. If the perimeter of the plot is 80 m, what is the area of the plot?",
+        "opts": [
+          "320 m²",
+          "384 m²",
+          "352 m²",
+          "416 m²"
+        ],
+        "ans": "B",
+        "steps": [
+          "Perimeter = 2 × (length + breadth): 80 = 2 × (24 + b) → 24 + b = 40 → b = 16 m.",
+          "Area = 24 × 16 = 384 m²."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 24,
+          "b": 16
+        }
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "Five students scored the following marks in a test: Aman – 84, Ritu – 75, Kiran – 92, Sana – 63, Vijay – 72. Which pair of students has the same combined score as Aman and Sana together?",
+        "opts": [
+          "Ritu and Vijay",
+          "Aman and Kiran",
+          "Kiran and Sana",
+          "Vijay and Sana"
+        ],
+        "ans": "A",
+        "steps": [
+          "Aman + Sana = 84 + 63 = 147.",
+          "Ritu + Vijay = 75 + 72 = 147, which matches."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Aman",
+              "value": 84,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Ritu",
+              "value": 75,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Kiran",
+              "value": 92,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Sana",
+              "value": 63,
+              "color": "#27ae60"
+            },
+            {
+              "label": "Vijay",
+              "value": 72,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      }
+    ],
+    "B": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number will replace '?' in the following series?\n3, 6, 11, 18, 27, ?",
+        "opts": [
+          "35",
+          "36",
+          "39",
+          "38"
+        ],
+        "ans": "D",
+        "steps": [
+          "The differences between consecutive terms increase by 2 each time: 3, 5, 7, 9, 11.",
+          "27 + 11 = 38."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, BOOK is written as CPPL. How is WORD written in the same code?",
+        "opts": [
+          "XPSE",
+          "XPSD",
+          "WPSE",
+          "XOSE"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each letter of BOOK is shifted forward by 1 place to get CPPL.",
+          "Apply the same +1 shift to WORD: W→X, O→P, R→S, D→E, giving XPSE."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a class of 30 students, Ravi is 11th from the bottom. What is his rank from the top?",
+        "opts": [
+          "18th",
+          "20th",
+          "19th",
+          "21st"
+        ],
+        "ans": "B",
+        "steps": [
+          "Rank from top = Total - Rank from bottom + 1.",
+          "30 - 11 + 1 = 20th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 9 : 15. What time will its mirror image show?",
+        "opts": [
+          "3 : 15",
+          "2 : 15",
+          "2 : 45",
+          "3 : 45"
+        ],
+        "ans": "C",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 9:15 = 2:45."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 9,
+          "minute": 15
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many edges does a cube have?",
+        "opts": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "ans": "D",
+        "steps": [
+          "A cube has 12 edges (4 on the top face, 4 on the bottom face, and 4 vertical edges connecting them)."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Sita walks 4 km East, then turns North and walks 3 km. How far is she from her starting point?",
+        "opts": [
+          "5 km",
+          "7 km",
+          "1 km",
+          "4 km"
+        ],
+        "ans": "A",
+        "steps": [
+          "The East and North legs form a right triangle with legs 4 km and 3 km.",
+          "Straight-line distance = √(4² + 3²) = √25 = 5 km."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Doctor : Hospital :: Teacher : ?",
+        "opts": [
+          "Library",
+          "School",
+          "College",
+          "Office"
+        ],
+        "ans": "B",
+        "steps": [
+          "A Doctor works at a Hospital.",
+          "In the same way, a Teacher works at a School."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "If 1st March is a Monday, what day of the week will 15th March be?",
+        "opts": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Monday"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 1st to 15th March is 14 days.",
+          "14 days = exactly 2 weeks, so the day repeats: Monday."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Square",
+          "Cone",
+          "Cylinder",
+          "Sphere"
+        ],
+        "ans": "A",
+        "steps": [
+          "Cone, Cylinder, and Sphere are all solid (3D) shapes.",
+          "Square is a flat (2D) shape, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which letter is 3rd to the LEFT of the 15th letter from the left in the English alphabet?",
+        "opts": [
+          "J",
+          "K",
+          "L",
+          "M"
+        ],
+        "ans": "C",
+        "steps": [
+          "The 15th letter from the left is O.",
+          "Counting 3 letters to the left of O: N, M, L → L."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which digit is in the ten-thousands place in the number 8,52,436?",
+        "opts": [
+          "8",
+          "5",
+          "2",
+          "4"
+        ],
+        "ans": "B",
+        "steps": [
+          "In 8,52,436, the digits from right are 6(ones), 3(tens), 4(hundreds), 2(thousands), 5(ten-thousands), 8(lakhs).",
+          "The ten-thousands digit is 5."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the value of CXLVII in Hindu-Arabic numerals?",
+        "opts": [
+          "147",
+          "143",
+          "137",
+          "157"
+        ],
+        "ans": "A",
+        "steps": [
+          "CXLVII = C(100) + XL(40) + VII(7) = 147."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following fractions is the SMALLEST?",
+        "opts": [
+          "2/3",
+          "3/4",
+          "5/6",
+          "1/2"
+        ],
+        "ans": "D",
+        "steps": [
+          "Comparing 2/3≈0.67, 3/4=0.75, 5/6≈0.83, 1/2=0.5.",
+          "1/2 is the smallest."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "How many right angles does a square have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ans": "C",
+        "steps": [
+          "All four interior angles of a square measure 90°, so it has 4 right angles."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the perimeter of a rectangle with length 22 cm and breadth 13 cm?",
+        "opts": [
+          "60 cm",
+          "70 cm",
+          "80 cm",
+          "86 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Perimeter = 2 × (length + breadth) = 2 × (22 + 13) = 2 × 35 = 70 cm."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 22,
+          "b": 13
+        }
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "How many lines of symmetry does an equilateral triangle have?",
+        "opts": [
+          "1",
+          "2",
+          "6",
+          "3"
+        ],
+        "ans": "D",
+        "steps": [
+          "An equilateral triangle has 3 lines of symmetry, one through each vertex and the midpoint of the opposite side."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "9,000 – 4,567 = ?",
+        "opts": [
+          "4,433",
+          "4,333",
+          "4,523",
+          "4,563"
+        ],
+        "ans": "A",
+        "steps": [
+          "9,000 - 4,567 = 4,433."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "235 × 8 = ?",
+        "opts": [
+          "1,840",
+          "1,860",
+          "1,880",
+          "1,900"
+        ],
+        "ans": "C",
+        "steps": [
+          "235 × 8 = 1,880."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "How many months in a year have exactly 31 days?",
+        "opts": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "The 31-day months are January, March, May, July, August, October, and December — 7 months in total."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "3 km = ? metres",
+        "opts": [
+          "300",
+          "30,000",
+          "3,00,000",
+          "3,000"
+        ],
+        "ans": "D",
+        "steps": [
+          "1 km = 1,000 m, so 3 km = 3 × 1,000 = 3,000 m."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Ravi bought 3 books at ₹85 each and 2 pens at ₹12 each. How much did he spend in all?",
+        "opts": [
+          "₹ 259",
+          "₹ 269",
+          "₹ 279",
+          "₹ 289"
+        ],
+        "ans": "C",
+        "steps": [
+          "Cost of books = 3 × 85 = ₹255.",
+          "Cost of pens = 2 × 12 = ₹24.",
+          "Total = 255 + 24 = ₹279."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "A tank holds 8/10 of water. After use, only 3/10 remains. What fraction of the water was used?",
+        "opts": [
+          "5/10",
+          "4/10",
+          "3/10",
+          "2/10"
+        ],
+        "ans": "A",
+        "steps": [
+          "Water used = 8/10 - 3/10 = 5/10."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "Two ropes measure 5 m 30 cm and 2 m 90 cm respectively. What is the total length of both ropes?",
+        "opts": [
+          "7 m 80 cm",
+          "8 m 10 cm",
+          "8 m 30 cm",
+          "8 m 20 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "5 m 30 cm + 2 m 90 cm = 7 m 120 cm.",
+          "120 cm = 1 m 20 cm, so total = 8 m 20 cm."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A clock shows 3 : 45 p.m. What time will it show 2 hours 40 minutes later?",
+        "opts": [
+          "6 : 15 p.m.",
+          "6 : 25 p.m.",
+          "6 : 35 p.m.",
+          "6 : 45 p.m."
+        ],
+        "ans": "B",
+        "steps": [
+          "3:45 p.m. + 2 hr 40 min = 6:25 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 3,
+          "minute": 45
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A triangle has sides of 13 cm, 17 cm, and 20 cm. What is its perimeter?",
+        "opts": [
+          "45 cm",
+          "48 cm",
+          "50 cm",
+          "55 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Perimeter = 13 + 17 + 20 = 50 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "A pictograph shows: Cats = 4 symbols, Dogs = 7 symbols, Birds = 3 symbols, Fish = 5 symbols. If each symbol represents 5 pets, how many pets are there in total?",
+        "opts": [
+          "95",
+          "75",
+          "85",
+          "90"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total symbols = 4 + 7 + 3 + 5 = 19.",
+          "Total pets = 19 × 5 = 95."
+        ],
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Cats",
+              "count": 4
+            },
+            {
+              "name": "Dogs",
+              "count": 7
+            },
+            {
+              "name": "Birds",
+              "count": 3
+            },
+            {
+              "name": "Fish",
+              "count": 5
+            }
+          ],
+          "unit": 5,
+          "unitLabel": "pets"
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "432 ÷ 6 = ?",
+        "opts": [
+          "62",
+          "68",
+          "70",
+          "72"
+        ],
+        "ans": "D",
+        "steps": [
+          "432 ÷ 6 = 72."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Asha has ₹60. She spends ₹18. How much money does she have left?",
+        "opts": [
+          "₹38",
+          "₹42",
+          "₹40",
+          "₹44"
+        ],
+        "ans": "B",
+        "steps": [
+          "60 - 18 = ₹42."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "8 pencils, each 14 cm long, are placed end to end. What is the total length?",
+        "opts": [
+          "96 cm",
+          "104 cm",
+          "112 cm",
+          "118 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total length = 8 × 14 = 112 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Ravi goes to sleep at 9 : 30 p.m. and wakes up at 6 : 00 a.m. How long did he sleep?",
+        "opts": [
+          "8 hr 30 min",
+          "7 hr 30 min",
+          "8 hr",
+          "9 hr"
+        ],
+        "ans": "A",
+        "steps": [
+          "From 9:30 p.m. to 6:00 a.m. is 8 hours 30 minutes."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 9,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "What is the sum of the largest 3-digit number and the smallest 4-digit number?",
+        "opts": [
+          "1,899",
+          "1,999",
+          "1,989",
+          "1,998"
+        ],
+        "ans": "B",
+        "steps": [
+          "Largest 3-digit number = 999. Smallest 4-digit number = 1,000.",
+          "Sum = 999 + 1,000 = 1,999."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "1/4 of a number is 45. What is 3/4 of the same number?",
+        "opts": [
+          "90",
+          "105",
+          "120",
+          "135"
+        ],
+        "ans": "D",
+        "steps": [
+          "If 1/4 of the number is 45, the whole number = 45 × 4 = 180.",
+          "3/4 of 180 = 135."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangular room is 8 m long and 6 m wide. What is the cost of tiling the floor at ₹25 per m²?",
+        "opts": [
+          "₹ 900",
+          "₹ 1,100",
+          "₹ 1,200",
+          "₹ 1,400"
+        ],
+        "ans": "C",
+        "steps": [
+          "Area = 8 × 6 = 48 m².",
+          "Cost = 48 × 25 = ₹1,200."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 8,
+          "b": 6
+        }
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "In a class, 1/3 of students play football, 1/4 play cricket, and the remaining 10 play badminton. How many students are there in the class?",
+        "opts": [
+          "24",
+          "20",
+          "28",
+          "32"
+        ],
+        "ans": "A",
+        "steps": [
+          "Fraction playing football or cricket = 1/3 + 1/4 = 7/12.",
+          "Fraction playing badminton = 1 - 7/12 = 5/12, which equals 10 students.",
+          "Total students = 10 ÷ (5/12) = 24."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "The product of two numbers is 336. One of the numbers is 14. What is the SUM of the two numbers?",
+        "opts": [
+          "34",
+          "38",
+          "40",
+          "42"
+        ],
+        "ans": "B",
+        "steps": [
+          "Other number = 336 ÷ 14 = 24.",
+          "Sum = 14 + 24 = 38."
+        ]
+      }
+    ],
+    "C": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next in the series?\n1, 4, 9, 16, 25, ?",
+        "opts": [
+          "25",
+          "36",
+          "49",
+          "64"
+        ],
+        "ans": "B",
+        "steps": [
+          "The series is of perfect squares: 1², 2², 3², 4², 5², so the next term is 6².",
+          "6² = 36."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, PAINT is written as QBJOU. How is WRITE written in the same code?",
+        "opts": [
+          "XSJUE",
+          "XSIVE",
+          "XSJFU",
+          "XSJUF"
+        ],
+        "ans": "D",
+        "steps": [
+          "Each letter of PAINT is shifted forward by 1 place to get QBJOU.",
+          "Apply the same +1 shift to WRITE: W→X, R→S, I→J, T→U, E→F, giving XSJUF."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a row of 20 students, Kartik is 16th from the right. What is his position from the left?",
+        "opts": [
+          "5th",
+          "7th",
+          "6th",
+          "8th"
+        ],
+        "ans": "A",
+        "steps": [
+          "Position from left = Total - Position from right + 1.",
+          "20 - 16 + 1 = 5th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 11 : 40. What time will its mirror image show?",
+        "opts": [
+          "1 : 20",
+          "11 : 20",
+          "12 : 20",
+          "1 : 40"
+        ],
+        "ans": "C",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 11:40 = 0:20, i.e. 12:20."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 11,
+          "minute": 40
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many vertices does a square pyramid have?",
+        "opts": [
+          "4",
+          "5",
+          "8",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "A square pyramid has 4 base vertices plus 1 apex vertex, giving 5 vertices in total."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Anita walks 10 km South and then 10 km North. How far is she from her starting point?",
+        "opts": [
+          "5 km",
+          "10 km",
+          "15 km",
+          "0 km"
+        ],
+        "ans": "D",
+        "steps": [
+          "Walking 10 km South and then 10 km North brings her back to exactly where she started.",
+          "Distance from start = 0 km."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Eye : See :: Ear : ?",
+        "opts": [
+          "Hear",
+          "Smell",
+          "Touch",
+          "Taste"
+        ],
+        "ans": "A",
+        "steps": [
+          "The Eye is used to See.",
+          "In the same way, the Ear is used to Hear."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "A school term runs from 1st April to 30th June. How many complete months does the term last?",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ans": "C",
+        "steps": [
+          "The term covers April, May, and June in full — 3 complete months."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Scalene",
+          "Isosceles",
+          "Equilateral",
+          "Rhombus"
+        ],
+        "ans": "D",
+        "steps": [
+          "Scalene, Isosceles, and Equilateral are all types of triangles.",
+          "Rhombus is a quadrilateral, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the 18th letter of the English alphabet?",
+        "opts": [
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "ans": "B",
+        "steps": [
+          "Counting from A(1) to the 18th position lands on R."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the successor of 9,99,999?",
+        "opts": [
+          "9,99,998",
+          "9,99,990",
+          "10,00,000",
+          "10,00,001"
+        ],
+        "ans": "C",
+        "steps": [
+          "The successor of a number is 1 more than it.",
+          "9,99,999 + 1 = 10,00,000."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the value of XCIX in Hindu-Arabic numerals?",
+        "opts": [
+          "89",
+          "99",
+          "109",
+          "91"
+        ],
+        "ans": "B",
+        "steps": [
+          "XCIX = XC(90) + IX(9) = 99."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "What is 1/4 + 1/4?",
+        "opts": [
+          "1/2",
+          "1/4",
+          "2/8",
+          "1/8"
+        ],
+        "ans": "A",
+        "steps": [
+          "1/4 + 1/4 = 2/4, which simplifies to 1/2."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "A ray has:",
+        "opts": [
+          "Two endpoints",
+          "Starts and extends in both directions",
+          "No endpoints",
+          "One starting point and extends in one direction"
+        ],
+        "ans": "D",
+        "steps": [
+          "A ray has one fixed starting point and extends infinitely in a single direction."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "Each side of a regular pentagon is 8 cm. What is its perimeter?",
+        "opts": [
+          "24 cm",
+          "32 cm",
+          "40 cm",
+          "48 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "A pentagon has 5 equal sides.",
+          "Perimeter = 5 × 8 = 40 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "How many lines of symmetry does a rectangle (non-square) have?",
+        "opts": [
+          "1",
+          "2",
+          "4",
+          "0"
+        ],
+        "ans": "B",
+        "steps": [
+          "A non-square rectangle has 2 lines of symmetry: one horizontal and one vertical through the centre."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "8,524 + 3,976 = ?",
+        "opts": [
+          "12,400",
+          "12,480",
+          "12,490",
+          "12,500"
+        ],
+        "ans": "D",
+        "steps": [
+          "8,524 + 3,976 = 12,500."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "456 × 4 = ?",
+        "opts": [
+          "1,824",
+          "1,834",
+          "1,844",
+          "1,864"
+        ],
+        "ans": "A",
+        "steps": [
+          "456 × 4 = 1,824."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "5,000 g = ? kg",
+        "opts": [
+          "50",
+          "500",
+          "5",
+          "0.5"
+        ],
+        "ans": "C",
+        "steps": [
+          "1,000 g = 1 kg, so 5,000 g = 5,000 ÷ 1,000 = 5 kg."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "630 ÷ 9 = ?",
+        "opts": [
+          "60",
+          "70",
+          "80",
+          "90"
+        ],
+        "ans": "B",
+        "steps": [
+          "630 ÷ 9 = 70."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A freight train covered 3,48,256 km last year and 2,96,844 km this year. What is the combined total distance covered?",
+        "opts": [
+          "6,44,100",
+          "6,44,900",
+          "6,45,000",
+          "6,45,100"
+        ],
+        "ans": "D",
+        "steps": [
+          "3,48,256 + 2,96,844 = 6,45,100."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "A jug holds 4/6 litres of juice. Priya pours out 1/6 litre. What fraction remains?",
+        "opts": [
+          "1/6",
+          "2/6",
+          "3/6",
+          "4/6"
+        ],
+        "ans": "C",
+        "steps": [
+          "Remaining = 4/6 - 1/6 = 3/6."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "Akash needs 1 m 50 cm of wire for one project and 2 m 75 cm for another. What is the total wire needed?",
+        "opts": [
+          "3 m 25 cm",
+          "4 m 25 cm",
+          "4 m 75 cm",
+          "5 m 25 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "1 m 50 cm + 2 m 75 cm = 3 m 125 cm.",
+          "125 cm = 1 m 25 cm, so total = 4 m 25 cm."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "An exam starts at 10 : 00 a.m. and ends at 12 : 45 p.m. How long is the exam?",
+        "opts": [
+          "2 hr 45 min",
+          "2 hr 30 min",
+          "3 hr",
+          "3 hr 15 min"
+        ],
+        "ans": "A",
+        "steps": [
+          "From 10:00 a.m. to 12:45 p.m. is 2 hours 45 minutes."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 10,
+          "minute": 0
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of a regular octagon is 72 cm. What is the length of each side?",
+        "opts": [
+          "6 cm",
+          "7 cm",
+          "8 cm",
+          "9 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "An octagon has 8 equal sides.",
+          "Side length = 72 ÷ 8 = 9 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Number of students per class: A=35, B=42, C=28, D=38, E=47. Which class has the FEWEST students?",
+        "opts": [
+          "Class A",
+          "Class B",
+          "Class C",
+          "Class D"
+        ],
+        "ans": "C",
+        "steps": [
+          "Comparing 35, 42, 28, 38, 47, the smallest value is 28.",
+          "Class C has the fewest students."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "A",
+              "value": 35,
+              "color": "#e67e22"
+            },
+            {
+              "label": "B",
+              "value": 42,
+              "color": "#c0392b"
+            },
+            {
+              "label": "C",
+              "value": 28,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "D",
+              "value": 38,
+              "color": "#27ae60"
+            },
+            {
+              "label": "E",
+              "value": 47,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A farmer has 9 rows of plants with 12 plants in each row. How many plants are there in all?",
+        "opts": [
+          "96",
+          "108",
+          "116",
+          "120"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total plants = 9 × 12 = 108."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Neha had ₹200. She spent ₹75 on a book and ₹48 on stationery. How much does she have left?",
+        "opts": [
+          "₹77",
+          "₹87",
+          "₹123",
+          "₹127"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total spent = 75 + 48 = ₹123.",
+          "Money left = 200 - 123 = ₹77."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A ribbon is 6 m 10 cm long. After cutting off 2 m 75 cm, how much ribbon is left?",
+        "opts": [
+          "3 m 25 cm",
+          "3 m 30 cm",
+          "3 m 40 cm",
+          "3 m 35 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "6 m 10 cm = 610 cm. 2 m 75 cm = 275 cm.",
+          "610 - 275 = 335 cm = 3 m 35 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "A clock shows 8 : 00 a.m. What time will it show 3 hours 30 minutes later?",
+        "opts": [
+          "10 : 30 a.m.",
+          "11 : 00 a.m.",
+          "11 : 30 a.m.",
+          "12 : 00 p.m."
+        ],
+        "ans": "C",
+        "steps": [
+          "8:00 a.m. + 3 hr 30 min = 11:30 a.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 8,
+          "minute": 0
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "The sum of two numbers is 120. One number is 3 times the other. What is the LARGER number?",
+        "opts": [
+          "90",
+          "80",
+          "70",
+          "60"
+        ],
+        "ans": "A",
+        "steps": [
+          "Let the smaller number = x, larger = 3x. Total parts = x + 3x = 4x = 120, so x = 30.",
+          "Larger number = 3 × 30 = 90."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Nisha reads 15 pages a day. In how many days will she finish a book of 180 pages?",
+        "opts": [
+          "10",
+          "12",
+          "14",
+          "15"
+        ],
+        "ans": "B",
+        "steps": [
+          "Number of days = 180 ÷ 15 = 12."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangular swimming pool is 25 m long and 10 m wide. What is the cost of fencing around it at ₹50 per metre?",
+        "opts": [
+          "₹ 2,500",
+          "₹ 3,000",
+          "₹ 3,200",
+          "₹ 3,500"
+        ],
+        "ans": "D",
+        "steps": [
+          "Perimeter = 2 × (25 + 10) = 70 m.",
+          "Cost = 70 × 50 = ₹3,500."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 25,
+          "b": 10
+        }
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "When a number is multiplied by 8 and then 25 is added, the result is 225. What is the number?",
+        "opts": [
+          "20",
+          "22",
+          "25",
+          "28"
+        ],
+        "ans": "C",
+        "steps": [
+          "8x + 25 = 225 → 8x = 200 → x = 25."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A class has 40 students. 1/4 play chess and 2/5 play carrom. How many students play NEITHER?",
+        "opts": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
+        "ans": "A",
+        "steps": [
+          "Students playing chess or carrom = 1/4 + 2/5 = 5/20 + 8/20 = 13/20 of 40 = 26.",
+          "Students playing neither = 40 - 26 = 14."
+        ]
+      }
+    ],
+    "D": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+        "opts": [
+          "30",
+          "35",
+          "37",
+          "40"
+        ],
+        "ans": "C",
+        "steps": [
+          "The differences between consecutive terms increase by 2 each time: 3, 5, 7, 9, 11.",
+          "26 + 11 = 37."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, CAR is coded as ECT. How is BUS coded?",
+        "opts": [
+          "CVU",
+          "DWU",
+          "DXV",
+          "EWT"
+        ],
+        "ans": "B",
+        "steps": [
+          "Each letter of CAR is shifted forward by 2 places to get ECT.",
+          "Apply the same +2 shift to BUS: B→D, U→W, S→U, giving DWU."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "15 students stand in a line. Meena is 6th from the right. What is her position from the left?",
+        "opts": [
+          "8th",
+          "9th",
+          "11th",
+          "10th"
+        ],
+        "ans": "D",
+        "steps": [
+          "Position from left = Total - Position from right + 1.",
+          "15 - 6 + 1 = 10th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 8 : 10. What time will its mirror image show?",
+        "opts": [
+          "3 : 50",
+          "4 : 10",
+          "4 : 50",
+          "3 : 10"
+        ],
+        "ans": "A",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 8:10 = 3:50."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 8,
+          "minute": 10
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many faces does a triangular prism have?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ans": "C",
+        "steps": [
+          "A triangular prism has 2 triangular faces and 3 rectangular faces, giving 5 faces in total."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Rohit walks 5 km South, then turns West and walks 12 km. How far is he from his starting point?",
+        "opts": [
+          "7 km",
+          "13 km",
+          "17 km",
+          "12 km"
+        ],
+        "ans": "B",
+        "steps": [
+          "The South and West legs form a right triangle with legs 5 km and 12 km.",
+          "Straight-line distance = √(5² + 12²) = √169 = 13 km."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Fish : Water :: Bird : ?",
+        "opts": [
+          "Cage",
+          "Nest",
+          "Ground",
+          "Air"
+        ],
+        "ans": "D",
+        "steps": [
+          "A Fish lives and moves in Water.",
+          "In the same way, a Bird lives and moves through the Air."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "1 fortnight = 14 days. How many days are there in 3 fortnights?",
+        "opts": [
+          "42",
+          "28",
+          "35",
+          "56"
+        ],
+        "ans": "A",
+        "steps": [
+          "3 fortnights = 3 × 14 = 42 days."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Square",
+          "Triangle",
+          "Cone",
+          "Rectangle"
+        ],
+        "ans": "C",
+        "steps": [
+          "Square, Triangle, and Rectangle are all flat (2D) shapes.",
+          "Cone is a solid (3D) shape, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the 13th letter of the English alphabet?",
+        "opts": [
+          "K",
+          "M",
+          "L",
+          "N"
+        ],
+        "ans": "B",
+        "steps": [
+          "Counting from A(1) to the 13th position lands on M."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the difference between the greatest and smallest 5-digit numbers?",
+        "opts": [
+          "89,000",
+          "89,990",
+          "89,998",
+          "89,999"
+        ],
+        "ans": "D",
+        "steps": [
+          "Greatest 5-digit number = 99,999. Smallest 5-digit number = 10,000.",
+          "Difference = 99,999 - 10,000 = 89,999."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is LXXIV in Hindu-Arabic numerals?",
+        "opts": [
+          "64",
+          "71",
+          "74",
+          "84"
+        ],
+        "ans": "C",
+        "steps": [
+          "LXXIV = LXX(70) + IV(4) = 74."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "5/7 + 2/7 = ?",
+        "opts": [
+          "7/14",
+          "1",
+          "3/7",
+          "7/49"
+        ],
+        "ans": "B",
+        "steps": [
+          "5/7 + 2/7 = 7/7 = 1."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "How many degrees are there in a straight angle?",
+        "opts": [
+          "180°",
+          "90°",
+          "360°",
+          "270°"
+        ],
+        "ans": "A",
+        "steps": [
+          "A straight angle is a straight line and measures exactly 180°."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "The area of a square is 81 cm². What is its perimeter?",
+        "opts": [
+          "16 cm",
+          "24 cm",
+          "32 cm",
+          "36 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "Side = √81 = 9 cm.",
+          "Perimeter = 4 × 9 = 36 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "In a class test: 5 students scored A, 12 scored B, 8 scored C, 3 scored D. How many MORE students scored B than C?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "ans": "C",
+        "steps": [
+          "B - C = 12 - 8 = 4."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "A",
+              "value": 5,
+              "color": "#e67e22"
+            },
+            {
+              "label": "B",
+              "value": 12,
+              "color": "#c0392b"
+            },
+            {
+              "label": "C",
+              "value": 8,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "D",
+              "value": 3,
+              "color": "#27ae60"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "5,678 + 3,945 = ?",
+        "opts": [
+          "9,513",
+          "9,623",
+          "9,713",
+          "9,823"
+        ],
+        "ans": "B",
+        "steps": [
+          "5,678 + 3,945 = 9,623."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "308 × 6 = ?",
+        "opts": [
+          "1,848",
+          "1,838",
+          "1,858",
+          "1,868"
+        ],
+        "ans": "A",
+        "steps": [
+          "308 × 6 = 1,848."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "2 l 500 ml = ? ml",
+        "opts": [
+          "250",
+          "2,050",
+          "25,000",
+          "2,500"
+        ],
+        "ans": "D",
+        "steps": [
+          "1 litre = 1,000 ml, so 2 l 500 ml = 2,000 + 500 = 2,500 ml."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "A rhombus has how many sides?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "A rhombus is a quadrilateral, so it has 4 sides."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "4,72,538 + 2,84,617 = ?",
+        "opts": [
+          "7,57,155",
+          "7,56,155",
+          "7,57,255",
+          "7,58,155"
+        ],
+        "ans": "A",
+        "steps": [
+          "4,72,538 + 2,84,617 = 7,57,155."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Aisha uses 3/8 of her ribbon for one project and 2/8 for another. What fraction of the ribbon is left?",
+        "opts": [
+          "1/8",
+          "2/8",
+          "5/8",
+          "3/8"
+        ],
+        "ans": "D",
+        "steps": [
+          "Ribbon used = 3/8 + 2/8 = 5/8.",
+          "Ribbon left = 1 - 5/8 = 3/8."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A swimming pool holds 5,240 litres. 1,875 litres are drained. How many litres remain?",
+        "opts": [
+          "3,255",
+          "3,365",
+          "3,455",
+          "3,565"
+        ],
+        "ans": "B",
+        "steps": [
+          "5,240 - 1,875 = 3,365."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A bus leaves at 7 : 30 a.m. and reaches its destination at 2 : 15 p.m. How long is the journey?",
+        "opts": [
+          "5 hr 45 min",
+          "6 hr 15 min",
+          "6 hr 45 min",
+          "7 hr 15 min"
+        ],
+        "ans": "C",
+        "steps": [
+          "From 7:30 a.m. to 2:30 p.m. is exactly 7 hours.",
+          "2:15 p.m. is 15 minutes before 2:30 p.m., so the journey is 7 hr - 15 min = 6 hr 45 min."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of a square park is 200 m. What is the length of one side?",
+        "opts": [
+          "50 m",
+          "40 m",
+          "60 m",
+          "100 m"
+        ],
+        "ans": "A",
+        "steps": [
+          "Side = Perimeter ÷ 4 = 200 ÷ 4 = 50 m."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "In a class survey: 20 students like chocolate, 12 like vanilla, 8 like strawberry (total = 40). What fraction of students like chocolate?",
+        "opts": [
+          "1/3",
+          "1/4",
+          "1/5",
+          "1/2"
+        ],
+        "ans": "D",
+        "steps": [
+          "Fraction liking chocolate = 20/40 = 1/2."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Choc",
+              "value": 20,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Vanilla",
+              "value": 12,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Straw",
+              "value": 8,
+              "color": "#e67e22"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "180 marbles are distributed equally among 9 children. How many marbles does each child get?",
+        "opts": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "ans": "B",
+        "steps": [
+          "Marbles per child = 180 ÷ 9 = 20."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "A shopkeeper buys pens for ₹8 each and sells them for ₹12 each. What is his total profit on 15 pens?",
+        "opts": [
+          "₹ 45",
+          "₹ 50",
+          "₹ 60",
+          "₹ 75"
+        ],
+        "ans": "C",
+        "steps": [
+          "Profit per pen = 12 - 8 = ₹4.",
+          "Total profit on 15 pens = 4 × 15 = ₹60."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A garden is 18 m long and 12 m wide. What is its perimeter?",
+        "opts": [
+          "60 m",
+          "30 m",
+          "72 m",
+          "48 m"
+        ],
+        "ans": "A",
+        "steps": [
+          "Perimeter = 2 × (18 + 12) = 2 × 30 = 60 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 18,
+          "b": 12
+        }
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "School starts at 7 : 45 a.m. and ends at 2 : 30 p.m. How long is the school day?",
+        "opts": [
+          "5 hr 45 min",
+          "6 hr 15 min",
+          "6 hr 30 min",
+          "6 hr 45 min"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 7:45 a.m. to 2:45 p.m. is exactly 7 hours.",
+          "2:30 p.m. is 15 minutes before 2:45 p.m., so the school day is 7 hr - 15 min = 6 hr 45 min."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 45
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "The average of 5 numbers is 24. Four of the numbers are 18, 22, 30, and 26. What is the fifth number?",
+        "opts": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "ans": "C",
+        "steps": [
+          "Sum of all 5 numbers = 24 × 5 = 120.",
+          "Sum of the four known numbers = 18 + 22 + 30 + 26 = 96.",
+          "Fifth number = 120 - 96 = 24."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "A number is doubled and then 15 is subtracted. The result is 61. What is the number?",
+        "opts": [
+          "38",
+          "34",
+          "42",
+          "46"
+        ],
+        "ans": "A",
+        "steps": [
+          "2x - 15 = 61 → 2x = 76 → x = 38."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A train covers 240 km in 4 hours. At the same speed, how long will it take to cover 360 km?",
+        "opts": [
+          "5 hr",
+          "6 hr",
+          "7 hr",
+          "8 hr"
+        ],
+        "ans": "B",
+        "steps": [
+          "Speed = 240 ÷ 4 = 60 km/hr.",
+          "Time for 360 km = 360 ÷ 60 = 6 hr."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "3/8 of a class of 40 students are girls. How many MORE boys are there than girls?",
+        "opts": [
+          "5",
+          "8",
+          "9",
+          "10"
+        ],
+        "ans": "D",
+        "steps": [
+          "Girls = 3/8 × 40 = 15. Boys = 40 - 15 = 25.",
+          "Difference = 25 - 15 = 10."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "The cost of 7 notebooks is ₹231. What is the cost of 12 such notebooks?",
+        "opts": [
+          "₹ 360",
+          "₹ 378",
+          "₹ 396",
+          "₹ 420"
+        ],
+        "ans": "C",
+        "steps": [
+          "Cost per notebook = 231 ÷ 7 = ₹33.",
+          "Cost of 12 notebooks = 33 × 12 = ₹396."
+        ]
+      }
+    ],
+    "E": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next? 7, 14, 28, 56, ?",
+        "opts": [
+          "112",
+          "84",
+          "96",
+          "108"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each term is double the previous term.",
+          "56 × 2 = 112."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, SUN is coded as VXQ. How is MOON coded?",
+        "opts": [
+          "PRRP",
+          "PRQR",
+          "PRRQ",
+          "QRRP"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each letter of SUN is shifted forward by 3 places to get VXQ.",
+          "Apply the same +3 shift to MOON: M→P, O→R, O→R, N→Q, giving PRRQ."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "8 students sit in a row. Kiran is 3rd from the left. What is his position from the right?",
+        "opts": [
+          "4th",
+          "5th",
+          "7th",
+          "6th"
+        ],
+        "ans": "D",
+        "steps": [
+          "Position from right = Total - Position from left + 1.",
+          "8 - 3 + 1 = 6th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "The clock shows 5 : 30. What time does its mirror image show?",
+        "opts": [
+          "6 : 00",
+          "6 : 30",
+          "5 : 00",
+          "7 : 00"
+        ],
+        "ans": "B",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 5:30 = 6:30."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 5,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many vertices does a triangular pyramid (tetrahedron) have?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "ans": "A",
+        "steps": [
+          "A triangular pyramid has 3 base vertices plus 1 apex vertex, giving 4 vertices in total."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Geeta starts facing North. She turns 90° clockwise, then 180° more clockwise. In which direction is she now facing?",
+        "opts": [
+          "North",
+          "East",
+          "West",
+          "South"
+        ],
+        "ans": "C",
+        "steps": [
+          "Turning 90° clockwise from North faces her East.",
+          "Turning a further 180° clockwise from East faces her West."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Chef : Kitchen :: Pilot : ?",
+        "opts": [
+          "Airport",
+          "Runway",
+          "Terminal",
+          "Cockpit"
+        ],
+        "ans": "D",
+        "steps": [
+          "A Chef works in the Kitchen.",
+          "In the same way, a Pilot works in the Cockpit."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "Mohan's watch gains 2 minutes every hour. He sets it correctly at 8 : 00 a.m. What time will it show at 2 : 00 p.m.?",
+        "opts": [
+          "2 : 06 p.m.",
+          "2 : 12 p.m.",
+          "2 : 10 p.m.",
+          "2 : 14 p.m."
+        ],
+        "ans": "B",
+        "steps": [
+          "From 8:00 a.m. to 2:00 p.m. is 6 hours.",
+          "Total gain = 6 × 2 = 12 minutes, so the watch shows 2:12 p.m."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Pound",
+          "Kilometer",
+          "Centimeter",
+          "Millimeter"
+        ],
+        "ans": "A",
+        "steps": [
+          "Kilometer, Centimeter, and Millimeter are all units of length.",
+          "Pound is a unit of weight, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "The alphabet is written in reverse (Z, Y, X, ...). Which letter is at the 10th position?",
+        "opts": [
+          "P",
+          "R",
+          "S",
+          "Q"
+        ],
+        "ans": "D",
+        "steps": [
+          "Counting backward from Z: Z(1), Y(2), X(3), W(4), V(5), U(6), T(7), S(8), R(9), Q(10).",
+          "The 10th position is Q."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the place value of 0 in the number 5,04,831?",
+        "opts": [
+          "50,000",
+          "5,000",
+          "0",
+          "500"
+        ],
+        "ans": "C",
+        "steps": [
+          "In 5,04,831, the 0 is in the ten-thousands place.",
+          "Its place value = 0 × 10,000 = 0."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Convert 96 to Roman numerals.",
+        "opts": [
+          "XCVII",
+          "XCVI",
+          "XCVIII",
+          "XCIX"
+        ],
+        "ans": "B",
+        "steps": [
+          "96 = 90 + 6 = XC + VI = XCVI."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "7/9 – 4/9 = ?",
+        "opts": [
+          "3/9",
+          "3/18",
+          "4/9",
+          "3/0"
+        ],
+        "ans": "A",
+        "steps": [
+          "7/9 - 4/9 = 3/9."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following is NOT a type of angle?",
+        "opts": [
+          "Acute",
+          "Obtuse",
+          "Reflex",
+          "Parallel"
+        ],
+        "ans": "D",
+        "steps": [
+          "Acute, Obtuse, and Reflex all describe angle measures.",
+          "Parallel describes a relationship between lines, not an angle type."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "A triangle has sides 15 cm, 15 cm, and 18 cm. What is its perimeter?",
+        "opts": [
+          "42 cm",
+          "45 cm",
+          "48 cm",
+          "54 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Perimeter = 15 + 15 + 18 = 48 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following shapes has NO line of symmetry?",
+        "opts": [
+          "Circle",
+          "Scalene Triangle",
+          "Square",
+          "Rectangle"
+        ],
+        "ans": "B",
+        "steps": [
+          "A scalene triangle has all sides and angles different, so it has no line of symmetry."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "7,284 – 5,637 = ?",
+        "opts": [
+          "1,647",
+          "1,547",
+          "1,747",
+          "1,557"
+        ],
+        "ans": "A",
+        "steps": [
+          "7,284 - 5,637 = 1,647."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "75 × 12 = ?",
+        "opts": [
+          "860",
+          "880",
+          "890",
+          "900"
+        ],
+        "ans": "D",
+        "steps": [
+          "75 × 12 = 900."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "8 m 40 cm – 3 m 75 cm = ?",
+        "opts": [
+          "4 m 55 cm",
+          "4 m 60 cm",
+          "4 m 65 cm",
+          "5 m 15 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "8 m 40 cm = 840 cm. 3 m 75 cm = 375 cm.",
+          "840 - 375 = 465 cm = 4 m 65 cm."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "504 ÷ 7 = ?",
+        "opts": [
+          "63",
+          "72",
+          "81",
+          "91"
+        ],
+        "ans": "B",
+        "steps": [
+          "504 ÷ 7 = 72."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "The library has 4,52,367 English books and 2,38,451 Hindi books. How many MORE English books are there than Hindi books?",
+        "opts": [
+          "2,13,816",
+          "2,13,906",
+          "2,13,910",
+          "2,13,916"
+        ],
+        "ans": "D",
+        "steps": [
+          "4,52,367 - 2,38,451 = 2,13,916."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Riya ate 2/6 of a cake and her sister ate 1/6. What fraction of the cake is left?",
+        "opts": [
+          "3/6",
+          "2/6",
+          "1/6",
+          "4/6"
+        ],
+        "ans": "A",
+        "steps": [
+          "Cake eaten = 2/6 + 1/6 = 3/6.",
+          "Cake left = 1 - 3/6 = 3/6."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A train departs at 16 : 30 hours. What is this time in 12-hour (a.m./p.m.) format?",
+        "opts": [
+          "4 : 30 a.m.",
+          "6 : 30 p.m.",
+          "4 : 30 p.m.",
+          "6 : 30 a.m."
+        ],
+        "ans": "C",
+        "steps": [
+          "16:30 hours = 16:30 - 12:00 = 4:30 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 4,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Aman has ₹1,500. He buys a toy for ₹875 and a book for ₹349. How much does he have left?",
+        "opts": [
+          "₹ 246",
+          "₹ 276",
+          "₹ 296",
+          "₹ 326"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total spent = 875 + 349 = ₹1,224.",
+          "Money left = 1,500 - 1,224 = ₹276."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of a regular hexagon is 84 cm. What is the length of each side?",
+        "opts": [
+          "10 cm",
+          "12 cm",
+          "13 cm",
+          "14 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "A hexagon has 6 equal sides.",
+          "Side length = 84 ÷ 6 = 14 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "A tally chart shows: Cricket=25, Football=18, Badminton=12, Tennis=15. What is the TOTAL number of students surveyed?",
+        "opts": [
+          "70",
+          "60",
+          "65",
+          "75"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total = 25 + 18 + 12 + 15 = 70."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Cricket",
+              "value": 25,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Football",
+              "value": 18,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Badminton",
+              "value": 12,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Tennis",
+              "value": 15,
+              "color": "#27ae60"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "15 boxes contain 9 apples each. How many apples are there in all?",
+        "opts": [
+          "120",
+          "125",
+          "135",
+          "150"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total apples = 15 × 9 = 135."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "A pencil costs ₹5 and an eraser costs ₹3. What is the cost of 4 pencils and 5 erasers?",
+        "opts": [
+          "₹ 30",
+          "₹ 35",
+          "₹ 40",
+          "₹ 45"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cost of pencils = 4 × 5 = ₹20.",
+          "Cost of erasers = 5 × 3 = ₹15.",
+          "Total = 20 + 15 = ₹35."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A room is 6 m 80 cm long and 4 m 20 cm wide. What is the perimeter of the room?",
+        "opts": [
+          "18 m",
+          "20 m",
+          "21 m",
+          "22 m"
+        ],
+        "ans": "D",
+        "steps": [
+          "Perimeter = 2 × (6 m 80 cm + 4 m 20 cm) = 2 × 11 m = 22 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 6.8,
+          "b": 4.2
+        }
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Sanjay arrived at the station at 5 : 20 p.m. His train had left 25 minutes before he arrived. What time did the train leave?",
+        "opts": [
+          "4 : 55 p.m.",
+          "5 : 00 p.m.",
+          "4 : 45 p.m.",
+          "5 : 45 p.m."
+        ],
+        "ans": "A",
+        "steps": [
+          "5:20 p.m. - 25 min = 4:55 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 5,
+          "minute": 20
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Pooja scored 75, 82, 68, 91, and 74 in five subjects. What is her TOTAL score?",
+        "opts": [
+          "380",
+          "390",
+          "400",
+          "410"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total = 75 + 82 + 68 + 91 + 74 = 390."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "S1",
+              "value": 75,
+              "color": "#e67e22"
+            },
+            {
+              "label": "S2",
+              "value": 82,
+              "color": "#c0392b"
+            },
+            {
+              "label": "S3",
+              "value": 68,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "S4",
+              "value": 91,
+              "color": "#27ae60"
+            },
+            {
+              "label": "S5",
+              "value": 74,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangular field is 40 m × 25 m. Mohan walks along its boundary 4 times. How many metres does he walk in all?",
+        "opts": [
+          "420 m",
+          "480 m",
+          "520 m",
+          "560 m"
+        ],
+        "ans": "C",
+        "steps": [
+          "Perimeter = 2 × (40 + 25) = 130 m.",
+          "Distance for 4 rounds = 130 × 4 = 520 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 40,
+          "b": 25
+        }
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A bag has 40 marbles: Red = 3/8, Blue = 1/4, and the rest are Green. How many GREEN marbles are there?",
+        "opts": [
+          "10",
+          "12",
+          "14",
+          "15"
+        ],
+        "ans": "D",
+        "steps": [
+          "Red = 3/8 × 40 = 15. Blue = 1/4 × 40 = 10.",
+          "Green = 40 - 15 - 10 = 15."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A shopkeeper bought 50 pens for ₹400 and sold each pen for ₹10. What is his total profit?",
+        "opts": [
+          "₹ 100",
+          "₹ 120",
+          "₹ 150",
+          "₹ 200"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total selling price = 50 × 10 = ₹500.",
+          "Profit = 500 - 400 = ₹100."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "The sum of Meena's age and her mother's age is 52. The mother is 3 times as old as Meena. How old is Meena?",
+        "opts": [
+          "11",
+          "13",
+          "15",
+          "17"
+        ],
+        "ans": "B",
+        "steps": [
+          "Let Meena's age = x, mother's age = 3x. Total parts = x + 3x = 4x = 52, so x = 13."
+        ]
+      }
+    ],
+    "F": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next? 81, 64, 49, 36, ?",
+        "opts": [
+          "16",
+          "25",
+          "9",
+          "36"
+        ],
+        "ans": "B",
+        "steps": [
+          "The series is of descending perfect squares: 9², 8², 7², 6², so the next term is 5².",
+          "5² = 25."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, LAMP is coded as NCOR. How is TREE coded?",
+        "opts": [
+          "VTGG",
+          "VTGF",
+          "VUGG",
+          "VTHG"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each letter of LAMP is shifted forward by 2 places to get NCOR.",
+          "Apply the same +2 shift to TREE: T→V, R→T, E→G, E→G, giving VTGG."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a class of 40, Ananya is 15th from the left. What is her position from the right?",
+        "opts": [
+          "24th",
+          "25th",
+          "26th",
+          "27th"
+        ],
+        "ans": "C",
+        "steps": [
+          "Position from right = Total - Position from left + 1.",
+          "40 - 15 + 1 = 26th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 2 : 50. What time will its mirror image show?",
+        "opts": [
+          "9 : 00",
+          "9 : 05",
+          "8 : 50",
+          "9 : 10"
+        ],
+        "ans": "D",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 2:50 = 9:10."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 2,
+          "minute": 50
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many faces does a sphere have?",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "A sphere has a single continuous curved surface, counted as 1 face."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Vikram starts from point X, walks 8 km East, then 8 km South, then 8 km West. How far is he from his starting point X?",
+        "opts": [
+          "8 km",
+          "16 km",
+          "24 km",
+          "0 km"
+        ],
+        "ans": "A",
+        "steps": [
+          "The 8 km East and 8 km West movements cancel each other out.",
+          "Only the 8 km South movement remains, so he is 8 km from the start."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Gloves : Hands :: Helmet : ?",
+        "opts": [
+          "Ears",
+          "Eyes",
+          "Head",
+          "Neck"
+        ],
+        "ans": "C",
+        "steps": [
+          "Gloves are worn to protect the Hands.",
+          "In the same way, a Helmet is worn to protect the Head."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "January has 31 days. What is the MAXIMUM number of Sundays that January can have?",
+        "opts": [
+          "4",
+          "3",
+          "6",
+          "5"
+        ],
+        "ans": "D",
+        "steps": [
+          "31 days = 4 full weeks (28 days) + 3 extra days.",
+          "If the month starts on a Sunday, those 3 extra days can also be Sundays—no wait, only the first of the 3 extra days would be Sunday—giving a maximum of 5 Sundays."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Millimetre",
+          "Kilogram",
+          "Centimetre",
+          "Kilometre"
+        ],
+        "ans": "B",
+        "steps": [
+          "Millimetre, Centimetre, and Kilometre are all units of length.",
+          "Kilogram is a unit of mass, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the next letter in the series: D, H, L, P, ?",
+        "opts": [
+          "T",
+          "S",
+          "R",
+          "U"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each letter jumps forward by 4 places: D(4), H(8), L(12), P(16).",
+          "Next: 16 + 4 = 20 = T."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Round 4,87,523 to the nearest thousand.",
+        "opts": [
+          "4,87,000",
+          "4,88,500",
+          "4,88,000",
+          "4,90,000"
+        ],
+        "ans": "C",
+        "steps": [
+          "The hundreds digit is 5, so round up the thousands digit.",
+          "4,87,523 rounds to 4,88,000."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is CDXLVIII in Hindu-Arabic numerals?",
+        "opts": [
+          "344",
+          "408",
+          "444",
+          "448"
+        ],
+        "ans": "D",
+        "steps": [
+          "CDXLVIII = CD(400) + XL(40) + VIII(8) = 448."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Which fraction is equivalent to 4/6?",
+        "opts": [
+          "3/4",
+          "2/3",
+          "8/10",
+          "6/8"
+        ],
+        "ans": "B",
+        "steps": [
+          "4/6 simplifies by dividing numerator and denominator by 2: 4÷2/6÷2 = 2/3."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Two lines that NEVER meet are called:",
+        "opts": [
+          "Parallel",
+          "Perpendicular",
+          "Intersecting",
+          "Concurrent"
+        ],
+        "ans": "A",
+        "steps": [
+          "Lines that never meet, no matter how far extended, are called Parallel lines."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the perimeter of a regular decagon with each side 7 cm?",
+        "opts": [
+          "60 cm",
+          "65 cm",
+          "70 cm",
+          "77 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "A decagon has 10 equal sides.",
+          "Perimeter = 10 × 7 = 70 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "Scores of 5 students: 45, 60, 55, 70, 40. What is the difference between the HIGHEST and the LOWEST score?",
+        "opts": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "ans": "D",
+        "steps": [
+          "Highest score = 70, lowest score = 40.",
+          "Difference = 70 - 40 = 30."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "S1",
+              "value": 45,
+              "color": "#e67e22"
+            },
+            {
+              "label": "S2",
+              "value": 60,
+              "color": "#c0392b"
+            },
+            {
+              "label": "S3",
+              "value": 55,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "S4",
+              "value": 70,
+              "color": "#27ae60"
+            },
+            {
+              "label": "S5",
+              "value": 40,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "6,000 – 4,738 = ?",
+        "opts": [
+          "1,162",
+          "1,262",
+          "1,362",
+          "1,462"
+        ],
+        "ans": "B",
+        "steps": [
+          "6,000 - 4,738 = 1,262."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "45 × 25 = ?",
+        "opts": [
+          "1,125",
+          "1,025",
+          "1,225",
+          "1,325"
+        ],
+        "ans": "A",
+        "steps": [
+          "45 × 25 = 1,125."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "2 l 750 ml + 1 l 600 ml = ?",
+        "opts": [
+          "3 l 350 ml",
+          "4 l 150 ml",
+          "4 l 350 ml",
+          "4 l 750 ml"
+        ],
+        "ans": "C",
+        "steps": [
+          "2 l 750 ml + 1 l 600 ml = 3 l 1350 ml.",
+          "1350 ml = 1 l 350 ml, so total = 4 l 350 ml."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "A square is cut along ONE diagonal. How many triangles are formed?",
+        "opts": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "ans": "D",
+        "steps": [
+          "A single diagonal divides a square into 2 equal triangles."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A school has 3,45,200 books. 1,27,850 books are distributed to students. How many books remain in the school?",
+        "opts": [
+          "2,17,350",
+          "2,07,350",
+          "2,17,150",
+          "2,27,350"
+        ],
+        "ans": "A",
+        "steps": [
+          "3,45,200 - 1,27,850 = 2,17,350."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Renu ate 3/10 of a pizza and Suresh ate 4/10. What fraction of the pizza is left?",
+        "opts": [
+          "7/10",
+          "4/10",
+          "3/10",
+          "1/10"
+        ],
+        "ans": "C",
+        "steps": [
+          "Pizza eaten = 3/10 + 4/10 = 7/10.",
+          "Pizza left = 1 - 7/10 = 3/10."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "Arjun poured 3 l 250 ml into a bucket. He then added 1 l 800 ml more. How much water is in the bucket in all?",
+        "opts": [
+          "4 l 950 ml",
+          "5 l 50 ml",
+          "5 l 150 ml",
+          "5 l 500 ml"
+        ],
+        "ans": "B",
+        "steps": [
+          "3 l 250 ml + 1 l 800 ml = 4 l 1050 ml.",
+          "1050 ml = 1 l 50 ml, so total = 5 l 50 ml."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A movie starts at 7 : 45 p.m. and ends at 10 : 10 p.m. How long is the movie?",
+        "opts": [
+          "2 hr 10 min",
+          "2 hr 15 min",
+          "2 hr 20 min",
+          "2 hr 25 min"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 7:45 p.m. to 10:10 p.m. is 2 hours 25 minutes."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 45
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A rectangular field is 45 m long and 28 m wide. What is its perimeter?",
+        "opts": [
+          "146 m",
+          "126 m",
+          "136 m",
+          "156 m"
+        ],
+        "ans": "A",
+        "steps": [
+          "Perimeter = 2 × (45 + 28) = 2 × 73 = 146 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 45,
+          "b": 28
+        }
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Books read by 5 students: 12, 8, 15, 10, 5. How many books did the top TWO readers read together?",
+        "opts": [
+          "20",
+          "25",
+          "27",
+          "30"
+        ],
+        "ans": "C",
+        "steps": [
+          "The top two readers read 15 and 12 books.",
+          "Together = 15 + 12 = 27."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "S1",
+              "value": 12,
+              "color": "#e67e22"
+            },
+            {
+              "label": "S2",
+              "value": 8,
+              "color": "#c0392b"
+            },
+            {
+              "label": "S3",
+              "value": 15,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "S4",
+              "value": 10,
+              "color": "#27ae60"
+            },
+            {
+              "label": "S5",
+              "value": 5,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A packet has 24 biscuits. How many biscuits are there in 8 such packets?",
+        "opts": [
+          "168",
+          "192",
+          "184",
+          "200"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total biscuits = 24 × 8 = 192."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Ritu had ₹150. She bought 3 notebooks at ₹18 each and 2 pens at ₹12 each. How much did she have left?",
+        "opts": [
+          "₹ 60",
+          "₹ 65",
+          "₹ 68",
+          "₹ 72"
+        ],
+        "ans": "D",
+        "steps": [
+          "Cost of notebooks = 3 × 18 = ₹54. Cost of pens = 2 × 12 = ₹24.",
+          "Total spent = 54 + 24 = ₹78.",
+          "Money left = 150 - 78 = ₹72."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A plank is 5 m 40 cm long. Another is 3 m 80 cm. What is their combined length?",
+        "opts": [
+          "9 m 20 cm",
+          "8 m 20 cm",
+          "9 m 40 cm",
+          "9 m 80 cm"
+        ],
+        "ans": "A",
+        "steps": [
+          "5 m 40 cm + 3 m 80 cm = 8 m 120 cm.",
+          "120 cm = 1 m 20 cm, so total = 9 m 20 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Monu left home at 7 : 20 a.m. He takes 45 minutes to reach school. When does he arrive?",
+        "opts": [
+          "8 : 00 a.m.",
+          "8 : 05 p.m.",
+          "8 : 05 a.m.",
+          "8 : 10 a.m."
+        ],
+        "ans": "C",
+        "steps": [
+          "7:20 a.m. + 45 min = 8:05 a.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 20
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Ravi spent ₹112 on apples (₹12 each) and oranges (₹8 each). He bought 4 apples. How many oranges did he buy?",
+        "opts": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "ans": "D",
+        "steps": [
+          "Cost of 4 apples = 4 × 12 = ₹48.",
+          "Amount left for oranges = 112 - 48 = ₹64.",
+          "Number of oranges = 64 ÷ 8 = 8."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Arrange 1/2, 1/3, 1/4, 1/6 in descending order. Which fraction is the 2nd LARGEST?",
+        "opts": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/6"
+        ],
+        "ans": "B",
+        "steps": [
+          "In descending order: 1/2, 1/3, 1/4, 1/6.",
+          "The 2nd largest fraction is 1/3."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "Today is Friday, 3rd March. What will be the date on the NEXT Monday?",
+        "opts": [
+          "6th March",
+          "7th March",
+          "8th March",
+          "9th March"
+        ],
+        "ans": "A",
+        "steps": [
+          "From Friday to the next Monday is 3 days.",
+          "3rd March + 3 days = 6th March."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A number rounded to the nearest hundred gives 700. What is the LARGEST possible value of the number?",
+        "opts": [
+          "704",
+          "739",
+          "749",
+          "750"
+        ],
+        "ans": "C",
+        "steps": [
+          "A number rounds down to 700 only if it is less than 750 (750 would round up to 800).",
+          "The largest such number is 749."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "The sum of Arun's and Bina's ages is 36. If Arun is 3 times Bina's age, how old will Arun be in 4 years?",
+        "opts": [
+          "25",
+          "28",
+          "30",
+          "31"
+        ],
+        "ans": "D",
+        "steps": [
+          "Let Bina = x, Arun = 3x. Total parts = x + 3x = 4x = 36, so x = 9.",
+          "Arun's current age = 3 × 9 = 27.",
+          "In 4 years, Arun will be 27 + 4 = 31."
+        ]
+      }
+    ],
+    "G": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next in this famous series? 1, 1, 2, 3, 5, 8, ?",
+        "opts": [
+          "10",
+          "11",
+          "13",
+          "12"
+        ],
+        "ans": "C",
+        "steps": [
+          "This is the Fibonacci series, where each term is the sum of the two preceding terms.",
+          "5 + 8 = 13."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, NICE is written as OJDF. How is WARM written in the same code?",
+        "opts": [
+          "XBSM",
+          "XASM",
+          "XBTN",
+          "XBSN"
+        ],
+        "ans": "D",
+        "steps": [
+          "Each letter of NICE is shifted forward by 1 place to get OJDF.",
+          "Apply the same +1 shift to WARM: W→X, A→B, R→S, M→N, giving XBSN."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a row of 18 people, Tara is 5th from the right. What is her position from the left?",
+        "opts": [
+          "14th",
+          "13th",
+          "12th",
+          "15th"
+        ],
+        "ans": "A",
+        "steps": [
+          "Position from left = Total - Position from right + 1.",
+          "18 - 5 + 1 = 14th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 4 : 45. What time does its mirror image show?",
+        "opts": [
+          "7 : 00",
+          "7 : 15",
+          "7 : 30",
+          "8 : 15"
+        ],
+        "ans": "B",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 4:45 = 7:15."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 4,
+          "minute": 45
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many vertices does a cylinder have?",
+        "opts": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "ans": "C",
+        "steps": [
+          "A cylinder has two flat circular faces and one curved surface, but no sharp corners, so it has 0 vertices."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Renu walks 6 km East, then 4 km North, then 6 km West. How far is she from her starting point and in which direction?",
+        "opts": [
+          "4 km East",
+          "6 km North",
+          "6 km East",
+          "4 km North"
+        ],
+        "ans": "D",
+        "steps": [
+          "The 6 km East and 6 km West movements cancel each other out.",
+          "Only the 4 km North movement remains, so she is 4 km North of the start."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Pencil : Write :: Scissors : ?",
+        "opts": [
+          "Cut",
+          "Stitch",
+          "Sew",
+          "Paste"
+        ],
+        "ans": "A",
+        "steps": [
+          "A Pencil is used to Write.",
+          "In the same way, Scissors are used to Cut."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "Sita's birthday is 28th February 2024. 2024 is a leap year. What is the very next date?",
+        "opts": [
+          "1st March 2024",
+          "29th February 2024",
+          "28th March 2024",
+          "1st February 2024"
+        ],
+        "ans": "B",
+        "steps": [
+          "In a leap year, February has 29 days.",
+          "The day right after 28th February 2024 is 29th February 2024."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Addition",
+          "Subtraction",
+          "Algebra",
+          "Multiplication"
+        ],
+        "ans": "C",
+        "steps": [
+          "Addition, Subtraction, and Multiplication are all arithmetic operations.",
+          "Algebra is a branch of mathematics, not an operation, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "R is the 18th letter. Which letter is equidistant from Z as R is from A?",
+        "opts": [
+          "H",
+          "J",
+          "K",
+          "I"
+        ],
+        "ans": "D",
+        "steps": [
+          "R's distance from A is 18 - 1 = 17 places.",
+          "Counting the same 17 places back from Z(26): 26 - 17 = 9, which is I."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the value of the digit 5 in the number 15,28,463?",
+        "opts": [
+          "5,00,000",
+          "50,000",
+          "5,00,00,000",
+          "5,000"
+        ],
+        "ans": "A",
+        "steps": [
+          "In 15,28,463, the digit 5 is in the lakhs place.",
+          "Its value = 5 × 1,00,000 = 5,00,000."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is DCCCXXI in Hindu-Arabic numerals?",
+        "opts": [
+          "781",
+          "821",
+          "811",
+          "831"
+        ],
+        "ans": "B",
+        "steps": [
+          "DCCCXXI = DCCC(800) + XX(20) + I(1) = 821."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "3/8 + 1/8 + 2/8 = ?",
+        "opts": [
+          "5/8",
+          "7/8",
+          "6/8",
+          "1/2"
+        ],
+        "ans": "C",
+        "steps": [
+          "3/8 + 1/8 + 2/8 = 6/8."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "An angle of 270° is classified as a:",
+        "opts": [
+          "Acute angle",
+          "Right angle",
+          "Obtuse angle",
+          "Reflex angle"
+        ],
+        "ans": "D",
+        "steps": [
+          "Any angle greater than 180° and less than 360° is called a Reflex angle.",
+          "270° falls in this range, so it is a Reflex angle."
+        ],
+        "imgParams": {
+          "type": "angle",
+          "angle": 270
+        }
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "A rhombus has each side 9 cm. What is its perimeter?",
+        "opts": [
+          "36 cm",
+          "27 cm",
+          "18 cm",
+          "45 cm"
+        ],
+        "ans": "A",
+        "steps": [
+          "A rhombus has 4 equal sides.",
+          "Perimeter = 4 × 9 = 36 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "How many lines of symmetry does a square have?",
+        "opts": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "A square has 4 lines of symmetry: 2 diagonals and 2 lines through the midpoints of opposite sides."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "4,397 + 5,806 = ?",
+        "opts": [
+          "10,103",
+          "10,193",
+          "10,203",
+          "10,303"
+        ],
+        "ans": "C",
+        "steps": [
+          "4,397 + 5,806 = 10,203."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "289 × 9 = ?",
+        "opts": [
+          "2,511",
+          "2,551",
+          "2,591",
+          "2,601"
+        ],
+        "ans": "D",
+        "steps": [
+          "289 × 9 = 2,601."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "1 hour 20 minutes = ? minutes",
+        "opts": [
+          "80",
+          "70",
+          "90",
+          "100"
+        ],
+        "ans": "A",
+        "steps": [
+          "1 hour = 60 minutes.",
+          "60 + 20 = 80 minutes."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which 2D shape always has ALL sides equal?",
+        "opts": [
+          "Rectangle",
+          "Square",
+          "Trapezoid",
+          "Parallelogram"
+        ],
+        "ans": "B",
+        "steps": [
+          "A Square always has all 4 sides equal in length, unlike a general Rectangle, Trapezoid, or Parallelogram."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "The factory produced 6,24,815 units in the first half and 3,87,264 units in the second half of the year. What was the total production for the year?",
+        "opts": [
+          "10,11,079",
+          "10,12,067",
+          "10,12,079",
+          "10,12,089"
+        ],
+        "ans": "C",
+        "steps": [
+          "6,24,815 + 3,87,264 = 10,12,079."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Ramu had 7/12 of a tin of paint. He used 5/12 for a project. What fraction does he have left?",
+        "opts": [
+          "5/12",
+          "2/12",
+          "7/12",
+          "1/6"
+        ],
+        "ans": "D",
+        "steps": [
+          "Paint left = 7/12 - 5/12 = 2/12.",
+          "2/12 simplifies to 1/6."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What is the total weight of 3 kg 400 g and 4 kg 950 g?",
+        "opts": [
+          "8 kg 350 g",
+          "7 kg 350 g",
+          "8 kg 450 g",
+          "8 kg 250 g"
+        ],
+        "ans": "A",
+        "steps": [
+          "3 kg 400 g + 4 kg 950 g = 7 kg 1350 g.",
+          "1350 g = 1 kg 350 g, so total = 8 kg 350 g."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A shopkeeper opens at 9 : 30 a.m. and closes at 8 : 15 p.m. For how long is the shop open?",
+        "opts": [
+          "10 hr",
+          "10 hr 45 min",
+          "11 hr",
+          "11 hr 30 min"
+        ],
+        "ans": "B",
+        "steps": [
+          "From 9:30 a.m. to 8:30 p.m. is exactly 11 hours.",
+          "8:15 p.m. is 15 minutes before 8:30 p.m., so the shop is open 11 hr - 15 min = 10 hr 45 min."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 9,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of an equilateral triangle is 45 cm. What is the length of each side?",
+        "opts": [
+          "10 cm",
+          "12 cm",
+          "15 cm",
+          "18 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "An equilateral triangle has 3 equal sides.",
+          "Side length = 45 ÷ 3 = 15 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Test scores: Science=78, Math=92, English=65, History=83, Art=71. In which subject did students score the HIGHEST?",
+        "opts": [
+          "Science",
+          "English",
+          "History",
+          "Math"
+        ],
+        "ans": "D",
+        "steps": [
+          "Comparing 78, 92, 65, 83, 71, the highest value is 92.",
+          "Math has the highest score."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Sci",
+              "value": 78,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Math",
+              "value": 92,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Eng",
+              "value": 65,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Hist",
+              "value": 83,
+              "color": "#27ae60"
+            },
+            {
+              "label": "Art",
+              "value": 71,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A car uses 8 litres of petrol per 100 km. How much petrol is needed for 350 km?",
+        "opts": [
+          "28 litres",
+          "25 litres",
+          "30 litres",
+          "32 litres"
+        ],
+        "ans": "A",
+        "steps": [
+          "Petrol per km = 8/100 litres.",
+          "For 350 km: 8/100 × 350 = 28 litres."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Vikram earns ₹120 per day. How much does he earn in 12 days?",
+        "opts": [
+          "₹ 1,200",
+          "₹ 1,440",
+          "₹ 1,560",
+          "₹ 1,680"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total earnings = 120 × 12 = ₹1,440."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "840 ml is divided equally into 6 parts. What is the volume of each part?",
+        "opts": [
+          "120 ml",
+          "130 ml",
+          "140 ml",
+          "150 ml"
+        ],
+        "ans": "C",
+        "steps": [
+          "Volume of each part = 840 ÷ 6 = 140 ml."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "An evening show starts at 6 : 50 p.m. and lasts 1 hour 55 minutes. When does it end?",
+        "opts": [
+          "8 : 35 p.m.",
+          "8 : 40 p.m.",
+          "8 : 50 p.m.",
+          "8 : 45 p.m."
+        ],
+        "ans": "D",
+        "steps": [
+          "6:50 p.m. + 1 hr 55 min = 8:45 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 6,
+          "minute": 50
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "The product of two consecutive even numbers is 168. What is the SUM of those two numbers?",
+        "opts": [
+          "26",
+          "28",
+          "30",
+          "32"
+        ],
+        "ans": "A",
+        "steps": [
+          "Testing consecutive even numbers: 12 × 14 = 168, which matches.",
+          "Sum = 12 + 14 = 26."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "A toy is marked at ₹560. A discount of ₹85 is given. What is the selling price?",
+        "opts": [
+          "₹ 445",
+          "₹ 475",
+          "₹ 495",
+          "₹ 515"
+        ],
+        "ans": "B",
+        "steps": [
+          "Selling price = 560 - 85 = ₹475."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "Nilu is 3 times as old as her daughter. In 4 years, the sum of their ages will be 60. How old is Nilu NOW?",
+        "opts": [
+          "33",
+          "36",
+          "39",
+          "42"
+        ],
+        "ans": "C",
+        "steps": [
+          "Let daughter's current age = x, Nilu's = 3x.",
+          "In 4 years: (x+4) + (3x+4) = 60 → 4x + 8 = 60 → x = 13.",
+          "Nilu's current age = 3 × 13 = 39."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "What is the smallest 6-digit number that is exactly divisible by 9?",
+        "opts": [
+          "1,00,001",
+          "1,00,005",
+          "1,00,007",
+          "1,00,008"
+        ],
+        "ans": "D",
+        "steps": [
+          "The smallest 6-digit number is 1,00,000, whose digit sum (1) is not divisible by 9.",
+          "Checking upward, 1,00,008 has digit sum 1+0+0+0+0+8=9, which is divisible by 9."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A bucket fills in 8 minutes. A drain empties it in 12 minutes. If both are open together, how long will it take to fill the bucket?",
+        "opts": [
+          "24 minutes",
+          "20 minutes",
+          "16 minutes",
+          "12 minutes"
+        ],
+        "ans": "A",
+        "steps": [
+          "Filling rate = 1/8 of the bucket per minute. Draining rate = 1/12 per minute.",
+          "Net rate = 1/8 - 1/12 = 3/24 - 2/24 = 1/24 per minute.",
+          "Time to fill = 24 minutes."
+        ]
+      }
+    ],
+    "H": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next? 100, 92, 84, 76, 68, ?",
+        "opts": [
+          "52",
+          "56",
+          "58",
+          "60"
+        ],
+        "ans": "D",
+        "steps": [
+          "Each term decreases by 8: 100, 92, 84, 76, 68.",
+          "68 - 8 = 60."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, SKY is coded as VNB. How is SEA coded in the same code?",
+        "opts": [
+          "VGD",
+          "VHE",
+          "VHD",
+          "WHD"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each letter of SKY is shifted forward by 3 places to get VNB (wrapping Y→B).",
+          "Apply the same +3 shift to SEA: S→V, E→H, A→D, giving VHD."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "In a group of 45 students, Mona is 18th from the top. What is her rank from the bottom?",
+        "opts": [
+          "26th",
+          "28th",
+          "29th",
+          "30th"
+        ],
+        "ans": "B",
+        "steps": [
+          "Rank from bottom = Total - Rank from top + 1.",
+          "45 - 18 + 1 = 28th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 12 : 30. What time will its mirror image show?",
+        "opts": [
+          "11 : 30",
+          "12 : 30",
+          "12 : 00",
+          "11 : 00"
+        ],
+        "ans": "A",
+        "steps": [
+          "A mirror reflects a clock about the vertical 12-6 axis.",
+          "12:30 (30 min past 12) reflects to 30 min before 12, which is 11:30."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 12,
+          "minute": 30
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many faces does a triangular pyramid (tetrahedron) have?",
+        "opts": [
+          "3",
+          "5",
+          "6",
+          "4"
+        ],
+        "ans": "D",
+        "steps": [
+          "A tetrahedron has 4 triangular faces in total (1 base + 3 sides)."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Priya walks 3 km North and then 4 km East to reach home from school. What is the straight-line distance from school to home?",
+        "opts": [
+          "3 km",
+          "4 km",
+          "5 km",
+          "7 km"
+        ],
+        "ans": "C",
+        "steps": [
+          "The North and East legs form a right triangle with legs 3 km and 4 km.",
+          "Straight-line distance = √(3² + 4²) = √25 = 5 km."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Sun : Day :: Moon : ?",
+        "opts": [
+          "Sky",
+          "Night",
+          "Star",
+          "Light"
+        ],
+        "ans": "B",
+        "steps": [
+          "The Sun is associated with Day.",
+          "In the same way, the Moon is associated with Night."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "Year 2024 has 366 days. How many weeks and extra days is that?",
+        "opts": [
+          "52 weeks 2 days",
+          "52 weeks 1 day",
+          "53 weeks",
+          "51 weeks 3 days"
+        ],
+        "ans": "A",
+        "steps": [
+          "366 ÷ 7 = 52 remainder 2.",
+          "So 366 days = 52 weeks and 2 extra days."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which month is the ODD ONE OUT?",
+        "opts": [
+          "January",
+          "March",
+          "July",
+          "June"
+        ],
+        "ans": "D",
+        "steps": [
+          "January, March, and July each have 31 days.",
+          "June has only 30 days, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the next letter in the series: B, F, J, N, ?",
+        "opts": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each letter jumps forward by 4 places: B(2), F(6), J(10), N(14).",
+          "Next: 14 + 4 = 18 = R."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is 6,00,000 + 40,000 + 2,000 + 500 + 30 + 7?",
+        "opts": [
+          "6,42,357",
+          "6,42,537",
+          "6,24,537",
+          "6,42,573"
+        ],
+        "ans": "B",
+        "steps": [
+          "Adding the place values: 6,00,000 + 40,000 + 2,000 + 500 + 30 + 7 = 6,42,537."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is MMXVI in Hindu-Arabic numerals?",
+        "opts": [
+          "2016",
+          "1976",
+          "2014",
+          "2024"
+        ],
+        "ans": "A",
+        "steps": [
+          "MMXVI = MM(2000) + XVI(16) = 2016."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following fractions is GREATER than 1/2?",
+        "opts": [
+          "2/5",
+          "3/7",
+          "4/9",
+          "5/8"
+        ],
+        "ans": "D",
+        "steps": [
+          "Comparing to 1/2 = 0.5: 2/5=0.4, 3/7≈0.43, 4/9≈0.44, 5/8=0.625.",
+          "Only 5/8 is greater than 1/2."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "How many angles does a quadrilateral have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ans": "C",
+        "steps": [
+          "A quadrilateral has 4 sides and therefore 4 interior angles."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "The perimeter of an isosceles triangle is 30 cm. Two equal sides are 11 cm each. What is the length of the third side?",
+        "opts": [
+          "6 cm",
+          "8 cm",
+          "10 cm",
+          "12 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Sum of the two equal sides = 11 + 11 = 22 cm.",
+          "Third side = 30 - 22 = 8 cm."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "Which capital letter has BOTH a horizontal AND a vertical line of symmetry?",
+        "opts": [
+          "H",
+          "B",
+          "C",
+          "D"
+        ],
+        "ans": "A",
+        "steps": [
+          "H has a horizontal line of symmetry (top-bottom) and a vertical line of symmetry (left-right).",
+          "B, C, and D each have only a horizontal line of symmetry."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "10,000 – 7,483 = ?",
+        "opts": [
+          "2,417",
+          "2,507",
+          "2,514",
+          "2,517"
+        ],
+        "ans": "D",
+        "steps": [
+          "10,000 - 7,483 = 2,517."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "136 × 9 = ?",
+        "opts": [
+          "1,134",
+          "1,204",
+          "1,224",
+          "1,314"
+        ],
+        "ans": "C",
+        "steps": [
+          "136 × 9 = 1,224."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "7 km 250 m = ? metres",
+        "opts": [
+          "725",
+          "7,250",
+          "72,500",
+          "7,025"
+        ],
+        "ans": "B",
+        "steps": [
+          "1 km = 1,000 m.",
+          "7 km 250 m = 7,000 + 250 = 7,250 m."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the sum of all angles in a triangle?",
+        "opts": [
+          "180°",
+          "270°",
+          "90°",
+          "360°"
+        ],
+        "ans": "A",
+        "steps": [
+          "The interior angles of any triangle always add up to 180°."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Ramesh received payments of ₹1,25,750 and ₹87,400. His total expenses were ₹1,03,250. How much money does he have left?",
+        "opts": [
+          "1,08,900",
+          "1,09,750",
+          "1,09,850",
+          "1,09,900"
+        ],
+        "ans": "D",
+        "steps": [
+          "Total received = 1,25,750 + 87,400 = ₹2,13,150.",
+          "Money left = 2,13,150 - 1,03,250 = ₹1,09,900."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "A pizza is cut into 8 equal slices. Tanya ate 3 slices and Rohit ate 2 slices. What fraction of the pizza is LEFT?",
+        "opts": [
+          "5/8",
+          "1/8",
+          "3/8",
+          "2/8"
+        ],
+        "ans": "C",
+        "steps": [
+          "Slices eaten = 3 + 2 = 5 out of 8.",
+          "Fraction left = 1 - 5/8 = 3/8."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A tank has 12 l 700 ml of water. 4 l 850 ml is used. How much remains?",
+        "opts": [
+          "7 l 750 ml",
+          "7 l 850 ml",
+          "8 l 150 ml",
+          "8 l 250 ml"
+        ],
+        "ans": "B",
+        "steps": [
+          "12 l 700 ml = 12,700 ml. 4 l 850 ml = 4,850 ml.",
+          "12,700 - 4,850 = 7,850 ml = 7 l 850 ml."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Madhuri reached school at 8 : 05 a.m. She takes 35 minutes to get ready and 20 minutes to travel. What time did she wake up?",
+        "opts": [
+          "7 : 10 a.m.",
+          "7 : 15 a.m.",
+          "7 : 20 a.m.",
+          "7 : 30 a.m."
+        ],
+        "ans": "A",
+        "steps": [
+          "Total time before arriving = 35 + 20 = 55 minutes.",
+          "She woke up at 8:05 a.m. - 55 min = 7:10 a.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 8,
+          "minute": 5
+        }
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of a square swimming pool is 136 m. What is the length of one side?",
+        "opts": [
+          "32 m",
+          "33 m",
+          "35 m",
+          "34 m"
+        ],
+        "ans": "D",
+        "steps": [
+          "Side = Perimeter ÷ 4 = 136 ÷ 4 = 34 m."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Class test scores: Anjali=78, Beatrice=92, Chandu=85, Dev=70, Esha=88. What is the DIFFERENCE between the 1st and 2nd highest scores?",
+        "opts": [
+          "7",
+          "6",
+          "4",
+          "14"
+        ],
+        "ans": "C",
+        "steps": [
+          "Highest score = 92 (Beatrice), 2nd highest = 88 (Esha).",
+          "Difference = 92 - 88 = 4."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Anjali",
+              "value": 78,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Beatrice",
+              "value": 92,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Chandu",
+              "value": 85,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Dev",
+              "value": 70,
+              "color": "#27ae60"
+            },
+            {
+              "label": "Esha",
+              "value": 88,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A merchant has 8 boxes, each containing 96 items. How many items are there in all?",
+        "opts": [
+          "720",
+          "768",
+          "784",
+          "800"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total items = 8 × 96 = 768."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "A toy costs ₹85. Vikram buys 3 toys and pays ₹300. How much change does he receive?",
+        "opts": [
+          "₹ 45",
+          "₹ 55",
+          "₹ 65",
+          "₹ 75"
+        ],
+        "ans": "A",
+        "steps": [
+          "Cost of 3 toys = 3 × 85 = ₹255.",
+          "Change = 300 - 255 = ₹45."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A room is 8 m 30 cm long. What is the combined length of 4 such rooms placed end to end?",
+        "opts": [
+          "32 m 20 cm",
+          "33 m 10 cm",
+          "33 m 15 cm",
+          "33 m 20 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "8 m 30 cm × 4 = 32 m 120 cm.",
+          "120 cm = 1 m 20 cm, so total = 33 m 20 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "A clock shows 11 : 15 a.m. What will the time be 2 hours 50 minutes later?",
+        "opts": [
+          "1 : 55 p.m.",
+          "2 : 00 p.m.",
+          "2 : 05 p.m.",
+          "2 : 15 p.m."
+        ],
+        "ans": "C",
+        "steps": [
+          "11:15 a.m. + 2 hr 50 min = 2:05 p.m."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 11,
+          "minute": 15
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A 3-digit number has 7 in the hundreds place and 4 in the tens place. The number is divisible by 9. What is the smallest such number?",
+        "opts": [
+          "742",
+          "747",
+          "748",
+          "756"
+        ],
+        "ans": "B",
+        "steps": [
+          "The number is 74X, so its digit sum is 7+4+X = 11+X, which must be divisible by 9.",
+          "The smallest X making 11+X divisible by 9 is X=7 (11+7=18).",
+          "The number is 747."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Ravi gives 1/4 of his money to his mother, 1/3 to his brother, and 1/6 to his sister. He has ₹60 left. How much did he have originally?",
+        "opts": [
+          "₹ 240",
+          "₹ 180",
+          "₹ 200",
+          "₹ 260"
+        ],
+        "ans": "A",
+        "steps": [
+          "Money given away = 1/4 + 1/3 + 1/6 = 3/12 + 4/12 + 2/12 = 9/12 = 3/4.",
+          "Money remaining = 1 - 3/4 = 1/4, which equals ₹60.",
+          "Original amount = 60 × 4 = ₹240."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "In a test, 45 students took part. 2/5 of them scored above 80%. How many students scored 80% or below?",
+        "opts": [
+          "20",
+          "22",
+          "25",
+          "27"
+        ],
+        "ans": "D",
+        "steps": [
+          "Students scoring above 80% = 2/5 × 45 = 18.",
+          "Students scoring 80% or below = 45 - 18 = 27."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "The length and breadth of a rectangle are in the ratio 3 : 2 and the perimeter is 80 cm. What is the area of the rectangle?",
+        "opts": [
+          "320 cm²",
+          "352 cm²",
+          "384 cm²",
+          "400 cm²"
+        ],
+        "ans": "C",
+        "steps": [
+          "Let length = 3x, breadth = 2x. Perimeter = 2(3x+2x) = 10x = 80, so x = 8.",
+          "Length = 24 cm, breadth = 16 cm.",
+          "Area = 24 × 16 = 384 cm²."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 24,
+          "b": 16
+        }
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "In a school of 360 students, the ratio of boys to girls is 4 : 5. How many MORE girls are there than boys?",
+        "opts": [
+          "30",
+          "40",
+          "50",
+          "60"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total parts = 4 + 5 = 9. Each part = 360 ÷ 9 = 40.",
+          "Boys = 4 × 40 = 160, Girls = 5 × 40 = 200.",
+          "Difference = 200 - 160 = 40."
+        ]
+      }
+    ],
+    "I": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next? 5, 10, 20, 40, 80, ?",
+        "opts": [
+          "160",
+          "120",
+          "100",
+          "140"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each term is double the previous term.",
+          "80 × 2 = 160."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, TABLE is coded as VCDNG. How is CHAIR coded?",
+        "opts": [
+          "EJCKR",
+          "FKDLT",
+          "EJCKS",
+          "EJCKT"
+        ],
+        "ans": "D",
+        "steps": [
+          "Each letter of TABLE is shifted forward by 2 places to get VCDNG.",
+          "Apply the same +2 shift to CHAIR: C→E, H→J, A→C, I→K, R→T, giving EJCKT."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "22 players stand in a line. Suresh is 9th from the front. What is his rank from the back?",
+        "opts": [
+          "12th",
+          "13th",
+          "14th",
+          "15th"
+        ],
+        "ans": "C",
+        "steps": [
+          "Rank from back = Total - Rank from front + 1.",
+          "22 - 9 + 1 = 14th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "The clock shows 10 : 25. What time does its mirror image show?",
+        "opts": [
+          "1 : 25",
+          "1 : 35",
+          "2 : 25",
+          "2 : 35"
+        ],
+        "ans": "B",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 10:25 = 1:35."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 10,
+          "minute": 25
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "How many vertices (corners) does a cuboid have?",
+        "opts": [
+          "8",
+          "6",
+          "10",
+          "12"
+        ],
+        "ans": "A",
+        "steps": [
+          "A cuboid is a box shape with 8 corner points, i.e. 8 vertices."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Walking: 7 km North, then 3 km East, then 7 km South, then 3 km West. Where is the person now relative to the starting point?",
+        "opts": [
+          "3 km East",
+          "7 km North",
+          "3 km West",
+          "Starting point"
+        ],
+        "ans": "D",
+        "steps": [
+          "The 7 km North and 7 km South movements cancel out, as do the 3 km East and 3 km West movements.",
+          "The person is back at the starting point."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Pen : Ink :: Torch : ?",
+        "opts": [
+          "Light",
+          "Switch",
+          "Battery",
+          "Electricity"
+        ],
+        "ans": "C",
+        "steps": [
+          "A Pen needs Ink to work.",
+          "In the same way, a Torch needs a Battery to work."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "A project starts on 1st September and ends on 31st October. How many days does it last?",
+        "opts": [
+          "59",
+          "61",
+          "62",
+          "63"
+        ],
+        "ans": "B",
+        "steps": [
+          "September has 30 days (all counted from the 1st) plus October's 31 days.",
+          "30 + 31 = 61 days."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "9",
+          "2",
+          "3",
+          "5"
+        ],
+        "ans": "A",
+        "steps": [
+          "2, 3, and 5 are all prime numbers.",
+          "9 is not prime (9 = 3 × 3), so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which letter lies MIDWAY between E and S in the English alphabet?",
+        "opts": [
+          "J",
+          "K",
+          "M",
+          "L"
+        ],
+        "ans": "D",
+        "steps": [
+          "E is the 5th letter and S is the 19th letter.",
+          "Midway position = (5 + 19) ÷ 2 = 12, which is L."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number is 1,000 LESS than 5,23,456?",
+        "opts": [
+          "5,13,456",
+          "4,23,456",
+          "5,22,456",
+          "5,23,356"
+        ],
+        "ans": "C",
+        "steps": [
+          "5,23,456 - 1,000 = 5,22,456."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "What is MCDXXIII in Hindu-Arabic numerals?",
+        "opts": [
+          "1,413",
+          "1,423",
+          "1,443",
+          "1,453"
+        ],
+        "ans": "B",
+        "steps": [
+          "MCDXXIII = M(1000) + CD(400) + XX(20) + III(3) = 1,423."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "What fraction of a day is 6 hours?",
+        "opts": [
+          "1/4",
+          "1/3",
+          "1/6",
+          "1/8"
+        ],
+        "ans": "A",
+        "steps": [
+          "A day has 24 hours.",
+          "6 hours = 6/24 = 1/4 of a day."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "The sum of all angles in a quadrilateral is:",
+        "opts": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "ans": "D",
+        "steps": [
+          "The interior angles of any quadrilateral always add up to 360°."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "The perimeter of a regular hexagon is 72 m. What is the length of each side?",
+        "opts": [
+          "8 m",
+          "10 m",
+          "12 m",
+          "14 m"
+        ],
+        "ans": "C",
+        "steps": [
+          "A hexagon has 6 equal sides.",
+          "Side length = 72 ÷ 6 = 12 m."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "How many lines of symmetry does a regular pentagon have?",
+        "opts": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "A regular pentagon has 5 lines of symmetry, one through each vertex and the midpoint of the opposite side."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "8,176 – 4,289 = ?",
+        "opts": [
+          "3,887",
+          "3,777",
+          "3,987",
+          "3,797"
+        ],
+        "ans": "A",
+        "steps": [
+          "8,176 - 4,289 = 3,887."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "84 × 15 = ?",
+        "opts": [
+          "1,180",
+          "1,220",
+          "1,240",
+          "1,260"
+        ],
+        "ans": "D",
+        "steps": [
+          "84 × 15 = 1,260."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "4 hours 15 minutes = ? minutes",
+        "opts": [
+          "240",
+          "245",
+          "255",
+          "265"
+        ],
+        "ans": "C",
+        "steps": [
+          "4 hours = 240 minutes.",
+          "240 + 15 = 255 minutes."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "How many sides does an octagon have?",
+        "opts": [
+          "8",
+          "6",
+          "10",
+          "12"
+        ],
+        "ans": "A",
+        "steps": [
+          "An octagon has 8 sides, as indicated by the prefix 'octa-'."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A school collected 3,52,750 books for Classes 1–5 and 2,18,350 books for Classes 6–10. What is the total number of books collected?",
+        "opts": [
+          "5,61,100",
+          "5,71,100",
+          "5,71,000",
+          "5,81,100"
+        ],
+        "ans": "B",
+        "steps": [
+          "3,52,750 + 2,18,350 = 5,71,100."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Samir drank 2/5 of a bottle of juice. His friend drank 1/5. What fraction of the juice is left?",
+        "opts": [
+          "3/5",
+          "1/5",
+          "4/5",
+          "2/5"
+        ],
+        "ans": "D",
+        "steps": [
+          "Juice drunk = 2/5 + 1/5 = 3/5.",
+          "Juice left = 1 - 3/5 = 2/5."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A recipe uses 500 ml of milk. Priti has 3 l 200 ml. After using the recipe, how much milk remains?",
+        "opts": [
+          "2 l 200 ml",
+          "2 l 500 ml",
+          "2 l 700 ml",
+          "3 l 200 ml"
+        ],
+        "ans": "C",
+        "steps": [
+          "3 l 200 ml = 3,200 ml.",
+          "3,200 - 500 = 2,700 ml = 2 l 700 ml."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Sonia has ₹2,000. She buys shoes for ₹875 and earrings for ₹450. What is her change?",
+        "opts": [
+          "₹ 675",
+          "₹ 575",
+          "₹ 725",
+          "₹ 775"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total spent = 875 + 450 = ₹1,325.",
+          "Change = 2,000 - 1,325 = ₹675."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A square garden has an area of 196 m². What is the perimeter of the garden?",
+        "opts": [
+          "48 m",
+          "56 m",
+          "64 m",
+          "72 m"
+        ],
+        "ans": "B",
+        "steps": [
+          "Side = √196 = 14 m.",
+          "Perimeter = 4 × 14 = 56 m."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Books sold per month: Jan=120, Feb=95, Mar=110, Apr=135, May=105. In which month were the MOST books sold?",
+        "opts": [
+          "January",
+          "March",
+          "May",
+          "April"
+        ],
+        "ans": "D",
+        "steps": [
+          "Comparing 120, 95, 110, 135, 105, the highest value is 135.",
+          "April had the most books sold."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Jan",
+              "value": 120,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Feb",
+              "value": 95,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Mar",
+              "value": 110,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Apr",
+              "value": 135,
+              "color": "#27ae60"
+            },
+            {
+              "label": "May",
+              "value": 105,
+              "color": "#2980b9"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A printer prints 45 pages per minute. How many pages does it print in 7 minutes?",
+        "opts": [
+          "270",
+          "280",
+          "315",
+          "350"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total pages = 45 × 7 = 315."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Priya bought 3 kg of apples at ₹60 per kg and 2 kg of oranges at ₹40 per kg. What is the total cost?",
+        "opts": [
+          "₹ 260",
+          "₹ 240",
+          "₹ 280",
+          "₹ 300"
+        ],
+        "ans": "A",
+        "steps": [
+          "Cost of apples = 3 × 60 = ₹180.",
+          "Cost of oranges = 2 × 40 = ₹80.",
+          "Total = 180 + 80 = ₹260."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "Rope A is 4 m 30 cm long and Rope B is 3 m 75 cm long. What is the DIFFERENCE in their lengths?",
+        "opts": [
+          "45 cm",
+          "55 cm",
+          "65 cm",
+          "75 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "4 m 30 cm = 430 cm. 3 m 75 cm = 375 cm.",
+          "430 - 375 = 55 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "A programme starts at 4 : 00 p.m. and ends at 6 : 30 p.m. How long is the programme?",
+        "opts": [
+          "2 hr",
+          "2 hr 15 min",
+          "2 hr 20 min",
+          "2 hr 30 min"
+        ],
+        "ans": "D",
+        "steps": [
+          "From 4:00 p.m. to 6:30 p.m. is 2 hours 30 minutes."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 4,
+          "minute": 0
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A garden has 150 plants. 2/5 are roses, 1/3 are marigolds, and the rest are sunflowers. How many SUNFLOWERS are there?",
+        "opts": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "ans": "C",
+        "steps": [
+          "Roses = 2/5 × 150 = 60. Marigolds = 1/3 × 150 = 50.",
+          "Sunflowers = 150 - 60 - 50 = 40."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Divide ₹720 between Akash and Bharat so that Akash gets TWICE as much as Bharat. How much does Akash get?",
+        "opts": [
+          "₹ 480",
+          "₹ 240",
+          "₹ 360",
+          "₹ 540"
+        ],
+        "ans": "A",
+        "steps": [
+          "Let Bharat = x, Akash = 2x. Total parts = x + 2x = 3x = 720, so x = 240.",
+          "Akash's share = 2 × 240 = ₹480."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangle has an area of 144 cm² and a length of 16 cm. What is its perimeter?",
+        "opts": [
+          "40 cm",
+          "50 cm",
+          "56 cm",
+          "64 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Breadth = Area ÷ length = 144 ÷ 16 = 9 cm.",
+          "Perimeter = 2 × (16 + 9) = 50 cm."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 16,
+          "b": 9
+        }
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A water tank is 3/4 full. After removing 30 litres, it is 1/2 full. What is the TOTAL capacity of the tank?",
+        "opts": [
+          "80 litres",
+          "90 litres",
+          "100 litres",
+          "120 litres"
+        ],
+        "ans": "D",
+        "steps": [
+          "The 30 litres removed represents the difference between 3/4 and 1/2 of the tank: 3/4 - 1/2 = 1/4.",
+          "1/4 of capacity = 30 litres, so total capacity = 30 × 4 = 120 litres."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "Apples in two crates total 96. After moving 18 apples from Crate A to Crate B, Crate B has twice as many as Crate A. How many apples were ORIGINALLY in Crate A?",
+        "opts": [
+          "44",
+          "48",
+          "50",
+          "52"
+        ],
+        "ans": "C",
+        "steps": [
+          "Let Crate A originally have a apples, so Crate B has (96 - a).",
+          "After moving 18: A has (a-18), B has (96-a+18) = (114-a).",
+          "Since B = 2A: 114 - a = 2(a - 18) → 114 - a = 2a - 36 → 150 = 3a → a = 50."
+        ]
+      }
+    ],
+    "J": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number comes next in this series of PRIME numbers? 11, 13, 17, 19, 23, ?",
+        "opts": [
+          "25",
+          "29",
+          "27",
+          "31"
+        ],
+        "ans": "B",
+        "steps": [
+          "The series lists consecutive prime numbers: 11, 13, 17, 19, 23.",
+          "The next prime number after 23 is 29 (25 and 27 are not prime)."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "In a certain code, FISH is coded as HKUJ (each letter +2). How is BIRD coded?",
+        "opts": [
+          "DKTD",
+          "CKTF",
+          "DKTF",
+          "DKSF"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each letter of BIRD is shifted forward by 2 places.",
+          "B→D, I→K, R→T, D→F, giving DKTF."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "A team has 28 players. Rahul is 12th from the left. What is his position from the right?",
+        "opts": [
+          "15th",
+          "16th",
+          "18th",
+          "17th"
+        ],
+        "ans": "D",
+        "steps": [
+          "Position from right = Total - Position from left + 1.",
+          "28 - 12 + 1 = 17th."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "A clock shows 3 : 00. What time will its mirror image show?",
+        "opts": [
+          "9 : 00",
+          "8 : 00",
+          "8 : 30",
+          "3 : 00"
+        ],
+        "ans": "A",
+        "steps": [
+          "Mirror time = 11:60 - actual time.",
+          "11:60 - 3:00 = 9:00."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 3,
+          "minute": 0
+        }
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "A cone has how many FLAT faces?",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "A cone has one flat circular base and one curved surface.",
+          "It has only 1 flat face."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Nitin faces South. He turns 90° anticlockwise. Which direction is he now facing?",
+        "opts": [
+          "North",
+          "West",
+          "East",
+          "South"
+        ],
+        "ans": "C",
+        "steps": [
+          "Turning anticlockwise from South by 90° moves through the sequence South → East.",
+          "He is now facing East."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Cow : Calf :: Horse : ?",
+        "opts": [
+          "Lamb",
+          "Kitten",
+          "Cub",
+          "Foal"
+        ],
+        "ans": "D",
+        "steps": [
+          "The young one of a Cow is called a Calf.",
+          "In the same way, the young one of a Horse is called a Foal."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "How many days are in the last 3 months of a non-leap year (October, November, December)?",
+        "opts": [
+          "92",
+          "90",
+          "91",
+          "93"
+        ],
+        "ans": "A",
+        "steps": [
+          "October has 31 days, November has 30 days, December has 31 days.",
+          "31 + 30 + 31 = 92 days."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of the following is the ODD ONE OUT?",
+        "opts": [
+          "Crow",
+          "Bat",
+          "Parrot",
+          "Eagle"
+        ],
+        "ans": "B",
+        "steps": [
+          "Crow, Parrot, and Eagle are all birds.",
+          "A Bat is a mammal, not a bird, so it is the odd one out."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "In the English alphabet, what is the 7th letter to the RIGHT of the 8th letter from the right?",
+        "opts": [
+          "X",
+          "Y",
+          "Z",
+          "W"
+        ],
+        "ans": "C",
+        "steps": [
+          "The 8th letter from the right is S (26 - 8 + 1 = 19th from left = S).",
+          "Counting 7 letters to the right of S: S(19) + 7 = 26, which is Z."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "How many 4-digit numbers are there in all?",
+        "opts": [
+          "8,999",
+          "9,999",
+          "8,000",
+          "9,000"
+        ],
+        "ans": "D",
+        "steps": [
+          "4-digit numbers range from 1,000 to 9,999.",
+          "Count = 9,999 - 1,000 + 1 = 9,000."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Write 84 in Roman numerals.",
+        "opts": [
+          "LXXXIV",
+          "LXXXV",
+          "XCIV",
+          "LXXXIX"
+        ],
+        "ans": "A",
+        "steps": [
+          "84 = 80 + 4 = LXXX + IV = LXXXIV."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "What must be ADDED to 3/7 to make 1 (one whole)?",
+        "opts": [
+          "3/7",
+          "4/7",
+          "7/7",
+          "1/7"
+        ],
+        "ans": "B",
+        "steps": [
+          "1 - 3/7 = 7/7 - 3/7 = 4/7."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "A quadrilateral with all four sides equal and all angles equal to 90° is called a:",
+        "opts": [
+          "Rhombus",
+          "Rectangle",
+          "Square",
+          "Parallelogram"
+        ],
+        "ans": "C",
+        "steps": [
+          "A shape with all sides equal AND all angles equal to 90° is defined as a Square."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "The perimeter of a rectangle is 96 cm. If the length is 30 cm, what is the breadth?",
+        "opts": [
+          "14 cm",
+          "16 cm",
+          "17 cm",
+          "18 cm"
+        ],
+        "ans": "D",
+        "steps": [
+          "Perimeter = 2 × (length + breadth): 96 = 2 × (30 + b) → 30 + b = 48 → b = 18 cm."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 30,
+          "b": 18
+        }
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following capital letters has NO line of symmetry?",
+        "opts": [
+          "N",
+          "A",
+          "M",
+          "H"
+        ],
+        "ans": "A",
+        "steps": [
+          "A has a vertical line of symmetry, M has a vertical line of symmetry, and H has both horizontal and vertical symmetry.",
+          "N has no line of symmetry."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "3,456 + 4,789 = ?",
+        "opts": [
+          "8,145",
+          "8,245",
+          "8,355",
+          "8,445"
+        ],
+        "ans": "B",
+        "steps": [
+          "3,456 + 4,789 = 8,245."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "64 × 25 = ?",
+        "opts": [
+          "1,400",
+          "1,500",
+          "1,600",
+          "1,700"
+        ],
+        "ans": "C",
+        "steps": [
+          "64 × 25 = 1,600."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "3 kg 600 g – 1 kg 850 g = ?",
+        "opts": [
+          "1 kg 650 g",
+          "1 kg 700 g",
+          "1 kg 720 g",
+          "1 kg 750 g"
+        ],
+        "ans": "D",
+        "steps": [
+          "3 kg 600 g = 3,600 g. 1 kg 850 g = 1,850 g.",
+          "3,600 - 1,850 = 1,750 g = 1 kg 750 g."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "A quadrilateral with all four angles equal to 90° is called a:",
+        "opts": [
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid",
+          "Kite"
+        ],
+        "ans": "A",
+        "steps": [
+          "A quadrilateral with all angles equal to 90° (but not necessarily all sides equal) is a Rectangle."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A city's population is 8,56,234. Of these, 2,14,567 are men and 2,98,431 are women. How many are children?",
+        "opts": [
+          "3,43,126",
+          "3,43,236",
+          "3,43,346",
+          "3,54,236"
+        ],
+        "ans": "B",
+        "steps": [
+          "Men + Women = 2,14,567 + 2,98,431 = 5,12,998.",
+          "Children = 8,56,234 - 5,12,998 = 3,43,236."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Shilpa has 5/9 of her pocket money left. She spends 2/9 on snacks. What fraction remains?",
+        "opts": [
+          "2/9",
+          "4/9",
+          "3/9",
+          "7/9"
+        ],
+        "ans": "C",
+        "steps": [
+          "Remaining after snacks = 5/9 - 2/9 = 3/9."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "A tank has a capacity of 8 litres and is 3/4 full. How many millilitres of water does it hold?",
+        "opts": [
+          "4,000 ml",
+          "5,000 ml",
+          "5,500 ml",
+          "6,000 ml"
+        ],
+        "ans": "D",
+        "steps": [
+          "8 litres = 8,000 ml.",
+          "3/4 of 8,000 ml = 6,000 ml."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Reena took ₹1,500 to market. She spent ₹348 on vegetables, ₹527 on fruits, and ₹219 on spices. How much money is left?",
+        "opts": [
+          "₹ 406",
+          "₹ 416",
+          "₹ 456",
+          "₹ 506"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total spent = 348 + 527 + 219 = ₹1,094.",
+          "Money left = 1,500 - 1,094 = ₹406."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "The perimeter of a rectangular field is 340 m. If the width is 70 m, what is the length?",
+        "opts": [
+          "80 m",
+          "100 m",
+          "120 m",
+          "140 m"
+        ],
+        "ans": "B",
+        "steps": [
+          "Perimeter = 2 × (length + width): 340 = 2 × (L + 70) → L + 70 = 170 → L = 100 m."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 100,
+          "b": 70
+        }
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Marks of 4 students: Anil=68, Bala=75, Chetan=82, Deepa=79. What is the TOTAL of all their marks?",
+        "opts": [
+          "294",
+          "298",
+          "304",
+          "314"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 68 + 75 + 82 + 79 = 304."
+        ],
+        "imgParams": {
+          "type": "bargraph",
+          "data": [
+            {
+              "label": "Anil",
+              "value": 68,
+              "color": "#e67e22"
+            },
+            {
+              "label": "Bala",
+              "value": 75,
+              "color": "#c0392b"
+            },
+            {
+              "label": "Chetan",
+              "value": 82,
+              "color": "#f1c40f"
+            },
+            {
+              "label": "Deepa",
+              "value": 79,
+              "color": "#27ae60"
+            }
+          ]
+        }
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A milkman delivers 12 litres every day. How many litres does he deliver in 3 weeks?",
+        "opts": [
+          "216",
+          "224",
+          "240",
+          "252"
+        ],
+        "ans": "D",
+        "steps": [
+          "3 weeks = 21 days.",
+          "Total delivered = 12 × 21 = 252 litres."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "Vijay earns ₹350 per day. He works 6 days a week. How much does he earn in 4 weeks?",
+        "opts": [
+          "₹ 8,400",
+          "₹ 7,200",
+          "₹ 8,200",
+          "₹ 9,400"
+        ],
+        "ans": "A",
+        "steps": [
+          "Days worked in 4 weeks = 6 × 4 = 24 days.",
+          "Total earnings = 350 × 24 = ₹8,400."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "A string 10 m 60 cm long is cut into 4 equal parts. What is the length of each part?",
+        "opts": [
+          "2 m 55 cm",
+          "2 m 65 cm",
+          "2 m 75 cm",
+          "3 m 5 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "10 m 60 cm = 1,060 cm.",
+          "1,060 ÷ 4 = 265 cm = 2 m 65 cm."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "A shop opens at 9 : 00 a.m. and closes at 8 : 30 p.m. How long is it open?",
+        "opts": [
+          "11 hr",
+          "11 hr 15 min",
+          "11 hr 30 min",
+          "12 hr"
+        ],
+        "ans": "C",
+        "steps": [
+          "From 9:00 a.m. to 8:30 p.m. is 11 hours 30 minutes."
+        ],
+        "imgParams": {
+          "type": "clock",
+          "hour": 9,
+          "minute": 0
+        }
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "In a box of 60 chocolates, 1/3 are dark, 1/4 are milk, and the rest are white. How many chocolates are WHITE?",
+        "opts": [
+          "20",
+          "22",
+          "24",
+          "25"
+        ],
+        "ans": "D",
+        "steps": [
+          "Dark = 1/3 × 60 = 20. Milk = 1/4 × 60 = 15.",
+          "White = 60 - 20 - 15 = 25."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "The cost of 15 pens is ₹180. What is the cost of 25 such pens?",
+        "opts": [
+          "₹ 300",
+          "₹ 280",
+          "₹ 320",
+          "₹ 350"
+        ],
+        "ans": "A",
+        "steps": [
+          "Cost per pen = 180 ÷ 15 = ₹12.",
+          "Cost of 25 pens = 12 × 25 = ₹300."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A number is multiplied by itself and then 6 is added. The result is 70. What is the number?",
+        "opts": [
+          "6",
+          "8",
+          "7",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "x² + 6 = 70 → x² = 64 → x = 8."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Kenji and Mia together have 80 stickers. Kenji gives 15 stickers to Mia. Now Mia has 3 times as many as Kenji. How many stickers did Kenji have at FIRST?",
+        "opts": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "ans": "C",
+        "steps": [
+          "Let Kenji originally have k stickers, so Mia has (80-k).",
+          "After giving 15: Kenji has (k-15), Mia has (80-k+15) = (95-k).",
+          "Since Mia = 3×Kenji: 95-k = 3(k-15) → 95-k = 3k-45 → 140 = 4k → k = 35."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A garden wall is to be built around a rectangular plot 20 m × 12 m. The wall costs ₹150 per metre. What is the total cost?",
+        "opts": [
+          "₹ 7,200",
+          "₹ 8,400",
+          "₹ 9,000",
+          "₹ 9,600"
+        ],
+        "ans": "D",
+        "steps": [
+          "Perimeter = 2 × (20 + 12) = 64 m.",
+          "Total cost = 64 × 150 = ₹9,600."
+        ],
+        "imgParams": {
+          "type": "rectangle",
+          "l": 20,
+          "b": 12
+        }
+      }
+    ]
+  }
+}

@@ -66,7 +66,11 @@ function RosterTab() {
       </Card>
 
       <Card className="p-6">
-        <h2 className="font-bold text-sm mb-4" style={{ color: NAVY }}>Student roster</h2>
+        <h2 className="font-bold text-sm mb-1" style={{ color: NAVY }}>Student roster</h2>
+        <p className="text-xs text-slate-400 mb-4">
+          Students marked <span className="font-semibold text-amber-600">Self-registered</span> created their own account —
+          they see the same globally unlocked tests as everyone else, plus anything granted in Student Access.
+        </p>
         {loading ? (
           <p className="text-sm text-slate-400">Loading…</p>
         ) : students.length === 0 ? (
@@ -76,7 +80,14 @@ function RosterTab() {
             {students.map((s) => (
               <div key={s.username} className="flex items-center justify-between bg-slate-50 rounded-lg px-3 py-2.5">
                 <div>
-                  <p className="text-sm font-semibold text-slate-800">{s.name}</p>
+                  <div className="flex items-center gap-1.5">
+                    <p className="text-sm font-semibold text-slate-800">{s.name}</p>
+                    {s.self_registered && (
+                      <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded" style={{ backgroundColor: '#fef3c7', color: '#b45309' }}>
+                        Self-registered
+                      </span>
+                    )}
+                  </div>
                   <p className="text-xs text-slate-400">@{s.username}</p>
                 </div>
                 <button onClick={() => handleRemove(s.username)} className="text-slate-400 hover:text-red-600 p-1.5">

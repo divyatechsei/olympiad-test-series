@@ -1,0 +1,6230 @@
+{
+  "grade": 2,
+  "subject": "IMO",
+  "sets": {
+    "A": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which shape comes next in the pattern? ○ ■ △ ○ ■ ___",
+        "opts": [
+          "Triangle",
+          "Circle",
+          "Square",
+          "Star"
+        ],
+        "ans": "A",
+        "steps": [
+          "The pattern repeats in a cycle of 3: Circle, Square, Triangle.",
+          "The sequence so far is: Circle, Square, Triangle, Circle, Square.",
+          "The next shape completes the cycle: Triangle."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Study the four shapes below and find the one that does not belong with the others.",
+        "opts": [
+          "Shape 1",
+          "Shape 2",
+          "Shape 3",
+          "Shape 4"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "classification",
+          "regularShapes": [
+            "S",
+            "P",
+            "H"
+          ],
+          "oddShape": "R",
+          "oddPosition": 2
+        },
+        "steps": [
+          "Shapes 1, 2, and 4 are all regular shapes — every side is the same length.",
+          "Shape 3 is a rectangle — its sides are not all equal.",
+          "Shape 3 does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "2 : 4 :: 3 : ? (each first number is doubled)",
+        "opts": [
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "The rule is \"double the number\": 2 doubled is 4.",
+          "Applying the same rule to 3: 3 doubled is 6."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If CAT is written as DBU (each letter moves one step forward in the alphabet), how is DOG written?",
+        "opts": [
+          "EPH",
+          "EPG",
+          "FQI",
+          "DPH"
+        ],
+        "ans": "A",
+        "steps": [
+          "Check the rule with CAT: C→D, A→B, T→U — each letter moves forward by 1.",
+          "Apply the same rule to DOG: D→E, O→P, G→H.",
+          "DOG becomes EPH."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "In a race, Meera finished ahead of Arjun, and Arjun finished ahead of Anaya. Who came first?",
+        "opts": [
+          "Meera",
+          "Arjun",
+          "Anaya",
+          "Cannot say"
+        ],
+        "ans": "A",
+        "steps": [
+          "Meera finished ahead of Arjun, so Meera is before Arjun.",
+          "Arjun finished ahead of Anaya, so Arjun is before Anaya.",
+          "The order is: Meera, then Arjun, then Anaya — Meera came first."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the letter E when reflected left-right?",
+        "opts": [
+          "Ǝ",
+          "E",
+          "F",
+          "W"
+        ],
+        "ans": "A",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "The letter E reflected left-right looks like Ǝ — the same shape, but facing backward."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Complete the pattern: △ ▲ △ ▲ △ ___",
+        "opts": [
+          "△ (white)",
+          "▲ (black)",
+          "■ (square)",
+          "○ (circle)"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern alternates between a white triangle and a black triangle.",
+          "After a white triangle (△), a black triangle (▲) always follows.",
+          "The next shape is ▲."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "The figure below is a large square divided into a 2×2 grid of smaller squares. How many squares of ANY size can you count in total?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "shapecount",
+          "variant": "grid_squares_2x2"
+        },
+        "steps": [
+          "Count the small 1×1 squares: there are 4.",
+          "Count the large 2×2 square formed by all of them together: there is 1.",
+          "Total = 4 + 1 = 5."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 2, 4, 6, 8, ___, 12",
+        "opts": [
+          "9",
+          "10",
+          "11",
+          "14"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts up by 2 each time: 2, 4, 6, 8...",
+          "The next number is 8 + 2 = 10."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which of these is used to measure how heavy an object is?",
+        "opts": [
+          "Ruler",
+          "Weighing scale",
+          "Clock",
+          "Cup"
+        ],
+        "ans": "B",
+        "steps": [
+          "A ruler measures length. A clock measures time. A cup measures how much liquid it holds.",
+          "A weighing scale measures how heavy something is."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "A number is shown using base-ten blocks: 3 hundred-blocks, 4 ten-rods, and 2 unit-cubes. What number is shown?",
+        "opts": [
+          "324",
+          "342",
+          "432",
+          "243"
+        ],
+        "ans": "B",
+        "steps": [
+          "3 hundred-blocks = 300.",
+          "4 ten-rods = 40.",
+          "2 unit-cubes = 2.",
+          "Together: 300 + 40 + 2 = 342."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the number name for 205?",
+        "opts": [
+          "Two hundred five",
+          "Twenty five",
+          "Two hundred fifty",
+          "Two hundred fifteen"
+        ],
+        "ans": "A",
+        "steps": [
+          "205 has 2 hundreds, 0 tens, and 5 ones.",
+          "This is written in words as \"Two hundred five.\""
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 132 + 45 = ?",
+        "opts": [
+          "167",
+          "177",
+          "187",
+          "176"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 2 + 5 = 7.",
+          "Add the tens: 3 + 4 = 7.",
+          "Add the hundreds: 1 + 0 = 1.",
+          "132 + 45 = 177."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 86 − 39 = ?",
+        "opts": [
+          "47",
+          "48",
+          "57",
+          "37"
+        ],
+        "ans": "A",
+        "steps": [
+          "86 − 39: borrow from the tens place since 6 is less than 9.",
+          "16 − 9 = 7 (ones), and 7 − 3 = 4 (tens after borrowing).",
+          "86 − 39 = 47."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "There are 7 red balls and 5 blue balls. How many balls are there in all?",
+        "opts": [
+          "7",
+          "12",
+          "9",
+          "16"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total balls = 7 + 5 = 12."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "Diya shares 10 sweets equally among 2 friends. How many does each friend get?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "2"
+        ],
+        "ans": "B",
+        "steps": [
+          "Sharing equally means dividing: 10 ÷ 2 = 5.",
+          "Each friend gets 5 sweets."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of the following describes a curved line?",
+        "opts": [
+          "A straight up-and-down line",
+          "A straight side-to-side line",
+          "A line that bends smoothly, like the letter C",
+          "A zigzag line with sharp corners"
+        ],
+        "ans": "C",
+        "steps": [
+          "A straight line (up-down or side-to-side) does not bend.",
+          "A zigzag line has sharp corners, not a smooth bend.",
+          "A curved line bends smoothly, without any corners — like the letter C."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of these solid shapes is a sphere (perfectly round, like a ball)?",
+        "opts": [
+          "Cube",
+          "Sphere",
+          "Cone",
+          "Cylinder"
+        ],
+        "ans": "B",
+        "steps": [
+          "A cube has flat square faces. A cone has a circular base and a pointed top. A cylinder has two flat circular ends.",
+          "A sphere is perfectly round on all sides, like a ball."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Complete the pattern: 1, 2, 1, 2, 1, ___",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern alternates between 1 and 2.",
+          "After 1, the next number is always 2."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which sign makes it true? 7 ___ 9",
+        "opts": [
+          ">",
+          "<",
+          "=",
+          "+"
+        ],
+        "ans": "B",
+        "steps": [
+          "Compare 7 and 9: 7 is smaller than 9.",
+          "The correct sign is < (less than): 7 < 9."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Rohan buys a pencil for ₹8 and an eraser for ₹5. How much does he pay in all?",
+        "opts": [
+          "₹12",
+          "₹13",
+          "₹14",
+          "₹3"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total cost = ₹8 + ₹5 = ₹13."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Kavya pays ₹20 for a toy costing ₹15. How much change does she get back?",
+        "opts": [
+          "₹5",
+          "₹4",
+          "₹15",
+          "₹35"
+        ],
+        "ans": "A",
+        "steps": [
+          "Change = amount paid − cost = ₹20 − ₹15 = ₹5."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "3 o'clock",
+          "6 o'clock",
+          "9 o'clock",
+          "12 o'clock"
+        ],
+        "ans": "A",
+        "imgParams": {
+          "type": "clock",
+          "hour": 3,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 3, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour the hour hand points to.",
+          "The clock shows 3 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Read the thermometer. What temperature does it show?",
+        "opts": [
+          "10°C",
+          "20°C",
+          "30°C",
+          "40°C"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "thermometer",
+          "value": 30,
+          "min": 0,
+          "max": 50
+        },
+        "steps": [
+          "The red mercury line rises up to the 30°C mark on the thermometer.",
+          "The temperature shown is 30°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A ribbon is 45 cm long. Riya cuts off 15 cm. How long is the ribbon now?",
+        "opts": [
+          "30 cm",
+          "25 cm",
+          "60 cm",
+          "35 cm"
+        ],
+        "ans": "A",
+        "steps": [
+          "Remaining length = 45 cm − 15 cm = 30 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "One book weighs 2 kg. What is the weight of 3 such books?",
+        "opts": [
+          "5 kg",
+          "6 kg",
+          "3 kg",
+          "9 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Weight of 3 books = 2 kg × 3 = 6 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A jug holds 4 glasses of water. How many glasses fill 2 such jugs?",
+        "opts": [
+          "6",
+          "8",
+          "4",
+          "2"
+        ],
+        "ans": "B",
+        "steps": [
+          "Glasses in 2 jugs = 4 × 2 = 8."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows fruits sold at a shop. How many apples were sold?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Apple",
+              "count": 4
+            },
+            {
+              "name": "Banana",
+              "count": 3
+            },
+            {
+              "name": "Mango",
+              "count": 5
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "fruit"
+        },
+        "steps": [
+          "Count the symbols in the row labelled Apple.",
+          "Each symbol stands for 1 fruit, and there are 4 symbols in the Apple row.",
+          "4 apples were sold."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "Kabir has 6 marbles and Aisha gives him 7 more. How many marbles does he have now?",
+        "opts": [
+          "12",
+          "13",
+          "14",
+          "11"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total marbles = 6 + 7 = 13."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "There are 5 baskets with 2 oranges in each basket. How many oranges are there in all?",
+        "opts": [
+          "7",
+          "10",
+          "12",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total oranges = 5 baskets × 2 oranges = 10."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Meera has ₹50. She buys 2 pens costing ₹12 each. How much money is left?",
+        "opts": [
+          "₹24",
+          "₹26",
+          "₹38",
+          "₹36"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cost of 2 pens = ₹12 × 2 = ₹24.",
+          "Money left = ₹50 − ₹24 = ₹26."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "In the number 428, the digit 2 is in which place?",
+        "opts": [
+          "Ones",
+          "Tens",
+          "Hundreds",
+          "Thousands"
+        ],
+        "ans": "B",
+        "steps": [
+          "In 428: 4 is in the hundreds place, 2 is in the tens place, and 8 is in the ones place.",
+          "The digit 2 is in the tens place."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "Vivaan makes towers of 3 blocks each. He builds 4 towers, then removes 1 block from one tower. How many blocks are used now?",
+        "opts": [
+          "11",
+          "12",
+          "9",
+          "10"
+        ],
+        "ans": "A",
+        "steps": [
+          "Blocks in 4 towers = 3 × 4 = 12.",
+          "After removing 1 block: 12 − 1 = 11."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A film starts at 4 o'clock and lasts 2 hours. At what time does it end?",
+        "opts": [
+          "5 o'clock",
+          "6 o'clock",
+          "7 o'clock",
+          "2 o'clock"
+        ],
+        "ans": "B",
+        "steps": [
+          "End time = 4 o'clock + 2 hours = 6 o'clock."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "From the pictograph in Section 3, how many more mangoes than bananas were sold?",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Apple",
+              "count": 4
+            },
+            {
+              "name": "Banana",
+              "count": 3
+            },
+            {
+              "name": "Mango",
+              "count": 5
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "fruit"
+        },
+        "steps": [
+          "Mangoes sold = 5. Bananas sold = 3.",
+          "Difference = 5 − 3 = 2."
+        ]
+      }
+    ],
+    "B": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Which letter comes next in the series? B, D, F, H, ___",
+        "opts": [
+          "J",
+          "I",
+          "K",
+          "G"
+        ],
+        "ans": "A",
+        "steps": [
+          "Convert letters to positions: B=2, D=4, F=6, H=8 — each jumps forward by 2.",
+          "The next letter is at position 8+2=10, which is J."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Study the four shapes below and find the one that does not belong with the others.",
+        "opts": [
+          "Shape 1",
+          "Shape 2",
+          "Shape 3",
+          "Shape 4"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "classification",
+          "regularShapes": [
+            "Eq",
+            "S",
+            "H"
+          ],
+          "oddShape": "R",
+          "oddPosition": 2
+        },
+        "steps": [
+          "Shapes 1, 2, and 4 are all regular shapes — every side is the same length.",
+          "Shape 3 is a rectangle — its sides are not all equal.",
+          "Shape 3 does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "4 : 8 :: 5 : ___ (each number is doubled)",
+        "opts": [
+          "10",
+          "9",
+          "6",
+          "7"
+        ],
+        "ans": "A",
+        "steps": [
+          "The rule is \"double the number\": 4 doubled is 8.",
+          "Applying the same rule to 5: 5 doubled is 10."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If BALL is coded as CBMM (each letter shifted one step forward), how is CALL coded?",
+        "opts": [
+          "DBMM",
+          "CBMM",
+          "DCMM",
+          "DALM"
+        ],
+        "ans": "A",
+        "steps": [
+          "Check the rule with BALL: B→C, A→B, L→M, L→M — each letter moves forward by 1.",
+          "Apply the same rule to CALL: C→D, A→B, L→M, L→M.",
+          "CALL becomes DBMM."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "Sanya is 4th from the front and 3rd from the back of a row. How many students are in the row?",
+        "opts": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total students = (position from front) + (position from back) − 1, since Sanya is counted in both.",
+          "Total = 4 + 3 − 1 = 6."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "An arrow points UP (↑). What does its water image (reflection in a horizontal mirror below it) look like?",
+        "opts": [
+          "Points DOWN (↓)",
+          "Points UP (↑)",
+          "Points RIGHT (→)",
+          "Points LEFT (←)"
+        ],
+        "ans": "A",
+        "steps": [
+          "A water image flips a picture upside down, as if reflected in still water below it.",
+          "An arrow pointing UP, when flipped upside down, points DOWN."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next in the pattern? △ ■ ○ △ ■ ___",
+        "opts": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Star"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern repeats in a cycle of 3: Triangle, Square, Circle.",
+          "The sequence so far is: Triangle, Square, Circle, Triangle, Square.",
+          "The next shape completes the cycle: Circle."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "A big rectangle is divided into 3 equal smaller rectangles using 2 straight lines. How many small rectangles are shown?",
+        "opts": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "ans": "A",
+        "steps": [
+          "The big rectangle is cut into 3 equal parts by the 2 lines.",
+          "This gives 3 small rectangles."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 3, 6, 9, 12, ___",
+        "opts": [
+          "15",
+          "14",
+          "16",
+          "13"
+        ],
+        "ans": "A",
+        "steps": [
+          "The pattern counts up by 3 each time: 3, 6, 9, 12...",
+          "The next number is 12 + 3 = 15."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which unit is used to measure the amount of liquid in a bottle?",
+        "opts": [
+          "Kilogram",
+          "Litre",
+          "Centimetre",
+          "Metre"
+        ],
+        "ans": "B",
+        "steps": [
+          "Kilogram measures weight. Centimetre and metre measure length.",
+          "Litre measures the amount of liquid."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the place value of 5 in the number 358?",
+        "opts": [
+          "Hundreds",
+          "Tens",
+          "Ones",
+          "Thousands"
+        ],
+        "ans": "B",
+        "steps": [
+          "In 358: 3 is in the hundreds place, 5 is in the tens place, and 8 is in the ones place.",
+          "The digit 5 is in the tens place."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "427 = 400 + ___ + 7. What fills the blank?",
+        "opts": [
+          "2",
+          "20",
+          "200",
+          "27"
+        ],
+        "ans": "B",
+        "steps": [
+          "427 has 4 hundreds, 2 tens, and 7 ones.",
+          "400 + 20 + 7 = 427, so the blank is 20."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 256 + 78 = ?",
+        "opts": [
+          "324",
+          "334",
+          "344",
+          "314"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 6 + 8 = 14, write 4 and carry 1.",
+          "Add the tens: 5 + 7 + 1(carried) = 13, write 3 and carry 1.",
+          "Add the hundreds: 2 + 0 + 1(carried) = 3.",
+          "256 + 78 = 334."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 302 − 45 = ?",
+        "opts": [
+          "257",
+          "247",
+          "267",
+          "357"
+        ],
+        "ans": "A",
+        "steps": [
+          "302 − 45: borrowing is needed since 2 is less than 5.",
+          "302 − 45 = 257."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "There are 3 equal groups of 5 balls each. How many balls are there in all?",
+        "opts": [
+          "8",
+          "15",
+          "10",
+          "18"
+        ],
+        "ans": "B",
+        "steps": [
+          "3 groups of 5 balls means 3 × 5.",
+          "3 × 5 = 15."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "15 ÷ 3 = ?",
+        "opts": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "ans": "A",
+        "steps": [
+          "15 shared equally into 3 groups: 15 ÷ 3 = 5."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "Which shape has 4 equal sides?",
+        "opts": [
+          "Rectangle",
+          "Triangle",
+          "Circle",
+          "Square"
+        ],
+        "ans": "D",
+        "steps": [
+          "A rectangle has 4 sides, but only opposite sides are equal, not all 4.",
+          "A triangle has 3 sides. A circle has no straight sides.",
+          "A square has all 4 sides equal."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "A cube has how many faces?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "ans": "C",
+        "steps": [
+          "A cube looks like a box — it has a top, bottom, and 4 sides.",
+          "That makes 6 faces in total."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Fill in: 20, 30, ___, 50, 60",
+        "opts": [
+          "35",
+          "40",
+          "45",
+          "38"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts up by 10 each time: 20, 30, 40, 50, 60.",
+          "The missing number is 40."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the greatest number? 89, 98, 79, 97",
+        "opts": [
+          "89",
+          "98",
+          "79",
+          "97"
+        ],
+        "ans": "B",
+        "steps": [
+          "Compare the tens digits first: 8, 9, 7, 9 — the numbers starting with 9 (98 and 97) are largest.",
+          "Between 98 and 97, 98 has the larger ones digit.",
+          "98 is the greatest."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Kavya buys 2 notebooks at ₹35 each. How much does she pay in all?",
+        "opts": [
+          "₹65",
+          "₹70",
+          "₹60",
+          "₹75"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total cost = 2 × ₹35 = ₹70."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Rohan pays ₹50 for a toy costing ₹38. How much change does he get?",
+        "opts": [
+          "₹12",
+          "₹18",
+          "₹22",
+          "₹8"
+        ],
+        "ans": "A",
+        "steps": [
+          "Change = ₹50 − ₹38 = ₹12."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "7 o'clock",
+          "Half past 7",
+          "Half past 8",
+          "Quarter past 7"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 30
+        },
+        "steps": [
+          "The hour hand is between 7 and 8, and the minute hand points to 6 (halfway).",
+          "This means the time is halfway between 7 and 8 o'clock.",
+          "The clock shows Half past 7."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Which temperature is warmer: 25°C or 38°C?",
+        "opts": [
+          "25°C",
+          "38°C",
+          "Both same",
+          "Cannot say"
+        ],
+        "ans": "B",
+        "steps": [
+          "A higher temperature number means it is warmer.",
+          "38 is greater than 25, so 38°C is warmer."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A pot holds 6 litres. How much do 4 pots hold?",
+        "opts": [
+          "10 litres",
+          "20 litres",
+          "24 litres",
+          "18 litres"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 6 litres × 4 = 24 litres."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "A plank is 120 cm long. It is cut into 4 equal pieces. Each piece is?",
+        "opts": [
+          "20 cm",
+          "25 cm",
+          "30 cm",
+          "40 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each piece = 120 cm ÷ 4 = 30 cm."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A basket of mangoes weighs 4 kg. A basket of oranges weighs 7 kg. What is their total weight?",
+        "opts": [
+          "3 kg",
+          "11 kg",
+          "28 kg",
+          "9 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total weight = 4 kg + 7 kg = 11 kg."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows balloons sold. How many more red balloons were sold than blue?",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "8"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Red",
+              "count": 5
+            },
+            {
+              "name": "Blue",
+              "count": 3
+            },
+            {
+              "name": "Yellow",
+              "count": 4
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "balloons"
+        },
+        "steps": [
+          "Red balloons sold = 5. Blue balloons sold = 3.",
+          "Difference = 5 − 3 = 2."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "Dev has 9 stickers. Nisha gives him 8 more. How many does he have in all?",
+        "opts": [
+          "16",
+          "17",
+          "18",
+          "15"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total stickers = 9 + 8 = 17."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "18 − 9 = ?",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "ans": "C",
+        "steps": [
+          "18 − 9 = 9."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Meera has 3 packets of 8 biscuits each. She eats 5 biscuits. How many biscuits are left?",
+        "opts": [
+          "19",
+          "21",
+          "13",
+          "29"
+        ],
+        "ans": "A",
+        "steps": [
+          "Total biscuits = 3 × 8 = 24.",
+          "After eating 5: 24 − 5 = 19."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "In the number 543, what is the value of the digit in the hundreds place?",
+        "opts": [
+          "5",
+          "50",
+          "500",
+          "5000"
+        ],
+        "ans": "C",
+        "steps": [
+          "In 543, the digit in the hundreds place is 5.",
+          "Its value is 5 × 100 = 500."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "The pattern is 4, 8, 12, 16, 20, ... What is the 6th number in this pattern?",
+        "opts": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern counts up by 4 each time.",
+          "20 is the 5th number, so the 6th number is 20 + 4 = 24."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "School starts at 8 o'clock and lasts 5 hours. At what time does it end?",
+        "opts": [
+          "12 o'clock",
+          "1 o'clock",
+          "2 o'clock",
+          "3 o'clock"
+        ],
+        "ans": "B",
+        "steps": [
+          "End time = 8 o'clock + 5 hours = 13 o'clock.",
+          "In 12-hour time, 13 o'clock is written as 1 o'clock."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A shopkeeper sold 134 oranges on Monday and 87 on Tuesday. How many oranges did he sell in all?",
+        "opts": [
+          "211",
+          "221",
+          "231",
+          "201"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total oranges = 134 + 87.",
+          "134 + 87 = 221."
+        ]
+      }
+    ],
+    "C": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 50, 45, 40, 35, ___",
+        "opts": [
+          "30",
+          "25",
+          "32",
+          "28"
+        ],
+        "ans": "A",
+        "steps": [
+          "The pattern counts down by 5 each time: 50, 45, 40, 35...",
+          "The next number is 35 − 5 = 30."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Mango, Banana, Carrot, Orange",
+        "opts": [
+          "Mango",
+          "Banana",
+          "Carrot",
+          "Orange"
+        ],
+        "ans": "C",
+        "steps": [
+          "Mango, Banana, and Orange are all fruits.",
+          "Carrot is a vegetable, not a fruit — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "3 : 9 :: 4 : ___ (each first number is multiplied by 3)",
+        "opts": [
+          "8",
+          "12",
+          "16",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "The rule is \"multiply by 3\": 3 × 3 = 9.",
+          "Applying the same rule to 4: 4 × 3 = 12."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If FISH is coded as GJTI (each letter shifted one step forward), how is BIRD coded?",
+        "opts": [
+          "BJSE",
+          "CJSE",
+          "CISE",
+          "BJRD"
+        ],
+        "ans": "B",
+        "steps": [
+          "Check the rule with FISH: F→G, I→J, S→T, H→I — each letter moves forward by 1.",
+          "Apply the same rule to BIRD: B→C, I→J, R→S, D→E.",
+          "BIRD becomes CJSE."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "In a queue, Ishaan is 6th from the front and 4th from the back. How many children are in the queue?",
+        "opts": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total children = (position from front) + (position from back) − 1.",
+          "Total = 6 + 4 − 1 = 9."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the lowercase letter \"b\" when reflected left-right?",
+        "opts": [
+          "p",
+          "d",
+          "q",
+          "b"
+        ],
+        "ans": "B",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "The letter \"b\" reflected left-right looks like \"d\"."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next in the pattern? ★ ★ ♦ ★ ★ ♦ ★ ★ ___",
+        "opts": [
+          "★",
+          "♦",
+          "○",
+          "△"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern repeats in a cycle of 3: Star, Star, Diamond.",
+          "Counting through the sequence, the 9th symbol lines up with the 3rd position in each cycle, which is always the diamond.",
+          "The next symbol is ♦."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "A figure is made up of 6 separate squares of different sizes, placed next to each other with none overlapping. How many squares are in the figure?",
+        "opts": [
+          "3",
+          "5",
+          "6",
+          "4"
+        ],
+        "ans": "C",
+        "steps": [
+          "The figure is made of 6 separate squares.",
+          "Counting them gives a total of 6."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "2, 4, 8, 16, ___ (each number is doubled). Find the missing number.",
+        "opts": [
+          "20",
+          "24",
+          "32",
+          "28"
+        ],
+        "ans": "C",
+        "steps": [
+          "The rule is \"double the number\": 2→4→8→16.",
+          "The next number is 16 × 2 = 32."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "How many sides does a pentagon have?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "A pentagon is a 5-sided shape."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the value of the digit 6 in the number 364?",
+        "opts": [
+          "6",
+          "60",
+          "600",
+          "640"
+        ],
+        "ans": "B",
+        "steps": [
+          "In 364: 3 is in the hundreds place, 6 is in the tens place, and 4 is in the ones place.",
+          "The value of the digit 6 is 6 × 10 = 60."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the smallest number? 275, 527, 257, 752",
+        "opts": [
+          "275",
+          "527",
+          "257",
+          "752"
+        ],
+        "ans": "C",
+        "steps": [
+          "Compare the hundreds digits: 2, 5, 2, 7. The two smallest start with 2: 275 and 257.",
+          "Comparing their tens digits: 7 (in 275) vs 5 (in 257) — 257 is smaller.",
+          "257 is the smallest number."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 325 + 148 = ?",
+        "opts": [
+          "463",
+          "473",
+          "483",
+          "453"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 5 + 8 = 13, write 3 and carry 1.",
+          "Add the tens: 2 + 4 + 1(carried) = 7.",
+          "Add the hundreds: 3 + 1 = 4.",
+          "325 + 148 = 473."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 400 − 163 = ?",
+        "opts": [
+          "227",
+          "237",
+          "247",
+          "263"
+        ],
+        "ans": "B",
+        "steps": [
+          "400 − 163: borrowing is needed since 400 has zeros.",
+          "400 − 163 = 237."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "7 × 3 = ?",
+        "opts": [
+          "24",
+          "18",
+          "21",
+          "27"
+        ],
+        "ans": "C",
+        "steps": [
+          "7 × 3 = 21."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "18 ÷ 6 = ?",
+        "opts": [
+          "3",
+          "4",
+          "6",
+          "12"
+        ],
+        "ans": "A",
+        "steps": [
+          "18 shared equally into 6 groups: 18 ÷ 6 = 3."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "Which shape has MORE sides: a square or a triangle?",
+        "opts": [
+          "Triangle",
+          "Square",
+          "Same",
+          "Cannot say"
+        ],
+        "ans": "B",
+        "steps": [
+          "A triangle has 3 sides. A square has 4 sides.",
+          "4 is more than 3, so the square has more sides."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "A cylinder has ___ flat (circular) faces.",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ans": "C",
+        "steps": [
+          "A cylinder has a flat circular face on the top and another on the bottom.",
+          "That makes 2 flat faces."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Fill in the blank: 5, 10, 15, ___, 25, 30",
+        "opts": [
+          "18",
+          "19",
+          "20",
+          "22"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern counts up by 5 each time: 5, 10, 15, 20, 25, 30.",
+          "The missing number is 20."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number comes just before 100?",
+        "opts": [
+          "101",
+          "99",
+          "98",
+          "100"
+        ],
+        "ans": "B",
+        "steps": [
+          "The number just before 100 is one less: 100 − 1 = 99."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Dev buys 3 toys at ₹45 each. How much does he pay in all?",
+        "opts": [
+          "₹125",
+          "₹130",
+          "₹135",
+          "₹140"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total cost = 3 × ₹45 = ₹135."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Priya had ₹100. She spent ₹67. How much is left?",
+        "opts": [
+          "₹33",
+          "₹43",
+          "₹37",
+          "₹167"
+        ],
+        "ans": "A",
+        "steps": [
+          "Money left = ₹100 − ₹67 = ₹33."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "9 o'clock",
+          "Quarter past 9",
+          "Half past 9",
+          "Half past 10"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "clock",
+          "hour": 9,
+          "minute": 30
+        },
+        "steps": [
+          "The hour hand is between 9 and 10, and the minute hand points to 6 (halfway).",
+          "This means the time is halfway between 9 and 10 o'clock.",
+          "The clock shows Half past 9."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "At what temperature does water freeze?",
+        "opts": [
+          "10°C",
+          "0°C",
+          "100°C",
+          "50°C"
+        ],
+        "ans": "B",
+        "steps": [
+          "Water freezes and turns to ice at 0°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "Kavya's ribbon is 75 cm long. Meera's ribbon is 48 cm. How much longer is Kavya's ribbon?",
+        "opts": [
+          "23 cm",
+          "27 cm",
+          "37 cm",
+          "123 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Difference = 75 cm − 48 cm = 27 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Aisha has 2 bags of rice each weighing 5 kg and 1 bag of flour weighing 3 kg. What is the total weight?",
+        "opts": [
+          "8 kg",
+          "11 kg",
+          "13 kg",
+          "16 kg"
+        ],
+        "ans": "C",
+        "steps": [
+          "Weight of rice = 2 × 5 kg = 10 kg.",
+          "Total weight = 10 kg + 3 kg = 13 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A bottle holds 2 litres. Riya pours 3 full bottles into a tank. How many litres are in the tank?",
+        "opts": [
+          "5 litres",
+          "6 litres",
+          "8 litres",
+          "3 litres"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total = 2 litres × 3 = 6 litres."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows books read by three students. Who read the most books?",
+        "opts": [
+          "Arjun",
+          "Sanya",
+          "Kabir",
+          "All same"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Arjun",
+              "count": 4
+            },
+            {
+              "name": "Sanya",
+              "count": 7
+            },
+            {
+              "name": "Kabir",
+              "count": 5
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "books"
+        },
+        "steps": [
+          "Compare the number of symbols in each row: Arjun = 4, Sanya = 7, Kabir = 5.",
+          "Sanya has the most books, with 7."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "16 − 9 = ?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "16 − 9 = 7."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Rohan has 5 bags with 3 apples in each bag. How many apples in all?",
+        "opts": [
+          "8",
+          "12",
+          "15",
+          "18"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total apples = 5 × 3 = 15."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Aryan has ₹200. He buys a book for ₹85 and a pen for ₹35. How much money is left?",
+        "opts": [
+          "₹70",
+          "₹80",
+          "₹120",
+          "₹90"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total spent = ₹85 + ₹35 = ₹120.",
+          "Money left = ₹200 − ₹120 = ₹80."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "In the number 528, what is the sum of the digits in the hundreds place and the ones place?",
+        "opts": [
+          "7",
+          "10",
+          "13",
+          "15"
+        ],
+        "ans": "C",
+        "steps": [
+          "In 528: the hundreds digit is 5, and the ones digit is 8.",
+          "Sum = 5 + 8 = 13."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A pattern: 1, 4, 9, 16, ___ (1×1, 2×2, 3×3, 4×4, ...) What comes next?",
+        "opts": [
+          "20",
+          "23",
+          "25",
+          "36"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each term is a number multiplied by itself: 1×1=1, 2×2=4, 3×3=9, 4×4=16.",
+          "The next term is 5×5 = 25."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A train leaves at 10 o'clock and takes 3 hours to reach. Passengers then wait 1 hour. What time do they finish waiting?",
+        "opts": [
+          "1 o'clock",
+          "2 o'clock",
+          "3 o'clock",
+          "4 o'clock"
+        ],
+        "ans": "B",
+        "steps": [
+          "Arrival time = 10 o'clock + 3 hours = 1 o'clock.",
+          "After waiting 1 more hour: 1 o'clock + 1 hour = 2 o'clock."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A seller had 156 kg of vegetables on Day 1 and 89 kg on Day 2. How many kilograms more did she sell on Day 1?",
+        "opts": [
+          "57 kg",
+          "67 kg",
+          "77 kg",
+          "245 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Difference = 156 kg − 89 kg = 67 kg."
+        ]
+      }
+    ],
+    "D": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 100, 90, 80, 70, ___",
+        "opts": [
+          "50",
+          "60",
+          "65",
+          "55"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts down by 10 each time: 100, 90, 80, 70...",
+          "The next number is 70 − 10 = 60."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Study the four shapes below. Three are the same kind of 2D shape; one is different. Find the one that does not belong.",
+        "opts": [
+          "Shape 1",
+          "Shape 2",
+          "Shape 3",
+          "Shape 4"
+        ],
+        "ans": "D",
+        "imgParams": {
+          "type": "classification",
+          "regularShapes": [
+            "S",
+            "Eq",
+            "H"
+          ],
+          "oddShape": "R",
+          "oddPosition": 3
+        },
+        "steps": [
+          "Shapes 1, 2, and 3 are all regular shapes — every side is the same length.",
+          "Shape 4 is a rectangle — its sides are not all equal.",
+          "Shape 4 does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "Sun : Day :: Moon : ___",
+        "opts": [
+          "Star",
+          "Sky",
+          "Night",
+          "Day"
+        ],
+        "ans": "C",
+        "steps": [
+          "The Sun is seen in the sky during the Day.",
+          "In the same way, the Moon is seen in the sky during the Night."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If RED is coded as QDC (each letter shifted one step back), how is BLUE coded?",
+        "opts": [
+          "AKTD",
+          "AKUD",
+          "BKTD",
+          "ALTD"
+        ],
+        "ans": "A",
+        "steps": [
+          "Check the rule with RED: R→Q, E→D, D→C — each letter moves back by 1.",
+          "Apply the same rule to BLUE: B→A, L→K, U→T, E→D.",
+          "BLUE becomes AKTD."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "5 children stand in a line. Vivaan is in the middle. What is his position from the front?",
+        "opts": [
+          "2nd",
+          "3rd",
+          "4th",
+          "5th"
+        ],
+        "ans": "B",
+        "steps": [
+          "With 5 children in a line, the middle position is the 3rd one.",
+          "There are 2 children in front of the middle position and 2 behind."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the lowercase letter \"p\" when reflected left-right?",
+        "opts": [
+          "b",
+          "d",
+          "q",
+          "p"
+        ],
+        "ans": "C",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "The letter \"p\" reflected left-right looks like \"q\"."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next? 1, 1, 2, 1, 1, 2, 1, 1, ___",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern repeats in a cycle of 3: 1, 1, 2.",
+          "The sequence has completed two full cycles (positions 1-3 and 4-6), and positions 7-8 are \"1, 1\" — the start of a third cycle.",
+          "The next number completes the cycle: 2."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "How many sides does a hexagon have?",
+        "opts": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "A hexagon is a 6-sided shape."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: ___, 16, 21, 26, 31 (differences of 5)",
+        "opts": [
+          "11",
+          "12",
+          "10",
+          "6"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each number in the pattern is 5 more than the one before it.",
+          "Working backward from 16: 16 − 5 = 11."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which unit is best for measuring the length of a playground?",
+        "opts": [
+          "Centimetre",
+          "Gram",
+          "Litre",
+          "Metre"
+        ],
+        "ans": "D",
+        "steps": [
+          "Gram measures weight, and Litre measures liquid — neither measures length.",
+          "Centimetre is too small a unit for something as long as a playground.",
+          "Metre is the best unit for measuring a playground's length."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number comes just after 399?",
+        "opts": [
+          "398",
+          "400",
+          "401",
+          "390"
+        ],
+        "ans": "B",
+        "steps": [
+          "The number just after 399 is one more: 399 + 1 = 400."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "The number name \"Five hundred twenty-three\" is written as?",
+        "opts": [
+          "532",
+          "523",
+          "503",
+          "520"
+        ],
+        "ans": "B",
+        "steps": [
+          "\"Five hundred\" = 500, \"twenty\" = 20, \"three\" = 3.",
+          "500 + 20 + 3 = 523."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 175 + 268 = ?",
+        "opts": [
+          "433",
+          "443",
+          "453",
+          "423"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 5 + 8 = 13, write 3 and carry 1.",
+          "Add the tens: 7 + 6 + 1(carried) = 14, write 4 and carry 1.",
+          "Add the hundreds: 1 + 2 + 1(carried) = 4.",
+          "175 + 268 = 443."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 500 − 287 = ?",
+        "opts": [
+          "213",
+          "223",
+          "313",
+          "287"
+        ],
+        "ans": "A",
+        "steps": [
+          "500 − 287: borrowing is needed since 500 has zeros.",
+          "500 − 287 = 213."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "5 × 7 = ?",
+        "opts": [
+          "30",
+          "32",
+          "35",
+          "40"
+        ],
+        "ans": "C",
+        "steps": [
+          "5 × 7 = 35."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "24 ÷ 4 = ?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "ans": "C",
+        "steps": [
+          "24 shared equally into 4 groups: 24 ÷ 4 = 6."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "How many corners does a triangle have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "0"
+        ],
+        "ans": "B",
+        "steps": [
+          "A triangle has 3 corners (also called vertices), one at each point."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "A cube has how many edges?",
+        "opts": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "ans": "D",
+        "steps": [
+          "A cube has 12 edges — 4 around the top, 4 around the bottom, and 4 connecting top to bottom."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number is 10 more than 45?",
+        "opts": [
+          "35",
+          "50",
+          "55",
+          "54"
+        ],
+        "ans": "C",
+        "steps": [
+          "10 more than 45 = 45 + 10 = 55."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "13 − 8 = ?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "ans": "B",
+        "steps": [
+          "13 − 8 = 5."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Arjun has ₹75. He buys a ball for ₹48. How much money is left?",
+        "opts": [
+          "₹27",
+          "₹37",
+          "₹123",
+          "₹17"
+        ],
+        "ans": "A",
+        "steps": [
+          "Money left = ₹75 − ₹48 = ₹27."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Nisha wants to buy a toy for ₹85. She has ₹60. How much more does she need?",
+        "opts": [
+          "₹25",
+          "₹35",
+          "₹145",
+          "₹15"
+        ],
+        "ans": "A",
+        "steps": [
+          "More money needed = ₹85 − ₹60 = ₹25."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "4 o'clock",
+          "Half past 4",
+          "Half past 5",
+          "Quarter past 4"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 4,
+          "minute": 30
+        },
+        "steps": [
+          "The hour hand is between 4 and 5, and the minute hand points to 6 (halfway).",
+          "This means the time is halfway between 4 and 5 o'clock.",
+          "The clock shows Half past 4."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A patient has a temperature of 39°C. Normal temperature is 37°C. How much higher is the patient's temperature?",
+        "opts": [
+          "1°C",
+          "2°C",
+          "3°C",
+          "76°C"
+        ],
+        "ans": "B",
+        "steps": [
+          "Difference = 39°C − 37°C = 2°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A pencil is 14 cm long and an eraser is 5 cm long. What is their total length?",
+        "opts": [
+          "9 cm",
+          "18 cm",
+          "19 cm",
+          "20 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total length = 14 cm + 5 cm = 19 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Tara buys 4 kg of tomatoes and 2 kg of potatoes. What is the total weight?",
+        "opts": [
+          "2 kg",
+          "6 kg",
+          "8 kg",
+          "42 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total weight = 4 kg + 2 kg = 6 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A fish tank holds 15 litres when full. It now has 8 litres. How many more litres are needed to fill it?",
+        "opts": [
+          "6",
+          "7",
+          "23",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "More litres needed = 15 − 8 = 7."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows animals on a farm. How many animals are there in all?",
+        "opts": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Cow",
+              "count": 5
+            },
+            {
+              "name": "Hen",
+              "count": 6
+            },
+            {
+              "name": "Goat",
+              "count": 4
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "animals"
+        },
+        "steps": [
+          "Count the animals in each row: Cow = 5, Hen = 6, Goat = 4.",
+          "Total = 5 + 6 + 4 = 15."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "7 + 9 = ?",
+        "opts": [
+          "15",
+          "16",
+          "17",
+          "14"
+        ],
+        "ans": "B",
+        "steps": [
+          "7 + 9 = 16."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "3 groups of 6 objects. How many objects in all?",
+        "opts": [
+          "9",
+          "15",
+          "18",
+          "12"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total objects = 3 × 6 = 18."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Diya saves ₹15 every week. How much does she save in 8 weeks?",
+        "opts": [
+          "₹100",
+          "₹115",
+          "₹120",
+          "₹125"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total savings = ₹15 × 8 = ₹120."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "The digit in the tens place of 476 is 7. What is the value of this digit?",
+        "opts": [
+          "7",
+          "70",
+          "700",
+          "47"
+        ],
+        "ans": "B",
+        "steps": [
+          "The digit 7 is in the tens place.",
+          "Its value is 7 × 10 = 70."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A number has 3 hundreds, 0 tens, and 6 ones. What is the number?",
+        "opts": [
+          "360",
+          "306",
+          "036",
+          "630"
+        ],
+        "ans": "B",
+        "steps": [
+          "3 hundreds = 300, 0 tens = 0, 6 ones = 6.",
+          "300 + 0 + 6 = 306."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A movie starts at 2 o'clock and ends at 5 o'clock. Manav arrives 30 minutes late. For how long does Manav watch the movie?",
+        "opts": [
+          "2 hours",
+          "2 hours 30 minutes",
+          "3 hours",
+          "3 hours 30 minutes"
+        ],
+        "ans": "B",
+        "steps": [
+          "The movie runs for a total of 5 − 2 = 3 hours.",
+          "Manav arrives 30 minutes late, so he misses the first 30 minutes.",
+          "He watches for 3 hours − 30 minutes = 2 hours 30 minutes."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "Riya read 25 pages on Monday, 32 pages on Tuesday, and 18 pages on Wednesday. How many pages did she read in all?",
+        "opts": [
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total pages = 25 + 32 + 18.",
+          "25 + 32 = 57, and 57 + 18 = 75."
+        ]
+      }
+    ],
+    "E": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next in the pattern? ★ ★ ★ ● ★ ★ ★ ● ★ ★ ★ ___",
+        "opts": [
+          "★",
+          "●",
+          "△",
+          "□"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern repeats in a cycle of 4: Star, Star, Star, Dot.",
+          "Counting through, the sequence has completed two full cycles, and 3 more stars follow — completing a third cycle of 3 stars.",
+          "The next symbol completes the cycle: ●."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Addition, Subtraction, Geography, Division",
+        "opts": [
+          "Addition",
+          "Subtraction",
+          "Geography",
+          "Division"
+        ],
+        "ans": "C",
+        "steps": [
+          "Addition, Subtraction, and Division are all Maths operations.",
+          "Geography is a school subject, not a Maths operation — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "Cow : Milk :: Hen : ___",
+        "opts": [
+          "Wool",
+          "Egg",
+          "Silk",
+          "Meat"
+        ],
+        "ans": "B",
+        "steps": [
+          "A cow gives us milk.",
+          "In the same way, a hen gives us eggs."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "Using A=1, B=2, C=3 ..., the word CAB is coded as?",
+        "opts": [
+          "3,1,2",
+          "1,2,3",
+          "3,2,1",
+          "2,1,3"
+        ],
+        "ans": "A",
+        "steps": [
+          "C is the 3rd letter, A is the 1st letter, B is the 2nd letter.",
+          "CAB is coded as 3, 1, 2."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "Manav is 7th from the left and 5th from the right of a row. How many children are in the row?",
+        "opts": [
+          "10",
+          "11",
+          "12",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total children = (position from left) + (position from right) − 1.",
+          "Total = 7 + 5 − 1 = 11."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the lowercase letter \"q\" when reflected left-right?",
+        "opts": [
+          "b",
+          "p",
+          "d",
+          "q"
+        ],
+        "ans": "B",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "The letter \"q\" reflected left-right looks like \"p\"."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "AZ, BY, CX, DW, ___ (first letter goes forward, second goes backward)",
+        "opts": [
+          "EU",
+          "EV",
+          "FV",
+          "EW"
+        ],
+        "ans": "B",
+        "steps": [
+          "The first letters go forward: A, B, C, D, next is E.",
+          "The second letters go backward: Z, Y, X, W, next is V.",
+          "The next pair is EV."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "There are 2 rows with 4 circles in each row. How many circles are there in total?",
+        "opts": [
+          "6",
+          "8",
+          "10",
+          "4"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total circles = 2 rows × 4 circles = 8."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 1, 2, 4, 7, 11, ___ (differences: 1, 2, 3, 4, 5, ...)",
+        "opts": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "ans": "D",
+        "steps": [
+          "The differences between terms increase by 1 each time: +1, +2, +3, +4.",
+          "The next difference is +5.",
+          "11 + 5 = 16."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "A doctor uses ___ to measure your body temperature.",
+        "opts": [
+          "Ruler",
+          "Weighing scale",
+          "Thermometer",
+          "Clock"
+        ],
+        "ans": "C",
+        "steps": [
+          "A ruler measures length, a weighing scale measures weight, and a clock measures time.",
+          "A thermometer measures body temperature."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the greatest number? 329, 923, 293, 392",
+        "opts": [
+          "329",
+          "293",
+          "923",
+          "392"
+        ],
+        "ans": "C",
+        "steps": [
+          "Compare the hundreds digits: 3, 9, 2, 3. The number starting with 9 is the largest.",
+          "923 is the greatest number."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "600 + 40 + 8 = ?",
+        "opts": [
+          "6408",
+          "640",
+          "648",
+          "468"
+        ],
+        "ans": "C",
+        "steps": [
+          "600 + 40 = 640, then 640 + 8 = 648."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 418 + 235 = ?",
+        "opts": [
+          "643",
+          "653",
+          "663",
+          "623"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 8 + 5 = 13, write 3 and carry 1.",
+          "Add the tens: 1 + 3 + 1(carried) = 5.",
+          "Add the hundreds: 4 + 2 = 6.",
+          "418 + 235 = 653."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 721 − 364 = ?",
+        "opts": [
+          "347",
+          "357",
+          "367",
+          "457"
+        ],
+        "ans": "B",
+        "steps": [
+          "721 − 364: borrowing is needed.",
+          "721 − 364 = 357."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "8 × 3 = ?",
+        "opts": [
+          "21",
+          "24",
+          "27",
+          "32"
+        ],
+        "ans": "B",
+        "steps": [
+          "8 × 3 = 24."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "20 ÷ 5 = ?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "25"
+        ],
+        "ans": "B",
+        "steps": [
+          "20 shared equally into 5 groups: 20 ÷ 5 = 4."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "How many sides does a rectangle have?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "A rectangle has 4 sides."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "A cone has ___ curved surface(s).",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "A cone has one curved surface that wraps from the pointed top to the circular base."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "What number is 5 less than 20?",
+        "opts": [
+          "25",
+          "10",
+          "15",
+          "14"
+        ],
+        "ans": "C",
+        "steps": [
+          "5 less than 20 = 20 − 5 = 15."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Is 17 an even or an odd number?",
+        "opts": [
+          "Even",
+          "Odd",
+          "Zero",
+          "None of these"
+        ],
+        "ans": "B",
+        "steps": [
+          "A number is odd if it cannot be shared equally into 2 groups.",
+          "17 cannot be divided evenly by 2 (17 ÷ 2 leaves a remainder), so it is odd."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Arjun buys 5 mangoes at ₹12 each. How much does he pay in all?",
+        "opts": [
+          "₹50",
+          "₹60",
+          "₹17",
+          "₹55"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total cost = 5 × ₹12 = ₹60."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Priya has ₹150. She spends ₹95. How much is left?",
+        "opts": [
+          "₹45",
+          "₹55",
+          "₹65",
+          "₹245"
+        ],
+        "ans": "B",
+        "steps": [
+          "Money left = ₹150 − ₹95 = ₹55."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "1 o'clock",
+          "2 o'clock",
+          "10 o'clock",
+          "12 o'clock"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 2,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 2, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour.",
+          "The clock shows 2 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A glass of cold water is at 10°C. A cup of hot tea is at 60°C. How many degrees hotter is the tea?",
+        "opts": [
+          "50°C",
+          "60°C",
+          "70°C",
+          "10°C"
+        ],
+        "ans": "A",
+        "steps": [
+          "Difference = 60°C − 10°C = 50°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "Sanya's jump was 95 cm. Kabir's jump was 78 cm. How much farther did Sanya jump?",
+        "opts": [
+          "17 cm",
+          "27 cm",
+          "173 cm",
+          "7 cm"
+        ],
+        "ans": "A",
+        "steps": [
+          "Difference = 95 cm − 78 cm = 17 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "A watermelon weighs 3 kg. A pumpkin weighs twice as much. How much does the pumpkin weigh?",
+        "opts": [
+          "5 kg",
+          "6 kg",
+          "9 kg",
+          "3 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Twice as much as 3 kg = 3 × 2 = 6 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A glass holds 250 ml. How many glasses are needed to fill a 1-litre bottle?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "ans": "C",
+        "steps": [
+          "1 litre = 1000 ml.",
+          "Number of glasses = 1000 ÷ 250 = 4."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows flowers in a garden. How many flowers are there altogether?",
+        "opts": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Rose",
+              "count": 5
+            },
+            {
+              "name": "Lily",
+              "count": 4
+            },
+            {
+              "name": "Tulip",
+              "count": 3
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "flowers"
+        },
+        "steps": [
+          "Count the flowers in each row: Rose = 5, Lily = 4, Tulip = 3.",
+          "Total = 5 + 4 + 3 = 12."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "14 − 6 = ?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": "C",
+        "steps": [
+          "14 − 6 = 8."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Share 12 toffees equally among 3 children. How many does each child get?",
+        "opts": [
+          "3",
+          "4",
+          "6",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "12 shared equally among 3 children: 12 ÷ 3 = 4."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A farmer has 225 apples in one basket and 178 in another. He sells 150 apples. How many apples are left?",
+        "opts": [
+          "243",
+          "253",
+          "263",
+          "403"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total apples = 225 + 178 = 403.",
+          "After selling 150: 403 − 150 = 253."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "How many tens are there in the number 340?",
+        "opts": [
+          "3",
+          "34",
+          "40",
+          "304"
+        ],
+        "ans": "B",
+        "steps": [
+          "340 ÷ 10 = 34.",
+          "There are 34 tens in 340."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A pattern: 2, 6, 12, 20, 30, ___ . What comes next?",
+        "opts": [
+          "36",
+          "40",
+          "42",
+          "44"
+        ],
+        "ans": "C",
+        "steps": [
+          "The differences between terms are 4, 6, 8, 10 — increasing by 2 each time.",
+          "The next difference is 12.",
+          "30 + 12 = 42."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Kavya is 7 years old. Her mother is 32 years old. In how many years will Kavya be half her mother's CURRENT age?",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "16"
+        ],
+        "ans": "C",
+        "steps": [
+          "Half of the mother's current age = 32 ÷ 2 = 16.",
+          "Kavya needs to reach age 16. She is currently 7.",
+          "Years needed = 16 − 7 = 9."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A shopkeeper has 3 boxes with 48 eggs each. If 15 eggs break, how many good eggs are left?",
+        "opts": [
+          "119",
+          "129",
+          "139",
+          "133"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total eggs = 3 × 48 = 144.",
+          "After 15 break: 144 − 15 = 129."
+        ]
+      }
+    ],
+    "F": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing letter: Z, X, V, T, ___",
+        "opts": [
+          "R",
+          "S",
+          "Q",
+          "U"
+        ],
+        "ans": "A",
+        "steps": [
+          "Convert letters to positions: Z=26, X=24, V=22, T=20 — each jumps backward by 2.",
+          "The next letter is at position 20−2=18, which is R."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Table, Chair, Bed, Pencil",
+        "opts": [
+          "Table",
+          "Chair",
+          "Bed",
+          "Pencil"
+        ],
+        "ans": "D",
+        "steps": [
+          "Table, Chair, and Bed are all pieces of furniture.",
+          "Pencil is a stationery item, not furniture — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "7 : 49 :: 6 : ___",
+        "opts": [
+          "36",
+          "30",
+          "42",
+          "12"
+        ],
+        "ans": "A",
+        "steps": [
+          "The rule is \"multiply the number by itself\": 7 × 7 = 49.",
+          "Applying the same rule to 6: 6 × 6 = 36."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If RAIN is coded as SBJO (each letter shifted one step forward), how is BOAT coded?",
+        "opts": [
+          "APBS",
+          "COBU",
+          "CPBU",
+          "BOBS"
+        ],
+        "ans": "C",
+        "steps": [
+          "Check the rule with RAIN: R→S, A→B, I→J, N→O — each letter moves forward by 1.",
+          "Apply the same rule to BOAT: B→C, O→P, A→B, T→U.",
+          "BOAT becomes CPBU."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "Aisha stands 2nd from the left and 4th from the right in a row. How many students are in the row?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total students = (position from left) + (position from right) − 1.",
+          "Total = 2 + 4 − 1 = 5."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the lowercase letter \"d\" when reflected left-right?",
+        "opts": [
+          "p",
+          "b",
+          "q",
+          "d"
+        ],
+        "ans": "B",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "The letter \"d\" reflected left-right looks like \"b\"."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 11, 22, 33, 44, ___",
+        "opts": [
+          "45",
+          "55",
+          "54",
+          "50"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts up by 11 each time: 11, 22, 33, 44...",
+          "The next number is 44 + 11 = 55."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "A figure is made up of 6 separate squares of different sizes, placed next to each other with none overlapping. How many squares are in the figure?",
+        "opts": [
+          "3",
+          "5",
+          "6",
+          "4"
+        ],
+        "ans": "C",
+        "steps": [
+          "The figure is made of 6 separate squares.",
+          "Counting them gives a total of 6."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 1, 3, 5, 7, 9, ___ (odd numbers)",
+        "opts": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "ans": "B",
+        "steps": [
+          "This is the pattern of odd numbers, increasing by 2 each time.",
+          "The next odd number after 9 is 11."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "Which instrument is used to measure temperature?",
+        "opts": [
+          "Weighing scale",
+          "Ruler",
+          "Thermometer",
+          "Clock"
+        ],
+        "ans": "C",
+        "steps": [
+          "A weighing scale measures weight, a ruler measures length, and a clock measures time.",
+          "A thermometer measures temperature."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number has 5 hundreds, 2 tens, and 7 ones?",
+        "opts": [
+          "572",
+          "257",
+          "527",
+          "725"
+        ],
+        "ans": "C",
+        "steps": [
+          "5 hundreds = 500, 2 tens = 20, 7 ones = 7.",
+          "500 + 20 + 7 = 527."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the smallest? 413, 431, 314, 341",
+        "opts": [
+          "413",
+          "431",
+          "314",
+          "341"
+        ],
+        "ans": "C",
+        "steps": [
+          "Compare the hundreds digits: 4, 4, 3, 3. The two smallest start with 3: 314 and 341.",
+          "Comparing tens digits: 1 (in 314) vs 4 (in 341) — 314 is smaller.",
+          "314 is the smallest number."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 347 + 486 = ?",
+        "opts": [
+          "823",
+          "833",
+          "843",
+          "713"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 7 + 6 = 13, write 3 and carry 1.",
+          "Add the tens: 4 + 8 + 1(carried) = 13, write 3 and carry 1.",
+          "Add the hundreds: 3 + 4 + 1(carried) = 8.",
+          "347 + 486 = 833."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 634 − 278 = ?",
+        "opts": [
+          "344",
+          "356",
+          "366",
+          "446"
+        ],
+        "ans": "B",
+        "steps": [
+          "634 − 278: borrowing is needed.",
+          "634 − 278 = 356."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "4 × 9 = ?",
+        "opts": [
+          "32",
+          "36",
+          "40",
+          "45"
+        ],
+        "ans": "B",
+        "steps": [
+          "4 × 9 = 36."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "28 ÷ 7 = ?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "ans": "B",
+        "steps": [
+          "28 shared equally into 7 groups: 28 ÷ 7 = 4."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "Which 2D shape has NO corners?",
+        "opts": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "ans": "C",
+        "steps": [
+          "A square, triangle, and rectangle all have straight sides and corners.",
+          "A circle is perfectly round with no straight sides or corners."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "How many vertices (corners) does a cone have?",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ans": "B",
+        "steps": [
+          "A cone has one pointed tip at the top — this is its only vertex."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "30 + 40 = ?",
+        "opts": [
+          "60",
+          "70",
+          "80",
+          "34"
+        ],
+        "ans": "B",
+        "steps": [
+          "30 + 40 = 70."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "What is 2 more than 18?",
+        "opts": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "ans": "C",
+        "steps": [
+          "2 more than 18 = 18 + 2 = 20."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Ishaan buys 3 pens at ₹6 each and an eraser for ₹4. How much does he pay in all?",
+        "opts": [
+          "₹20",
+          "₹22",
+          "₹24",
+          "₹28"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cost of pens = 3 × ₹6 = ₹18.",
+          "Total = ₹18 + ₹4 = ₹22."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "A shirt costs ₹240 and a pair of trousers costs ₹180. What is the total cost?",
+        "opts": [
+          "₹320",
+          "₹400",
+          "₹420",
+          "₹440"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total cost = ₹240 + ₹180 = ₹420."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "6 o'clock",
+          "7 o'clock",
+          "8 o'clock",
+          "9 o'clock"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "clock",
+          "hour": 8,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 8, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour.",
+          "The clock shows 8 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "The temperature in the morning was 22°C. By afternoon it rose by 8°C. What is the afternoon temperature?",
+        "opts": [
+          "14°C",
+          "22°C",
+          "28°C",
+          "30°C"
+        ],
+        "ans": "D",
+        "steps": [
+          "Afternoon temperature = 22°C + 8°C = 30°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A room is 480 cm long. It is divided into 4 equal parts. How long is each part?",
+        "opts": [
+          "100 cm",
+          "110 cm",
+          "120 cm",
+          "200 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Each part = 480 cm ÷ 4 = 120 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Anaya weighs 24 kg and her brother weighs 30 kg. What is their total weight?",
+        "opts": [
+          "6 kg",
+          "44 kg",
+          "54 kg",
+          "64 kg"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total weight = 24 kg + 30 kg = 54 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A tank has 50 litres of water. 18 litres are used. How much water remains?",
+        "opts": [
+          "28 litres",
+          "30 litres",
+          "32 litres",
+          "68 litres"
+        ],
+        "ans": "C",
+        "steps": [
+          "Water remaining = 50 − 18 = 32 litres."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows stars collected by three students. Who collected the most?",
+        "opts": [
+          "Rohan",
+          "Tara",
+          "Dev",
+          "All same"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Rohan",
+              "count": 5
+            },
+            {
+              "name": "Tara",
+              "count": 8
+            },
+            {
+              "name": "Dev",
+              "count": 6
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "stars"
+        },
+        "steps": [
+          "Compare the stars collected: Rohan = 5, Tara = 8, Dev = 6.",
+          "Tara collected the most, with 8."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "11 + 8 = ?",
+        "opts": [
+          "18",
+          "19",
+          "20",
+          "17"
+        ],
+        "ans": "B",
+        "steps": [
+          "11 + 8 = 19."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "5 groups of 4. How many in all?",
+        "opts": [
+          "9",
+          "15",
+          "20",
+          "25"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 5 × 4 = 20."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A library has 312 English books and 275 Hindi books. Students return 48 more books. How many books are there in all?",
+        "opts": [
+          "587",
+          "635",
+          "625",
+          "645"
+        ],
+        "ans": "B",
+        "steps": [
+          "Books before return = 312 + 275 = 587.",
+          "After 48 more returned: 587 + 48 = 635."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Using digits 3, 7, and 1 (each used once), what is the difference between the greatest and smallest 3-digit numbers?",
+        "opts": [
+          "594",
+          "496",
+          "584",
+          "604"
+        ],
+        "ans": "A",
+        "steps": [
+          "Greatest number using 3, 7, 1: arrange in descending order = 731.",
+          "Smallest number: arrange in ascending order = 137.",
+          "Difference = 731 − 137 = 594."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "Find the missing number: 99, 88, 77, 66, ___",
+        "opts": [
+          "44",
+          "55",
+          "56",
+          "65"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts down by 11 each time: 99, 88, 77, 66...",
+          "The next number is 66 − 11 = 55."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Riya leaves for school at 7:30 and returns at 1:30. For how many hours is she away from home?",
+        "opts": [
+          "5 hours",
+          "6 hours",
+          "7 hours",
+          "8 hours"
+        ],
+        "ans": "B",
+        "steps": [
+          "From 7:30 to 1:30 is exactly 6 hours later (7:30 → 12:30 is 5 hours, then 12:30 → 1:30 is 1 more hour).",
+          "She is away for 6 hours."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "Siddharth has 4 jars with 25 marbles each. He gives 15 marbles to his sister and 20 to his friend. How many marbles are left?",
+        "opts": [
+          "55",
+          "60",
+          "65",
+          "70"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total marbles = 4 × 25 = 100.",
+          "Given away = 15 + 20 = 35.",
+          "Marbles left = 100 − 35 = 65."
+        ]
+      }
+    ],
+    "G": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Sun, Moon, Star, Flower",
+        "opts": [
+          "Sun",
+          "Moon",
+          "Star",
+          "Flower"
+        ],
+        "ans": "D",
+        "steps": [
+          "Sun, Moon, and Star are all objects seen in the sky.",
+          "Flower grows on the ground, not in the sky — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Pen : Write :: Scissors : ___",
+        "opts": [
+          "Draw",
+          "Cut",
+          "Stitch",
+          "Paint"
+        ],
+        "ans": "B",
+        "steps": [
+          "A pen is used to write.",
+          "In the same way, scissors are used to cut."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "If MANGO is coded as NBOHP, how is GRAPE coded?",
+        "opts": [
+          "HSBPF",
+          "GSBQF",
+          "HSBQF",
+          "HSAQF"
+        ],
+        "ans": "C",
+        "steps": [
+          "Check the rule with MANGO: M→N, A→B, N→O, G→H, O→P — each letter moves forward by 1.",
+          "Apply the same rule to GRAPE: G→H, R→S, A→B, P→Q, E→F.",
+          "GRAPE becomes HSBQF."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "Kiran is 3rd from the top in a list of 8. What is his position from the bottom?",
+        "opts": [
+          "5th",
+          "6th",
+          "7th",
+          "8th"
+        ],
+        "ans": "B",
+        "steps": [
+          "Position from bottom = total − position from top + 1.",
+          "Position from bottom = 8 − 3 + 1 = 6th."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next in the pattern? 2, 4, 2, 4, 2, ___",
+        "opts": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern alternates between 2 and 4.",
+          "After 2, the next number is always 4."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What is the mirror image of the capital letter F when reflected left-right?",
+        "opts": [
+          "L",
+          "Reversed F",
+          "E",
+          "T"
+        ],
+        "ans": "B",
+        "steps": [
+          "When a letter is reflected left-right (like in a mirror), it faces the opposite direction.",
+          "F does not match any other standard letter when mirrored — it becomes a backward, \"Reversed F\" shape."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 10, 13, 16, 19, ___ (add 3 each time)",
+        "opts": [
+          "21",
+          "22",
+          "23",
+          "20"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern adds 3 each time: 10, 13, 16, 19...",
+          "The next number is 19 + 3 = 22."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "How many shapes are there in 2 rows of 4 shapes each?",
+        "opts": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total shapes = 2 rows × 4 shapes = 8."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "What number comes just before 200?",
+        "opts": [
+          "201",
+          "198",
+          "199",
+          "200"
+        ],
+        "ans": "C",
+        "steps": [
+          "The number just before 200 is one less: 200 − 1 = 199."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "A nurse uses ___ to measure the amount of medicine.",
+        "opts": [
+          "Ruler",
+          "Weighing scale",
+          "Measuring spoon",
+          "Thermometer"
+        ],
+        "ans": "C",
+        "steps": [
+          "A ruler measures length, a weighing scale measures weight, and a thermometer measures temperature.",
+          "A measuring spoon measures small amounts of medicine or liquid."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is the smallest 3-digit number?",
+        "opts": [
+          "99",
+          "100",
+          "101",
+          "001"
+        ],
+        "ans": "B",
+        "steps": [
+          "The smallest 3-digit number starts with 1 in the hundreds place, followed by zeros: 100."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the correct number name for 830?",
+        "opts": [
+          "Eight hundred thirteen",
+          "Eight hundred thirty",
+          "Eight hundred three",
+          "Eighty thirty"
+        ],
+        "ans": "B",
+        "steps": [
+          "830 has 8 hundreds, 3 tens, and 0 ones.",
+          "This is written in words as \"Eight hundred thirty.\""
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 463 + 379 = ?",
+        "opts": [
+          "832",
+          "842",
+          "852",
+          "742"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 3 + 9 = 12, write 2 and carry 1.",
+          "Add the tens: 6 + 7 + 1(carried) = 14, write 4 and carry 1.",
+          "Add the hundreds: 4 + 3 + 1(carried) = 8.",
+          "463 + 379 = 842."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 800 − 456 = ?",
+        "opts": [
+          "334",
+          "344",
+          "354",
+          "444"
+        ],
+        "ans": "B",
+        "steps": [
+          "800 − 456: borrowing is needed since 800 has zeros.",
+          "800 − 456 = 344."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "9 × 4 = ?",
+        "opts": [
+          "32",
+          "36",
+          "40",
+          "27"
+        ],
+        "ans": "B",
+        "steps": [
+          "9 × 4 = 36."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "30 ÷ 6 = ?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "36"
+        ],
+        "ans": "B",
+        "steps": [
+          "30 shared equally into 6 groups: 30 ÷ 6 = 5."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "A rectangle has ___ pairs of equal sides.",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ans": "B",
+        "steps": [
+          "A rectangle has 2 long sides that are equal to each other, and 2 short sides that are equal to each other.",
+          "That makes 2 pairs of equal sides."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "Which solid has NO flat face at all?",
+        "opts": [
+          "Cube",
+          "Cone",
+          "Cylinder",
+          "Sphere"
+        ],
+        "ans": "D",
+        "steps": [
+          "A cube has 6 flat faces. A cone has 1 flat circular face. A cylinder has 2 flat circular faces.",
+          "A sphere is completely round with no flat face anywhere."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is an even number?",
+        "opts": [
+          "11",
+          "13",
+          "14",
+          "17"
+        ],
+        "ans": "C",
+        "steps": [
+          "A number is even if it can be shared equally into 2 groups.",
+          "14 ÷ 2 = 7 exactly, so 14 is even. The others leave a remainder when divided by 2."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Fill in: 2, 4, 6, ___, 10, 12",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "11"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern counts up by 2 each time: 2, 4, 6, 8, 10, 12.",
+          "The missing number is 8."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Aisha and Meera each have ₹45. How much do they have together?",
+        "opts": [
+          "₹85",
+          "₹90",
+          "₹80",
+          "₹135"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total = ₹45 + ₹45 = ₹90."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Dev pays ₹90 for 3 identical toys. What is the cost of each toy?",
+        "opts": [
+          "₹27",
+          "₹30",
+          "₹33",
+          "₹270"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cost of each toy = ₹90 ÷ 3 = ₹30."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "5 o'clock",
+          "Half past 5",
+          "Quarter past 5",
+          "Half past 6"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 5,
+          "minute": 30
+        },
+        "steps": [
+          "The hour hand is between 5 and 6, and the minute hand points to 6 (halfway).",
+          "This means the time is halfway between 5 and 6 o'clock.",
+          "The clock shows Half past 5."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Summer temperature is 42°C. Winter temperature is 15°C. What is the difference?",
+        "opts": [
+          "27°C",
+          "37°C",
+          "57°C",
+          "17°C"
+        ],
+        "ans": "A",
+        "steps": [
+          "Difference = 42°C − 15°C = 27°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A bookshelf is 180 cm tall. A chair is 45 cm tall. How much taller is the bookshelf?",
+        "opts": [
+          "125 cm",
+          "135 cm",
+          "145 cm",
+          "225 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Difference = 180 cm − 45 cm = 135 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "5 bags of sand each weigh 8 kg. What is the total weight?",
+        "opts": [
+          "13 kg",
+          "35 kg",
+          "40 kg",
+          "45 kg"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total weight = 5 × 8 kg = 40 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A bucket holds 12 litres. How many litres do 4 buckets hold?",
+        "opts": [
+          "36 litres",
+          "44 litres",
+          "48 litres",
+          "52 litres"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 12 litres × 4 = 48 litres."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows books read by three children. How many books did Kavya and Rohan read together?",
+        "opts": [
+          "8",
+          "11",
+          "13",
+          "16"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Kavya",
+              "count": 6
+            },
+            {
+              "name": "Rohan",
+              "count": 5
+            },
+            {
+              "name": "Sana",
+              "count": 7
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "books"
+        },
+        "steps": [
+          "Kavya read 6 books, and Rohan read 5 books.",
+          "Together: 6 + 5 = 11."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "15 + 6 = ?",
+        "opts": [
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "ans": "C",
+        "steps": [
+          "15 + 6 = 21."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "Share 16 pencils equally among 4 students. How many does each student get?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "20"
+        ],
+        "ans": "B",
+        "steps": [
+          "16 shared equally among 4 students: 16 ÷ 4 = 4."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "Nisha has 60 stickers. She gives 20 to her sister and 15 to her brother. She then receives 8 from a friend. How many stickers does she have now?",
+        "opts": [
+          "28",
+          "33",
+          "35",
+          "43"
+        ],
+        "ans": "B",
+        "steps": [
+          "After giving away: 60 − 20 − 15 = 25.",
+          "After receiving 8 more: 25 + 8 = 33."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "What is the largest 3-digit number less than 400 using the digits 3, 9, and 4 (each once)?",
+        "opts": [
+          "394",
+          "439",
+          "349",
+          "943"
+        ],
+        "ans": "A",
+        "steps": [
+          "To be less than 400, the number must start with 3 (since starting with 4 or 9 gives 400 or more).",
+          "Using the remaining digits 9 and 4 in descending order for the largest value: 394."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "What is 6 × 7?",
+        "opts": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "ans": "B",
+        "steps": [
+          "6 × 7 = 42."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Rohan walks 250 m to school and 250 m back. He does this for 5 days. What is his total distance walked?",
+        "opts": [
+          "1250 m",
+          "500 m",
+          "2500 m",
+          "2000 m"
+        ],
+        "ans": "C",
+        "steps": [
+          "Distance per day = 250 m + 250 m = 500 m.",
+          "Distance over 5 days = 500 m × 5 = 2500 m."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A number when added to 348 gives 500. What is the number?",
+        "opts": [
+          "142",
+          "148",
+          "152",
+          "162"
+        ],
+        "ans": "C",
+        "steps": [
+          "The missing number = 500 − 348 = 152."
+        ]
+      }
+    ],
+    "H": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 15, 18, 21, 24, ___ (add 3 each time)",
+        "opts": [
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern adds 3 each time: 15, 18, 21, 24...",
+          "The next number is 24 + 3 = 27."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Red, Blue, Yellow, Mango",
+        "opts": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "Mango"
+        ],
+        "ans": "D",
+        "steps": [
+          "Red, Blue, and Yellow are all colours.",
+          "Mango is a fruit, not a colour — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "Fish : Water :: Bird : ___",
+        "opts": [
+          "Nest",
+          "Feather",
+          "Sky",
+          "Egg"
+        ],
+        "ans": "C",
+        "steps": [
+          "A fish lives and swims in water.",
+          "In the same way, a bird flies in the sky."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "If HORSE is coded as IPSTF (each letter shifted one step forward), how is TIGER coded?",
+        "opts": [
+          "UJHFS",
+          "TIGFS",
+          "UIGFS",
+          "UJIFS"
+        ],
+        "ans": "A",
+        "steps": [
+          "Check the rule with HORSE: H→I, O→P, R→S, S→T, E→F — each letter moves forward by 1.",
+          "Apply the same rule to TIGER: T→U, I→J, G→H, E→F, R→S.",
+          "TIGER becomes UJHFS."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "In a class of 20, Anaya is 8th from the front. What is her position from the back?",
+        "opts": [
+          "12th",
+          "13th",
+          "14th",
+          "8th"
+        ],
+        "ans": "B",
+        "steps": [
+          "Position from back = total − position from front + 1.",
+          "Position from back = 20 − 8 + 1 = 13th."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "What comes next in the pattern? ABA, BCB, CDC, DED, ___",
+        "opts": [
+          "EFE",
+          "DEF",
+          "EDE",
+          "FEF"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each group follows the pattern [letter, next letter, same first letter], and the starting letter moves forward each time: A, B, C, D.",
+          "The next starting letter is E, giving the pattern E, F, E.",
+          "The next group is EFE."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 11, 22, 33, ___, 55",
+        "opts": [
+          "40",
+          "42",
+          "44",
+          "45"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern counts up by 11 each time: 11, 22, 33, 44, 55.",
+          "The missing number is 44."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "How many triangles are formed when a rectangle is divided by one diagonal?",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ans": "B",
+        "steps": [
+          "A single diagonal splits a rectangle into two equal halves.",
+          "Each half is a triangle, giving 2 triangles in total."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Which number is 10 less than 75?",
+        "opts": [
+          "65",
+          "70",
+          "74",
+          "85"
+        ],
+        "ans": "A",
+        "steps": [
+          "10 less than 75 = 75 − 10 = 65."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "A nurse uses ___ to measure liquid medicines.",
+        "opts": [
+          "Ruler",
+          "Weighing scale",
+          "Measuring cup",
+          "Thermometer"
+        ],
+        "ans": "C",
+        "steps": [
+          "A ruler measures length, a weighing scale measures weight, and a thermometer measures temperature.",
+          "A measuring cup measures the amount of liquid medicine."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which of these is NOT a 3-digit number?",
+        "opts": [
+          "100",
+          "200",
+          "99",
+          "999"
+        ],
+        "ans": "C",
+        "steps": [
+          "100, 200, and 999 all have 3 digits.",
+          "99 has only 2 digits — it is not a 3-digit number."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "305 = 3 hundreds + ___ tens + 5 ones",
+        "opts": [
+          "0",
+          "3",
+          "5",
+          "30"
+        ],
+        "ans": "A",
+        "steps": [
+          "305 has 3 hundreds, 0 tens, and 5 ones.",
+          "The blank is 0."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 527 + 294 = ?",
+        "opts": [
+          "811",
+          "821",
+          "831",
+          "721"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 7 + 4 = 11, write 1 and carry 1.",
+          "Add the tens: 2 + 9 + 1(carried) = 12, write 2 and carry 1.",
+          "Add the hundreds: 5 + 2 + 1(carried) = 8.",
+          "527 + 294 = 821."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 900 − 367 = ?",
+        "opts": [
+          "523",
+          "533",
+          "543",
+          "633"
+        ],
+        "ans": "B",
+        "steps": [
+          "900 − 367: borrowing is needed since 900 has zeros.",
+          "900 − 367 = 533."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "7 × 5 = ?",
+        "opts": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "ans": "B",
+        "steps": [
+          "7 × 5 = 35."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "36 ÷ 9 = ?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "36 shared equally into 9 groups: 36 ÷ 9 = 4."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "How many angles does a triangle have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "A triangle has 3 corners, and each corner forms an angle — so it has 3 angles."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "Which solid has ONLY flat faces (no curved surface)?",
+        "opts": [
+          "Sphere",
+          "Cone",
+          "Cylinder",
+          "Cube"
+        ],
+        "ans": "D",
+        "steps": [
+          "A sphere is entirely curved. A cone and cylinder each have a curved surface.",
+          "A cube has only flat, square faces — 6 of them."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "5 + 9 = ?",
+        "opts": [
+          "13",
+          "14",
+          "15",
+          "4"
+        ],
+        "ans": "B",
+        "steps": [
+          "5 + 9 = 14."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the smaller number: 48 or 84?",
+        "opts": [
+          "48",
+          "84",
+          "Both equal",
+          "Cannot say"
+        ],
+        "ans": "A",
+        "steps": [
+          "Compare the tens digits: 4 (in 48) and 8 (in 84).",
+          "4 is smaller than 8, so 48 is the smaller number."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Vivaan spends ₹55 on Monday and ₹78 on Tuesday. How much does he spend in all?",
+        "opts": [
+          "₹123",
+          "₹133",
+          "₹143",
+          "₹23"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total spent = ₹55 + ₹78 = ₹133."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Priya has 4 coins of ₹10 and 3 coins of ₹5. How much does she have in all?",
+        "opts": [
+          "₹45",
+          "₹50",
+          "₹55",
+          "₹60"
+        ],
+        "ans": "C",
+        "steps": [
+          "Value of ₹10 coins = 4 × ₹10 = ₹40.",
+          "Value of ₹5 coins = 3 × ₹5 = ₹15.",
+          "Total = ₹40 + ₹15 = ₹55."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "10 o'clock",
+          "11 o'clock",
+          "12 o'clock",
+          "1 o'clock"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 11,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 11, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour.",
+          "The clock shows 11 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Yesterday's temperature was 28°C. Today it is 5°C warmer. What is today's temperature?",
+        "opts": [
+          "23°C",
+          "28°C",
+          "33°C",
+          "38°C"
+        ],
+        "ans": "C",
+        "steps": [
+          "Today's temperature = 28°C + 5°C = 33°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A rope of 240 cm is cut into 6 equal pieces. How long is each piece?",
+        "opts": [
+          "30 cm",
+          "35 cm",
+          "40 cm",
+          "246 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Length of each piece = 240 cm ÷ 6 = 40 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Rohan weighs 28 kg. Meera weighs 3 kg less than Rohan. What is Meera's weight?",
+        "opts": [
+          "31 kg",
+          "25 kg",
+          "24 kg",
+          "84 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Meera's weight = 28 kg − 3 kg = 25 kg."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A large bottle holds 2 litres. How many 200 ml glasses can it fill?",
+        "opts": [
+          "5",
+          "8",
+          "10",
+          "12"
+        ],
+        "ans": "C",
+        "steps": [
+          "2 litres = 2000 ml.",
+          "Number of glasses = 2000 ÷ 200 = 10."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows sweets eaten by three children. How many sweets were eaten in all?",
+        "opts": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Aman",
+              "count": 5
+            },
+            {
+              "name": "Priya",
+              "count": 4
+            },
+            {
+              "name": "Karan",
+              "count": 5
+            }
+          ],
+          "unit": 1,
+          "unitLabel": "sweets"
+        },
+        "steps": [
+          "Count the sweets eaten by each child: Aman = 5, Priya = 4, Karan = 5.",
+          "Total = 5 + 4 + 5 = 14."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "9 + 6 = ?",
+        "opts": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "ans": "C",
+        "steps": [
+          "9 + 6 = 15."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "4 groups of 5. How many in all?",
+        "opts": [
+          "9",
+          "15",
+          "20",
+          "25"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 4 × 5 = 20."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A shop has 430 pens. It sells 175 red pens and 148 blue pens. How many pens are left?",
+        "opts": [
+          "97",
+          "107",
+          "117",
+          "323"
+        ],
+        "ans": "B",
+        "steps": [
+          "Pens sold = 175 + 148 = 323.",
+          "Pens left = 430 − 323 = 107."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "A number is 4 times 37. What is the number?",
+        "opts": [
+          "41",
+          "108",
+          "148",
+          "158"
+        ],
+        "ans": "C",
+        "steps": [
+          "4 times 37 = 4 × 37 = 148."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A pattern: 5, 15, 25, 35, ___ What comes next?",
+        "opts": [
+          "40",
+          "45",
+          "50",
+          "55"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern adds 10 each time: 5, 15, 25, 35...",
+          "The next number is 35 + 10 = 45."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Kavya takes 20 minutes to walk to the park and 20 minutes back. She does this 3 times a week. How many minutes does she walk per week?",
+        "opts": [
+          "40",
+          "60",
+          "80",
+          "120"
+        ],
+        "ans": "D",
+        "steps": [
+          "Minutes per trip (there and back) = 20 + 20 = 40.",
+          "Minutes per week = 40 × 3 = 120."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A number has 6 in the hundreds place, 0 in the tens place, and 4 in the ones place. If you add 87 to it, what do you get?",
+        "opts": [
+          "681",
+          "691",
+          "701",
+          "671"
+        ],
+        "ans": "B",
+        "steps": [
+          "The number is 604 (6 hundreds, 0 tens, 4 ones).",
+          "604 + 87 = 691."
+        ]
+      }
+    ],
+    "I": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 7, 14, 21, 28, ___ (multiples of 7)",
+        "opts": [
+          "32",
+          "35",
+          "36",
+          "42"
+        ],
+        "ans": "B",
+        "steps": [
+          "The pattern lists multiples of 7: 7, 14, 21, 28...",
+          "The next multiple is 28 + 7 = 35."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Violin, Guitar, Tabla, Television",
+        "opts": [
+          "Violin",
+          "Guitar",
+          "Tabla",
+          "Television"
+        ],
+        "ans": "D",
+        "steps": [
+          "Violin, Guitar, and Tabla are all musical instruments.",
+          "Television is an electronic device, not an instrument — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "Day : Night :: Hot : ___",
+        "opts": [
+          "Warm",
+          "Cool",
+          "Cold",
+          "Ice"
+        ],
+        "ans": "C",
+        "steps": [
+          "Day and Night are opposites.",
+          "In the same way, the opposite of Hot is Cold."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "In a code, A=Z, B=Y, C=X (letters are swapped with their opposites in the alphabet). How is BAD written?",
+        "opts": [
+          "YZW",
+          "ZYX",
+          "YXW",
+          "WZY"
+        ],
+        "ans": "A",
+        "steps": [
+          "Each letter swaps with its \"opposite\" — the letter the same distance from the other end of the alphabet.",
+          "B(2nd)→Y(25th), A(1st)→Z(26th), D(4th)→W(23rd).",
+          "BAD becomes YZW."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "Aisha is the 3rd tallest among 7 students. How many students are taller than her?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "7"
+        ],
+        "ans": "A",
+        "steps": [
+          "If Aisha is 3rd tallest, then 2 students are taller than her (1st and 2nd tallest)."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number in the series: 1, 3, 6, 10, ___",
+        "opts": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "ans": "D",
+        "steps": [
+          "The differences between terms increase by 1 each time: +2, +3, +4.",
+          "The next difference is +5.",
+          "10 + 5 = 15."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Kiran gets 9 marks in 3 equal tests. How many marks per test?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "27"
+        ],
+        "ans": "B",
+        "steps": [
+          "Marks per test = 9 ÷ 3 = 3."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "How many sides does an octagon have?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": "C",
+        "steps": [
+          "An octagon is an 8-sided shape."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "Count: How many tens are in 70?",
+        "opts": [
+          "7",
+          "70",
+          "17",
+          "700"
+        ],
+        "ans": "A",
+        "steps": [
+          "70 ÷ 10 = 7.",
+          "There are 7 tens in 70."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "1 kilometre = ___ metres",
+        "opts": [
+          "10",
+          "100",
+          "1000",
+          "100000"
+        ],
+        "ans": "C",
+        "steps": [
+          "1 kilometre equals 1000 metres."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "Which is the greatest 3-digit number using the digits 2, 8, and 5 (each once)?",
+        "opts": [
+          "582",
+          "825",
+          "852",
+          "528"
+        ],
+        "ans": "C",
+        "steps": [
+          "To make the greatest number, arrange the digits from largest to smallest: 8, 5, 2.",
+          "This gives 852."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "How many hundreds are in 750?",
+        "opts": [
+          "5",
+          "7",
+          "75",
+          "750"
+        ],
+        "ans": "B",
+        "steps": [
+          "750 has 7 in the hundreds place.",
+          "There are 7 hundreds in 750."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 285 + 436 = ?",
+        "opts": [
+          "711",
+          "721",
+          "731",
+          "621"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 5 + 6 = 11, write 1 and carry 1.",
+          "Add the tens: 8 + 3 + 1(carried) = 12, write 2 and carry 1.",
+          "Add the hundreds: 2 + 4 + 1(carried) = 7.",
+          "285 + 436 = 721."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 605 − 248 = ?",
+        "opts": [
+          "347",
+          "357",
+          "367",
+          "457"
+        ],
+        "ans": "B",
+        "steps": [
+          "605 − 248: borrowing is needed.",
+          "605 − 248 = 357."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "6 × 6 = ?",
+        "opts": [
+          "30",
+          "32",
+          "36",
+          "42"
+        ],
+        "ans": "C",
+        "steps": [
+          "6 × 6 = 36."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "45 ÷ 9 = ?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "ans": "B",
+        "steps": [
+          "45 shared equally into 9 groups: 45 ÷ 9 = 5."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "How many flat faces does a sphere have?",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "6"
+        ],
+        "ans": "A",
+        "steps": [
+          "A sphere is completely round with no flat surfaces at all."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "Which 2D shape is the face of a cube?",
+        "opts": [
+          "Circle",
+          "Triangle",
+          "Rectangle",
+          "Square"
+        ],
+        "ans": "D",
+        "steps": [
+          "Every face of a cube is a perfectly equal-sided square."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Is 24 even or odd?",
+        "opts": [
+          "Even",
+          "Odd",
+          "Zero",
+          "None of these"
+        ],
+        "ans": "A",
+        "steps": [
+          "24 ÷ 2 = 12 exactly, with no remainder.",
+          "24 is an even number."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Which number comes after 19?",
+        "opts": [
+          "18",
+          "21",
+          "20",
+          "19"
+        ],
+        "ans": "C",
+        "steps": [
+          "The number after 19 is one more: 19 + 1 = 20."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "Dev buys 4 erasers at ₹3 each and 2 pencils at ₹5 each. How much does he pay in all?",
+        "opts": [
+          "₹20",
+          "₹22",
+          "₹24",
+          "₹30"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cost of erasers = 4 × ₹3 = ₹12.",
+          "Cost of pencils = 2 × ₹5 = ₹10.",
+          "Total = ₹12 + ₹10 = ₹22."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Priya has ₹200. She buys gifts worth ₹165. How much money is left?",
+        "opts": [
+          "₹35",
+          "₹45",
+          "₹365",
+          "₹25"
+        ],
+        "ans": "A",
+        "steps": [
+          "Money left = ₹200 − ₹165 = ₹35."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "11 o'clock",
+          "12 o'clock",
+          "1 o'clock",
+          "2 o'clock"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "clock",
+          "hour": 1,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 1, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour.",
+          "The clock shows 1 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "A person has a fever of 40°C. Normal temperature is 37°C. How much above normal is the fever?",
+        "opts": [
+          "3°C",
+          "7°C",
+          "77°C",
+          "40°C"
+        ],
+        "ans": "A",
+        "steps": [
+          "Difference = 40°C − 37°C = 3°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "Three sticks measure 24 cm, 35 cm, and 41 cm. What is their total length?",
+        "opts": [
+          "90 cm",
+          "100 cm",
+          "110 cm",
+          "95 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total length = 24 + 35 + 41.",
+          "24 + 35 = 59, and 59 + 41 = 100."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "A bag has 1 kg 500 g of flour and another has 2 kg 200 g. What is the total weight?",
+        "opts": [
+          "3 kg",
+          "3 kg 500 g",
+          "3 kg 700 g",
+          "4 kg"
+        ],
+        "ans": "C",
+        "steps": [
+          "Convert to grams: 1 kg 500 g = 1500 g, 2 kg 200 g = 2200 g.",
+          "Total = 1500 g + 2200 g = 3700 g = 3 kg 700 g."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A jug holds 750 ml. Rohan fills it 4 times into a tank. How many ml does the tank have?",
+        "opts": [
+          "2000 ml",
+          "2500 ml",
+          "3000 ml",
+          "3500 ml"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 750 ml × 4 = 3000 ml."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows runs scored by 4 players. Who scored the most runs?",
+        "opts": [
+          "Manav",
+          "Aryan",
+          "Kabir",
+          "Riya"
+        ],
+        "ans": "C",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Manav",
+              "count": 20
+            },
+            {
+              "name": "Aryan",
+              "count": 25
+            },
+            {
+              "name": "Kabir",
+              "count": 30
+            },
+            {
+              "name": "Riya",
+              "count": 15
+            }
+          ],
+          "unit": 5,
+          "unitLabel": "runs"
+        },
+        "steps": [
+          "Compare the runs scored: Manav = 20, Aryan = 25, Kabir = 30, Riya = 15.",
+          "Kabir scored the most, with 30 runs."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "17 − 8 = ?",
+        "opts": [
+          "8",
+          "9",
+          "10",
+          "7"
+        ],
+        "ans": "B",
+        "steps": [
+          "17 − 8 = 9."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "6 groups of 3. How many in all?",
+        "opts": [
+          "9",
+          "12",
+          "15",
+          "18"
+        ],
+        "ans": "D",
+        "steps": [
+          "Total = 6 × 3 = 18."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A bag has 3 red balls, 5 blue balls, and 4 green balls. If 2 blue and 1 green are taken out, how many balls are left in the bag?",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total balls at first = 3 + 5 + 4 = 12.",
+          "Balls removed = 2 + 1 = 3.",
+          "Balls left = 12 − 3 = 9."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Fill in the blank: 3 × ___ = 27",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "24"
+        ],
+        "ans": "C",
+        "steps": [
+          "27 ÷ 3 = 9.",
+          "So 3 × 9 = 27."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "A clock shows 6 o'clock. After 7 hours, what time will it show?",
+        "opts": [
+          "12 o'clock",
+          "1 o'clock",
+          "2 o'clock",
+          "13 o'clock"
+        ],
+        "ans": "B",
+        "steps": [
+          "6 o'clock + 7 hours = 13 o'clock.",
+          "In 12-hour time, 13 o'clock is written as 1 o'clock."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "Sanya reads 15 pages a day and Kavya reads 12 pages a day. How many MORE pages does Sanya read in 5 days?",
+        "opts": [
+          "3",
+          "12",
+          "15",
+          "27"
+        ],
+        "ans": "C",
+        "steps": [
+          "Extra pages Sanya reads per day = 15 − 12 = 3.",
+          "Over 5 days: 3 × 5 = 15."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "A rectangular garden is 25 m long and 10 m wide. What is its perimeter?",
+        "opts": [
+          "35 m",
+          "50 m",
+          "70 m",
+          "250 m"
+        ],
+        "ans": "C",
+        "steps": [
+          "Perimeter = 2 × (length + breadth) = 2 × (25 + 10) = 2 × 35 = 70 m."
+        ]
+      }
+    ],
+    "J": [
+      {
+        "qNum": 1,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 2, 3, 5, 8, 12, ___",
+        "opts": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "ans": "C",
+        "steps": [
+          "The differences between terms increase by 1 each time: +1, +2, +3, +4.",
+          "The next difference is +5.",
+          "12 + 5 = 17."
+        ]
+      },
+      {
+        "qNum": 2,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the odd one out: Rose, Lotus, Tulip, Mango",
+        "opts": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Mango"
+        ],
+        "ans": "D",
+        "steps": [
+          "Rose, Lotus, and Tulip are all flowers.",
+          "Mango is a fruit, not a flower — it does not belong with the others."
+        ]
+      },
+      {
+        "qNum": 3,
+        "section": "A",
+        "marks": 1,
+        "text": "4 : 16 :: 5 : ___",
+        "opts": [
+          "20",
+          "25",
+          "30",
+          "10"
+        ],
+        "ans": "B",
+        "steps": [
+          "The rule is \"multiply the number by itself\": 4 × 4 = 16.",
+          "Applying the same rule to 5: 5 × 5 = 25."
+        ]
+      },
+      {
+        "qNum": 4,
+        "section": "A",
+        "marks": 1,
+        "text": "Using A=1, B=2, C=3 ..., the word MAN is coded as?",
+        "opts": [
+          "13,1,14",
+          "14,1,13",
+          "13,2,14",
+          "12,1,13"
+        ],
+        "ans": "A",
+        "steps": [
+          "M is the 13th letter, A is the 1st letter, N is the 14th letter.",
+          "MAN is coded as 13, 1, 14."
+        ]
+      },
+      {
+        "qNum": 5,
+        "section": "A",
+        "marks": 1,
+        "text": "10 students are in a line. Kabir is 4th from the left. How many students are to his right?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "ans": "C",
+        "steps": [
+          "If Kabir is 4th from the left, there are 4 students including him from the left side.",
+          "Students to his right = 10 − 4 = 6."
+        ]
+      },
+      {
+        "qNum": 6,
+        "section": "A",
+        "marks": 1,
+        "text": "If you fold a square piece of paper in half and cut a semicircle on the fold, what shape do you get when you open it?",
+        "opts": [
+          "Semicircle",
+          "Full circle",
+          "Triangle",
+          "Square"
+        ],
+        "ans": "B",
+        "steps": [
+          "Cutting a semicircle on the folded edge cuts through both layers of paper at once.",
+          "When unfolded, the two semicircle halves join together to form a full circle."
+        ]
+      },
+      {
+        "qNum": 7,
+        "section": "A",
+        "marks": 1,
+        "text": "Find the missing number: 100, 95, 90, 85, ___",
+        "opts": [
+          "78",
+          "79",
+          "80",
+          "82"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern counts down by 5 each time: 100, 95, 90, 85...",
+          "The next number is 85 − 5 = 80."
+        ]
+      },
+      {
+        "qNum": 8,
+        "section": "A",
+        "marks": 1,
+        "text": "Which SET does NOT have equal groups?",
+        "opts": [
+          "2, 2, 2",
+          "3, 3, 3",
+          "4, 4, 5",
+          "5, 5, 5"
+        ],
+        "ans": "C",
+        "steps": [
+          "In (A), (B), and (D), all three numbers in each set are the same.",
+          "In (C), 4, 4, 5 — the last number is different from the other two, so the groups are not equal."
+        ]
+      },
+      {
+        "qNum": 9,
+        "section": "A",
+        "marks": 1,
+        "text": "AZ, BY, CX, ___, EV (first letter goes forward, second goes backward)",
+        "opts": [
+          "DW",
+          "DX",
+          "CW",
+          "EW"
+        ],
+        "ans": "A",
+        "steps": [
+          "The first letters go forward: A, B, C, next is D.",
+          "The second letters go backward: Z, Y, X, next is W.",
+          "The missing pair is DW."
+        ]
+      },
+      {
+        "qNum": 10,
+        "section": "A",
+        "marks": 1,
+        "text": "The length of a classroom is best measured in?",
+        "opts": [
+          "Centimetres",
+          "Metres",
+          "Kilometres",
+          "Grams"
+        ],
+        "ans": "B",
+        "steps": [
+          "Centimetres are too small a unit for a whole classroom, and kilometres are too large.",
+          "Grams measure weight, not length.",
+          "Metres are the best unit for measuring a classroom."
+        ]
+      },
+      {
+        "qNum": 11,
+        "section": "B",
+        "marks": 1,
+        "text": "What is 10 more than 490?",
+        "opts": [
+          "480",
+          "491",
+          "500",
+          "510"
+        ],
+        "ans": "C",
+        "steps": [
+          "10 more than 490 = 490 + 10 = 500."
+        ]
+      },
+      {
+        "qNum": 12,
+        "section": "B",
+        "marks": 1,
+        "text": "743 in expanded form is?",
+        "opts": [
+          "70+40+3",
+          "700+4+3",
+          "700+40+3",
+          "700+43+0"
+        ],
+        "ans": "C",
+        "steps": [
+          "743 has 7 hundreds, 4 tens, and 3 ones.",
+          "In expanded form: 700 + 40 + 3."
+        ]
+      },
+      {
+        "qNum": 13,
+        "section": "B",
+        "marks": 1,
+        "text": "Add: 638 + 175 = ?",
+        "opts": [
+          "803",
+          "813",
+          "823",
+          "713"
+        ],
+        "ans": "B",
+        "steps": [
+          "Add the ones: 8 + 5 = 13, write 3 and carry 1.",
+          "Add the tens: 3 + 7 + 1(carried) = 11, write 1 and carry 1.",
+          "Add the hundreds: 6 + 1 + 1(carried) = 8.",
+          "638 + 175 = 813."
+        ]
+      },
+      {
+        "qNum": 14,
+        "section": "B",
+        "marks": 1,
+        "text": "Subtract: 753 − 486 = ?",
+        "opts": [
+          "257",
+          "267",
+          "277",
+          "367"
+        ],
+        "ans": "B",
+        "steps": [
+          "753 − 486: borrowing is needed.",
+          "753 − 486 = 267."
+        ]
+      },
+      {
+        "qNum": 15,
+        "section": "B",
+        "marks": 1,
+        "text": "8 × 6 = ?",
+        "opts": [
+          "42",
+          "48",
+          "54",
+          "40"
+        ],
+        "ans": "B",
+        "steps": [
+          "8 × 6 = 48."
+        ]
+      },
+      {
+        "qNum": 16,
+        "section": "B",
+        "marks": 1,
+        "text": "42 ÷ 7 = ?",
+        "opts": [
+          "5",
+          "6",
+          "7",
+          "49"
+        ],
+        "ans": "B",
+        "steps": [
+          "42 shared equally into 7 groups: 42 ÷ 7 = 6."
+        ]
+      },
+      {
+        "qNum": 17,
+        "section": "B",
+        "marks": 1,
+        "text": "How many sides does an octagon have?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "ans": "C",
+        "steps": [
+          "An octagon is an 8-sided shape."
+        ]
+      },
+      {
+        "qNum": 18,
+        "section": "B",
+        "marks": 1,
+        "text": "Which solid can both SLIDE and ROLL?",
+        "opts": [
+          "Cube",
+          "Sphere",
+          "Cylinder",
+          "Cone"
+        ],
+        "ans": "C",
+        "steps": [
+          "A cube can only slide (it has no curved surface). A sphere can only roll (it has no flat surface).",
+          "A cylinder has flat circular ends (can slide) and a curved side (can roll) — it can do both."
+        ]
+      },
+      {
+        "qNum": 19,
+        "section": "B",
+        "marks": 1,
+        "text": "Fill in: 17, ___, 19, 20",
+        "opts": [
+          "16",
+          "17",
+          "18",
+          "21"
+        ],
+        "ans": "C",
+        "steps": [
+          "The pattern counts up by 1 each time: 17, 18, 19, 20.",
+          "The missing number is 18."
+        ]
+      },
+      {
+        "qNum": 20,
+        "section": "B",
+        "marks": 1,
+        "text": "Half of 14 = ?",
+        "opts": [
+          "6",
+          "7",
+          "8",
+          "28"
+        ],
+        "ans": "B",
+        "steps": [
+          "Half of 14 = 14 ÷ 2 = 7."
+        ]
+      },
+      {
+        "qNum": 21,
+        "section": "C",
+        "marks": 1,
+        "text": "A shopkeeper has 2 notes of ₹50, 2 of ₹20, and 2 of ₹10. How much money does he have in all?",
+        "opts": [
+          "₹140",
+          "₹160",
+          "₹180",
+          "₹80"
+        ],
+        "ans": "B",
+        "steps": [
+          "Value of ₹50 notes = 2 × 50 = ₹100.",
+          "Value of ₹20 notes = 2 × 20 = ₹40.",
+          "Value of ₹10 notes = 2 × 10 = ₹20.",
+          "Total = ₹100 + ₹40 + ₹20 = ₹160."
+        ]
+      },
+      {
+        "qNum": 22,
+        "section": "C",
+        "marks": 1,
+        "text": "Tara saves ₹25 each week for 4 weeks, then spends ₹60. How much money is left?",
+        "opts": [
+          "₹35",
+          "₹40",
+          "₹50",
+          "₹85"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total saved = ₹25 × 4 = ₹100.",
+          "After spending ₹60: ₹100 − ₹60 = ₹40."
+        ]
+      },
+      {
+        "qNum": 23,
+        "section": "C",
+        "marks": 1,
+        "text": "What time does the clock show?",
+        "opts": [
+          "6 o'clock",
+          "7 o'clock",
+          "8 o'clock",
+          "5 o'clock"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "clock",
+          "hour": 7,
+          "minute": 0
+        },
+        "steps": [
+          "The hour hand points to 7, and the minute hand points to 12.",
+          "When the minute hand is at 12, we read the exact hour.",
+          "The clock shows 7 o'clock."
+        ]
+      },
+      {
+        "qNum": 24,
+        "section": "C",
+        "marks": 1,
+        "text": "Kavya reads 20°C in the morning and 28°C in the afternoon. By how many degrees did the temperature rise?",
+        "opts": [
+          "6°C",
+          "8°C",
+          "10°C",
+          "48°C"
+        ],
+        "ans": "B",
+        "steps": [
+          "Rise in temperature = 28°C − 20°C = 8°C."
+        ]
+      },
+      {
+        "qNum": 25,
+        "section": "C",
+        "marks": 1,
+        "text": "A table is 150 cm long and a chair is 60 cm wide. What is their total length?",
+        "opts": [
+          "90 cm",
+          "210 cm",
+          "200 cm",
+          "190 cm"
+        ],
+        "ans": "B",
+        "steps": [
+          "Total length = 150 cm + 60 cm = 210 cm."
+        ]
+      },
+      {
+        "qNum": 26,
+        "section": "C",
+        "marks": 1,
+        "text": "Meera's bag weighs 4 kg 500 g. Rohan's bag weighs 3 kg 800 g. What is the total weight of both bags?",
+        "opts": [
+          "7 kg 300 g",
+          "8 kg 300 g",
+          "8 kg 500 g",
+          "9 kg"
+        ],
+        "ans": "B",
+        "steps": [
+          "Convert to grams: 4 kg 500 g = 4500 g, 3 kg 800 g = 3800 g.",
+          "Total = 4500 g + 3800 g = 8300 g = 8 kg 300 g."
+        ]
+      },
+      {
+        "qNum": 27,
+        "section": "C",
+        "marks": 1,
+        "text": "A bowl holds 300 ml. How many bowls are needed to hold 1 litre 200 ml of water?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ans": "B",
+        "steps": [
+          "1 litre 200 ml = 1200 ml.",
+          "Number of bowls = 1200 ÷ 300 = 4."
+        ]
+      },
+      {
+        "qNum": 28,
+        "section": "C",
+        "marks": 1,
+        "text": "The pictograph shows marks scored in a spelling test. How many more marks did Priya score than Dev?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "14"
+        ],
+        "ans": "B",
+        "imgParams": {
+          "type": "pictograph",
+          "rows": [
+            {
+              "name": "Priya",
+              "count": 12
+            },
+            {
+              "name": "Dev",
+              "count": 8
+            }
+          ],
+          "unit": 2,
+          "unitLabel": "marks"
+        },
+        "steps": [
+          "Priya scored 12 marks. Dev scored 8 marks.",
+          "Difference = 12 − 8 = 4."
+        ]
+      },
+      {
+        "qNum": 29,
+        "section": "C",
+        "marks": 1,
+        "text": "13 + 7 = ?",
+        "opts": [
+          "19",
+          "20",
+          "21",
+          "18"
+        ],
+        "ans": "B",
+        "steps": [
+          "13 + 7 = 20."
+        ]
+      },
+      {
+        "qNum": 30,
+        "section": "C",
+        "marks": 1,
+        "text": "3 groups of 8 objects. How many objects in all?",
+        "opts": [
+          "11",
+          "21",
+          "24",
+          "27"
+        ],
+        "ans": "C",
+        "steps": [
+          "Total = 3 × 8 = 24."
+        ]
+      },
+      {
+        "qNum": 31,
+        "section": "D",
+        "marks": 2,
+        "text": "A wall is 320 cm long. Arjun paints half of it. Nisha paints half of what remains. How much of the wall is still unpainted?",
+        "opts": [
+          "40 cm",
+          "60 cm",
+          "80 cm",
+          "160 cm"
+        ],
+        "ans": "C",
+        "steps": [
+          "Arjun paints half: 320 ÷ 2 = 160 cm. Remaining = 160 cm.",
+          "Nisha paints half of what remains: 160 ÷ 2 = 80 cm.",
+          "Unpainted = 160 − 80 = 80 cm."
+        ]
+      },
+      {
+        "qNum": 32,
+        "section": "D",
+        "marks": 2,
+        "text": "Fill in the blank: ___ × 8 = 72",
+        "opts": [
+          "7",
+          "8",
+          "9",
+          "64"
+        ],
+        "ans": "C",
+        "steps": [
+          "72 ÷ 8 = 9.",
+          "So 9 × 8 = 72."
+        ]
+      },
+      {
+        "qNum": 33,
+        "section": "D",
+        "marks": 2,
+        "text": "If today is Wednesday, and Sanya has a test in 10 days, on which day is the test?",
+        "opts": [
+          "Saturday",
+          "Sunday",
+          "Friday",
+          "Monday"
+        ],
+        "ans": "A",
+        "steps": [
+          "A week has 7 days, so 10 days is 1 full week (7 days) plus 3 more days.",
+          "Starting from Wednesday, 3 days later is: Thursday, Friday, Saturday.",
+          "The test is on Saturday."
+        ]
+      },
+      {
+        "qNum": 34,
+        "section": "D",
+        "marks": 2,
+        "text": "A train travels 150 km in 3 hours. How many km does it travel in 1 hour?",
+        "opts": [
+          "45 km",
+          "50 km",
+          "55 km",
+          "153 km"
+        ],
+        "ans": "B",
+        "steps": [
+          "Distance per hour = 150 km ÷ 3 = 50 km."
+        ]
+      },
+      {
+        "qNum": 35,
+        "section": "D",
+        "marks": 2,
+        "text": "3 boxes have 35 apples each and 2 boxes have 28 oranges each. How many fruits are there in all?",
+        "opts": [
+          "151",
+          "161",
+          "171",
+          "119"
+        ],
+        "ans": "B",
+        "steps": [
+          "Apples = 3 × 35 = 105.",
+          "Oranges = 2 × 28 = 56.",
+          "Total fruits = 105 + 56 = 161."
+        ]
+      }
+    ]
+  }
+}
