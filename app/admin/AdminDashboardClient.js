@@ -1,12 +1,13 @@
 'use client';
 import { useState, useEffect, useCallback } from 'react';
 import { signOut } from 'next-auth/react';
-import { LogOut, Users, BarChart3, Plus, Trash2, FileQuestion, Lock, UserCog } from 'lucide-react';
+import { LogOut, Users, BarChart3, Plus, Trash2, FileQuestion, Lock, UserCog, Table2 } from 'lucide-react';
 import { Button, Card } from '../../components/ui';
 import { QuestionsTab } from './QuestionsTab';
 import { ResultsTab } from './ResultsTab';
 import { UnlocksTab } from './UnlocksTab';
 import { StudentUnlocksTab } from './StudentUnlocksTab';
+import { StudentsDataTab } from './StudentsDataTab';
 
 const NAVY = '#1a2b4c';
 const GOLD = '#d4af37';
@@ -16,6 +17,8 @@ function RosterTab() {
   const [loading, setLoading] = useState(true);
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
+  const [phone, setPhone] = useState('');
+  const [school, setSchool] = useState('');
   const [password, setPassword] = useState('');
   const [formError, setFormError] = useState('');
   const [submitting, setSubmitting] = useState(false);
@@ -37,12 +40,12 @@ function RosterTab() {
     const res = await fetch('/api/admin/students', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, username, password }),
+      body: JSON.stringify({ name, username, phone, school, password }),
     });
     const data = await res.json();
     setSubmitting(false);
     if (!res.ok) { setFormError(data.error || 'Something went wrong.'); return; }
-    setName(''); setUsername(''); setPassword('');
+    setName(''); setUsername(''); setPhone(''); setSchool(''); setPassword('');
     loadStudents();
   }
 
@@ -59,6 +62,8 @@ function RosterTab() {
         <form onSubmit={handleAdd} className="space-y-3">
           <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Full name" className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2" />
           <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username (e.g. priya23)" className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2" />
+          <input value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Phone number (optional)" className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2" />
+          <input value={school} onChange={(e) => setSchool(e.target.value)} placeholder="School (optional)" className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2" />
           <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password (min. 6 characters)" type="text" className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2" />
           {formError && <p className="text-sm text-red-600 bg-red-50 rounded-lg px-3 py-2">{formError}</p>}
           <Button type="submit" className="w-full" disabled={submitting}><Plus className="w-4 h-4" />Add Student</Button>
@@ -89,6 +94,11 @@ function RosterTab() {
                     )}
                   </div>
                   <p className="text-xs text-slate-400">@{s.username}</p>
+                  {(s.school || s.phone) && (
+                    <p className="text-xs text-slate-400">
+                      {s.school}{s.school && s.phone ? ' · ' : ''}{s.phone}
+                    </p>
+                  )}
                 </div>
                 <button onClick={() => handleRemove(s.username)} className="text-slate-400 hover:text-red-600 p-1.5">
                   <Trash2 className="w-4 h-4" />
@@ -107,6 +117,7 @@ export default function AdminDashboardClient({ adminName }) {
 
   const TABS = [
     { id: 'roster', label: 'Students', icon: Users },
+    { id: 'data', label: 'All Data', icon: Table2 },
     { id: 'unlocks', label: 'Unlocks', icon: Lock },
     { id: 'student-unlocks', label: 'Student Access', icon: UserCog },
     { id: 'questions', label: 'Questions', icon: FileQuestion },
@@ -138,6 +149,7 @@ export default function AdminDashboardClient({ adminName }) {
         </div>
 
         {tab === 'roster' && <RosterTab />}
+        {tab === 'data' && <StudentsDataTab />}
         {tab === 'unlocks' && <UnlocksTab />}
         {tab === 'student-unlocks' && <StudentUnlocksTab />}
         {tab === 'questions' && <QuestionsTab />}

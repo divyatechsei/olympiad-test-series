@@ -12,6 +12,8 @@ export default function RegisterPage() {
   const router = useRouter();
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
+  const [phone, setPhone] = useState('');
+  const [school, setSchool] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showPass, setShowPass] = useState(false);
@@ -31,7 +33,7 @@ export default function RegisterPage() {
     const res = await fetch('/api/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, username, password }),
+      body: JSON.stringify({ name, username, password, phone, school }),
     });
     const data = await res.json();
 
@@ -89,6 +91,26 @@ export default function RegisterPage() {
               <p className="text-[11px] text-slate-400 mt-1">3-20 characters: lowercase letters, numbers, dots, or underscores.</p>
             </div>
             <div>
+              <label className="block text-xs font-semibold text-slate-600 mb-1.5">Phone number</label>
+              <input
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-navy text-sm"
+                placeholder="e.g. +91 98765 43210"
+                autoComplete="tel"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-slate-600 mb-1.5">School</label>
+              <input
+                value={school}
+                onChange={(e) => setSchool(e.target.value)}
+                className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-navy text-sm"
+                placeholder="e.g. Kendriya Vidyalaya"
+                autoComplete="organization"
+              />
+            </div>
+            <div>
               <label className="block text-xs font-semibold text-slate-600 mb-1.5">Choose a password</label>
               <div className="relative">
                 <input
@@ -122,7 +144,7 @@ export default function RegisterPage() {
             </div>
 
             {error && <p className="text-sm text-red-600 bg-red-50 rounded-lg px-3 py-2">{error}</p>}
-            <Button type="submit" className="w-full" disabled={loading || !name || !username || !password || !confirmPassword}>
+            <Button type="submit" className="w-full" disabled={loading || !name || !username || !phone || !school || !password || !confirmPassword}>
               {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <UserPlus className="w-4 h-4" />}
               Create account
             </Button>

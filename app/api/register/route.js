@@ -3,12 +3,13 @@ import bcrypt from 'bcryptjs';
 import { getSupabaseAdmin } from '../../../lib/supabaseAdmin';
 
 // Public endpoint — no session required. Anyone can create their own
-// student account here. This does NOT grant them access to any test:
-// new accounts are marked self_registered = true (migration_006), which
-// makes the catalog route ignore the global unlock chain for them.
-// An admin has to explicitly unlock grades/subjects/sets for the
-// account in Admin -> Student Access before they can see anything.
+// student account here. New accounts are marked self_registered = true
+// (migration_006) purely for display in the admin panel — it has no
+// effect on access. Once created, the account sees the same globally
+// unlocked tests as any other student, plus anything an admin grants
+// it personally in Admin -> Student Access.
 const USERNAME_RE = /^[a-z0-9_.]{3,20}$/;
+const PHONE_RE = /^[0-9+()\- ]{7,20}$/;
 
 export async function POST(request) {
   let body;
@@ -21,9 +22,11 @@ export async function POST(request) {
   const name = (body.name || '').trim();
   const usernameRaw = (body.username || '').trim().toLowerCase();
   const password = body.password || '';
+  const phone = (body.phone || '').trim();
+  const school = (body.school || '').trim();
 
-  if (!name || !usernameRaw || !password) {
-    return NextResponse.json({ error: 'Name, username, and password are all required.' }, { status: 400 });
+  if (!name || !usernameRaw || !password || !phone || !school) {
+  return NextResponse.json({ error: 'Name, username, password, phone, and school are all required.' }, { status: 400 });
   }
   if (!USERNAME_RE.test(usernameRaw)) {
     return NextResponse.json(
@@ -36,6 +39,16 @@ export async function POST(request) {
   }
   if (password.length < 6) {
     return NextResponse.json({ error: 'Password must be at least 6 characters.' }, { status: 400 });
+  }
+
+  if (!PHONE_RE.test(phone)) {                                     // ← NEW
+    return NextResponse.json(
+      { error: 'Please enter a valid phone number.' },
+      { status: 400 }
+    );
+  }
+  if (school.length > 200) {                                       // ← NEW
+    return NextResponse.json({ error: 'School name is too long.' }, { status: 400 });
   }
 
   const supabase = getSupabaseAdmin();
@@ -59,9 +72,11 @@ export async function POST(request) {
       name,
       username: usernameRaw,
       password_hash: passwordHash,
+      phone,        // ← NEW
+      school,       // ← NEW
       self_registered: true,
     })
-    .select('id, username, name, created_at')
+    .select('id, username, name, phone, school, created_at')   // ← phone/school added to returned fields
     .single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });

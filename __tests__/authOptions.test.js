@@ -53,7 +53,7 @@ describe('authOptions.authorize', () => {
     const user = await authorize({ username: 'alice', password: 'correct-horse', role: 'student' });
 
     expect(client.from).toHaveBeenCalledWith('students');
-    expect(user).toEqual({ id: 's1', username: 'alice', name: 'Alice', role: 'student' });
+    expect(user).toEqual({ id: 's1', username: 'alice', name: 'Alice', role: 'student', selfRegistered: false });
   });
 
   it('looks up the admin in the "admins" table when role is "admin"', async () => {
@@ -119,6 +119,48 @@ describe('authOptions.authorize', () => {
   });
 });
 
+describe('authOptions.authorize - selfRegistered flag', () => {
+  it('reflects self_registered: true from the student row', async () => {
+    const hash = await bcrypt.hash('pw', 10);
+    getSupabaseAdmin.mockReturnValue(makeSupabaseClient({
+      students: { data: { id: 's1', username: 'newkid', name: 'New Kid', password_hash: hash, self_registered: true }, error: null },
+    }));
+
+    const user = await authorize({ username: 'newkid', password: 'pw', role: 'student' });
+    expect(user.selfRegistered).toBe(true);
+  });
+
+  it('reflects self_registered: false from the student row', async () => {
+    const hash = await bcrypt.hash('pw', 10);
+    getSupabaseAdmin.mockReturnValue(makeSupabaseClient({
+      students: { data: { id: 's1', username: 'oldkid', name: 'Old Kid', password_hash: hash, self_registered: false }, error: null },
+    }));
+
+    const user = await authorize({ username: 'oldkid', password: 'pw', role: 'student' });
+    expect(user.selfRegistered).toBe(false);
+  });
+
+  it('defaults to false when the student row has no self_registered column value (legacy rows)', async () => {
+    const hash = await bcrypt.hash('pw', 10);
+    getSupabaseAdmin.mockReturnValue(makeSupabaseClient({
+      students: { data: { id: 's1', username: 'legacy', name: 'Legacy Student', password_hash: hash }, error: null },
+    }));
+
+    const user = await authorize({ username: 'legacy', password: 'pw', role: 'student' });
+    expect(user.selfRegistered).toBe(false);
+  });
+
+  it('is always false for admins, even if an admin row somehow had self_registered: true', async () => {
+    const hash = await bcrypt.hash('pw', 10);
+    getSupabaseAdmin.mockReturnValue(makeSupabaseClient({
+      admins: { data: { id: 'a1', username: 'root', name: 'Root', password_hash: hash, self_registered: true }, error: null },
+    }));
+
+    const user = await authorize({ username: 'root', password: 'pw', role: 'admin' });
+    expect(user.selfRegistered).toBe(false);
+  });
+});
+
 describe('authOptions.callbacks.jwt', () => {
   it('copies user fields onto the token on initial sign-in', async () => {
     const token = await authOptions.callbacks.jwt({
@@ -134,6 +176,14 @@ describe('authOptions.callbacks.jwt', () => {
     expect(token).toBe(existingToken);
     expect(token.extra).toBe('keep-me');
   });
+
+  it('copies selfRegistered onto the token on initial sign-in', async () => {
+    const token = await authOptions.callbacks.jwt({
+      token: {},
+      user: { id: 'u1', username: 'newkid', name: 'New Kid', role: 'student', selfRegistered: true },
+    });
+    expect(token.selfRegistered).toBe(true);
+  });
 });
 
 describe('authOptions.callbacks.session', () => {
@@ -143,6 +193,15 @@ describe('authOptions.callbacks.session', () => {
 
     const result = await authOptions.callbacks.session({ session, token });
 
-    expect(result.user).toEqual({ id: 'u1', username: 'eve', name: 'Eve', role: 'admin' });
+    expect(result.user).toEqual({ id: 'u1', username: 'eve', name: 'Eve', role: 'admin', selfRegistered: undefined });
+  });
+
+  it('copies selfRegistered onto session.user', async () => {
+    const session = { user: {} };
+    const token = { id: 'u1', username: 'newkid', name: 'New Kid', role: 'student', selfRegistered: true };
+
+    const result = await authOptions.callbacks.session({ session, token });
+
+    expect(result.user.selfRegistered).toBe(true);
   });
 });
