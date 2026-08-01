@@ -172,7 +172,11 @@ export default function DashboardClient({ user }) {
                       </div>
                       <div>
                         <p className="font-semibold text-sm text-slate-800">Set {label}</p>
-                        <p className="text-xs text-slate-400">{best ? `Best: ${best.marks}/${best.max_marks} (${pct}%)` : '35 questions · 60 min'}</p>
+                        <p className="text-xs text-slate-400">
+                          {best && typeof best.marks === 'number' && typeof best.max_marks === 'number'
+                          ? `Best: ${best.marks}/${best.max_marks} (${pct ?? 0}%)`
+                          : '60 min test'}
+                          </p>
                       </div>
                     </div>
                     <div className="flex flex-col gap-1.5 items-end">

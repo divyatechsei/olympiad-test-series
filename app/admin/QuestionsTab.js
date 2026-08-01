@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Plus, Pencil, Trash2, X as XIcon } from 'lucide-react';
 import { Button, Card } from '../../components/ui';
 import { QuestionForm } from './QuestionForm';
-import { GRADES, SUBJECTS, SET_LABELS } from '../../lib/catalog';
+import { GRADES, SUBJECTS, SET_LABELS,questionCount } from '../../lib/catalog';
 
 const NAVY = '#1a2b4c';
 const SECTION_COLORS = { A: '#dce6f2', B: '#e2f0d9', C: '#fdf2cc', D: '#f8d7da' };
@@ -11,7 +11,7 @@ const SECTION_COLORS = { A: '#dce6f2', B: '#e2f0d9', C: '#fdf2cc', D: '#f8d7da' 
 export function QuestionsTab() {
   const [grade, setGrade] = useState(5);
   const [subject, setSubject] = useState('IMO');
-  const [setLabel, setSetLabel] = useState('A');
+  const [setLabel, setSetLabel] = useState('1');
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [modal, setModal] = useState(null); // null | 'add' | question object being edited
@@ -32,8 +32,9 @@ export function QuestionsTab() {
     load();
   }
 
-  const nextQNum = questions.length ? Math.max(...questions.map((q) => q.q_num)) + 1 : 1;
-  const missingCount = 35 - questions.length;
+const nextQNum = questions.length ? Math.max(...questions.map((q) => q.q_num)) + 1 : 1;
+  const totalQuestions = questionCount(grade, subject, setLabel);
+  const missingCount = totalQuestions - questions.length;
 
   return (
     <div>
@@ -70,7 +71,7 @@ export function QuestionsTab() {
 
       {!loading && (
         <p className="text-xs text-slate-400 mb-3">
-          {questions.length} of 35 questions {missingCount > 0 && <span className="text-amber-600 font-medium">({missingCount} missing — students will hit an error if they start this test before it has all 35)</span>}
+          {questions.length} of {totalQuestions} questions {missingCount > 0 && <span className="text-amber-600 font-medium">({missingCount} missing — students will hit an error if they start this test before it has all {totalQuestions})</span>}
         </p>
       )}
 
