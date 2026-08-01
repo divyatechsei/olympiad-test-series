@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
 import { authOptions } from '../../../../../lib/authOptions';
-import { GRADES, SUBJECTS, SET_LABELS } from '../../../../../lib/catalog';
+import { GRADES, SUBJECTS, isValidSetLabel } from '../../../../../lib/catalog';
 import { isSetUnlocked } from '../../../../../lib/unlocks';
 import QuizClient from './QuizClient';
 
@@ -20,7 +20,7 @@ export default async function QuizPage({ params }) {
   // what went wrong instead of silently bouncing the student back.
   if (!GRADES.includes(grade)) redirect('/dashboard?blocked=invalid_grade');
   if (!SUBJECTS.some((s) => s.code === subject)) redirect('/dashboard?blocked=invalid_subject');
-  if (!SET_LABELS.includes(setLabel)) redirect('/dashboard?blocked=invalid_set');
+  if (!isValidSetLabel(setLabel)) redirect('/dashboard?blocked=invalid_set');
 
   let unlocked;
   try {

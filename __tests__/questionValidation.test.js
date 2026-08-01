@@ -4,7 +4,7 @@ function validBody(overrides = {}) {
   return {
     grade: 5,
     subject: 'IMO',
-    setLabel: 'A',
+    setLabel: '1',
     qNum: 1,
     section: 'A',
     marks: 1,
@@ -48,8 +48,8 @@ describe('validateQuestionBody - happy path', () => {
     expect(validateQuestionBody(validBody({ grade: '5' }))).toBeNull();
   });
 
-  it('accepts every valid set label', () => {
-    'ABCDEFGHIJ'.split('').forEach((setLabel) => {
+  it('accepts every valid set label, including numbers past the old 1-10 cap', () => {
+    ['1', '2', '9', '10', '11', '25', '347'].forEach((setLabel) => {
       expect(validateQuestionBody(validBody({ setLabel }))).toBeNull();
     });
   });
@@ -98,12 +98,24 @@ describe('validateQuestionBody - subject', () => {
 });
 
 describe('validateQuestionBody - setLabel', () => {
-  it('rejects a set label outside A-J', () => {
-    expect(validateQuestionBody(validBody({ setLabel: 'K' }))).toBe('Invalid set label.');
+  it('rejects zero', () => {
+    expect(validateQuestionBody(validBody({ setLabel: '0' }))).toBe('Invalid set label.');
   });
 
-  it('rejects a lowercase set label (case sensitive)', () => {
-    expect(validateQuestionBody(validBody({ setLabel: 'a' }))).toBe('Invalid set label.');
+  it('rejects a leading zero', () => {
+    expect(validateQuestionBody(validBody({ setLabel: '01' }))).toBe('Invalid set label.');
+  });
+
+  it('rejects a negative number', () => {
+    expect(validateQuestionBody(validBody({ setLabel: '-1' }))).toBe('Invalid set label.');
+  });
+
+  it('rejects a non-numeric set label', () => {
+    expect(validateQuestionBody(validBody({ setLabel: 'A' }))).toBe('Invalid set label.');
+  });
+
+  it('rejects an empty set label', () => {
+    expect(validateQuestionBody(validBody({ setLabel: '' }))).toBe('Invalid set label.');
   });
 });
 

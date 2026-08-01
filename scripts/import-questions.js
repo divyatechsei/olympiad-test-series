@@ -48,7 +48,10 @@ const { createClient } = require('@supabase/supabase-js');
 
 const GRADES = [2, 3, 4, 5, 6, 7, 8];
 const SUBJECT_CODES = ['IMO', 'NSO'];
-const SET_LABELS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+// Any positive non-zero integer is a valid set label — no fixed upper
+// bound, so new question papers (11, 12, ...) never need this script
+// edited. Mirrors lib/catalog.js's isValidSetLabel().
+const SET_LABEL_PATTERN = /^[1-9][0-9]*$/;
 const SECTIONS = ['A', 'B', 'C', 'D'];
 const ANSWERS = ['A', 'B', 'C', 'D'];
 
@@ -102,7 +105,7 @@ async function main() {
   // Validate everything BEFORE writing anything.
   let allErrors = [];
   for (const [setLabel, questions] of Object.entries(sets)) {
-    if (!SET_LABELS.includes(setLabel)) { allErrors.push(`Unknown set label "${setLabel}"`); continue; }
+    if (!SET_LABEL_PATTERN.test(setLabel)) { allErrors.push(`Unknown set label "${setLabel}"`); continue; }
     if (!Array.isArray(questions)) { allErrors.push(`Set ${setLabel}: expected an array of questions`); continue; }
     const seenQNums = new Set();
     questions.forEach((q, i) => {

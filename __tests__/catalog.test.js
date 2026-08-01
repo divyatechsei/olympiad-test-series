@@ -1,4 +1,4 @@
-const { GRADES, SUBJECTS, SET_LABELS, subjectName } = require('../lib/catalog');
+const { GRADES, SUBJECTS, SET_LABELS, isValidSetLabel, subjectName } = require('../lib/catalog');
 
 describe('catalog.GRADES', () => {
   it('lists grades 2 through 8 inclusive, in order', () => {
@@ -25,9 +25,23 @@ describe('catalog.SUBJECTS', () => {
 });
 
 describe('catalog.SET_LABELS', () => {
-  it('has 10 labels from A to J', () => {
+  it('has a 1-10 quick-pick list (UI convenience only, not the validation rule)', () => {
     expect(SET_LABELS).toHaveLength(10);
-    expect(SET_LABELS).toEqual(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']);
+    expect(SET_LABELS).toEqual(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']);
+  });
+});
+
+describe('catalog.isValidSetLabel', () => {
+  it('accepts any positive non-zero integer, with no upper bound', () => {
+    ['1', '2', '10', '11', '99', '1000'].forEach((label) => {
+      expect(isValidSetLabel(label)).toBe(true);
+    });
+  });
+
+  it('rejects zero, leading zeros, negatives, decimals, and non-numeric values', () => {
+    ['0', '01', '-1', '3.5', 'A', '', ' 1', '1 '].forEach((label) => {
+      expect(isValidSetLabel(label)).toBe(false);
+    });
   });
 });
 
